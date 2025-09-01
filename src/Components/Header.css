@@ -1,0 +1,392 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  background: #fff;
+}
+
+/* Top bar */
+.top-bar {
+  background: #0a73f7;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+#clock, #location, #day {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+#day { 
+  color: #f1f1f1; 
+}
+
+#language-btn {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+  color: #0a73f7;
+  font-size: 14px;
+}
+
+/* Scroll banner */
+.scroll-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  height: auto;
+  min-height: 160px;
+  position: relative;
+  transition: background-image 1s ease-in-out;
+  flex-wrap: wrap;
+}
+
+.scroll-banner::before {
+  content: "";
+  position: absolute; 
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+.scroll-banner > * { 
+  z-index: 1; 
+}
+
+.logo-left, .logo-right {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo-left img { 
+  width: 120px; 
+  max-width: 100%;
+  height: auto;
+}
+.logo-right img { 
+  width: 100px; 
+  max-width: 100%;
+  height: auto;
+}
+
+.marquee-wrapper {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 10px;
+  min-width: 0;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #fff;
+  white-space: nowrap;
+  animation: scrollText 15s linear infinite;
+  display: inline-block;
+  padding-left: 100%;
+}
+.marquee:hover h1 { 
+  animation-play-state: paused; 
+}
+
+.static-title h2, .static-title h3 {
+  margin: 4px 0;
+  color: #fff;
+  text-align: center;
+}
+.static-title h2 { 
+  font-size: 1.1em; 
+  line-height: 1.2;
+}
+.static-title h3 { 
+  font-size: 1.2em; 
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+@keyframes scrollText {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Navbar */
+.navbar {
+  background: #0a73f7;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0; 
+  z-index: 999;
+  width: 100%;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 24px;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-links > li {
+  position: relative;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  padding: 15px 10px;
+  display: block;
+  white-space: nowrap;
+}
+.nav-links a:hover { 
+  background: rgba(255,255,255,0.1); 
+}
+.nav-links a::after {
+  content:"";
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  width: 0; 
+  height: 2px;
+  background: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+.nav-links a:hover::after { 
+  width: 80%; 
+}
+
+/* Dropdowns */
+.dropdown { 
+  position: relative; 
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background: #fff;
+  min-width: 200px;
+  list-style: none;
+  margin: 0; 
+  padding: 10px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+  border-radius: 4px;
+}
+.dropdown:hover > .dropdown-menu { 
+  display: block; 
+}
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+.dropdown-menu li a:hover { 
+  background: #f0f6ff; 
+  color: #0a73f7;
+}
+
+/* Sub-dropdowns */
+.dropdown-sub { 
+  position: relative; 
+}
+.dropdown-submenu {
+  display: none;
+  position: absolute;
+  top: 0; 
+  left: 100%;
+  background: #fff;
+  list-style: none;
+  margin: 0; 
+  padding: 10px 0;
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1001;
+  border-radius: 4px;
+}
+.dropdown-sub:hover > .dropdown-submenu { 
+  display: block; 
+}
+
+/* Mobile nav */
+@media (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #clock, #location, #day {
+    justify-content: center;
+    font-size: 13px;
+  }
+  
+  #language-btn {
+    width: auto;
+    margin: 5px auto;
+  }
+  
+  .scroll-banner {
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  .logo-left, .logo-right {
+    margin: 10px 0;
+  }
+  
+  .logo-left img { 
+    width: 100px; 
+  }
+  .logo-right img { 
+    width: 80px; 
+  }
+  
+  .marquee-wrapper {
+    order: -1;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .marquee h1 {
+    font-size: 1.2em;
+    animation: scrollText 12s linear infinite;
+  }
+  
+  .static-title h2 { 
+    font-size: 1em; 
+  }
+  .static-title h3 { 
+    font-size: 1.1em; 
+  }
+  
+  .navbar {
+    padding: 0;
+    position: relative;
+  }
+  
+  .nav-toggle { 
+    display: block; 
+    position: static;
+    margin: 10px;
+  }
+  
+  .nav-links {
+    position: static;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    width: 100%;
+  }
+  
+  .nav-links.active { 
+    max-height: 2000px; 
+    padding: 10px 0;
+  }
+  
+  .nav-links a {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .dropdown-menu, .dropdown-submenu {
+    position: static;
+    box-shadow: none;
+    background: rgba(0,0,0,0.1);
+    width: 100%;
+    display: none;
+    margin: 5px 0;
+    padding-left: 20px;
+  }
+  
+  .dropdown.active > .dropdown-menu,
+  .dropdown-sub.active > .dropdown-submenu {
+    display: block;
+  }
+  
+  .dropdown-menu li a, .dropdown-submenu li a {
+    color: #fff;
+    padding: 10px 15px;
+  }
+  
+  .dropdown-menu li a:hover, .dropdown-submenu li a:hover {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+  }
+  
+  .dropdown-sub > a::after {
+    content: " ▸";
+    float: right;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee h1 {
+    font-size: 1em;
+    animation: scrollText 10s linear infinite;
+  }
+  
+  .static-title h2 { 
+    font-size: 0.9em; 
+  }
+  .static-title h3 { 
+    font-size: 1em; 
+  }
+  
+  .nav-links a {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+}
