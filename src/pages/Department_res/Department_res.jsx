@@ -1,38 +1,181 @@
 import React from "react";
-import heroImage from "../../assets/laboratory/laboratory-equipment.jpeg";
+import heroImage from "../../assets/laboratory/research-page.jpg";
+import researchImage from "../../assets/laboratory/road.jpg";
+import researchimage from '../../assets/laboratory/respu.jpg'; 
 import "./Department_res.css";
 
- 
-function Research() {
-  return (
-    <>
-          {/* Hero Section */}
-          <section
-            className="hero"
-            style={{ backgroundImage: `url(${heroImage})` }}
-          >
-            <div className="overlay"></div>
-            <div className="hero-content">
-              <h1>Department of Laboratory</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-              </p>
-            </div>
-          </section>
 
-    </>
-  );
+function Research() {
+    return (
+        <>
+            {/* Hero Section */}
+            <section
+                className="hero"
+                style={{ backgroundImage: `url(${heroImage})` }}
+            >
+                <div className="overlay"></div>
+                <div className="hero-content">
+                    <h1>Department of Research</h1>
+                    <p>
+                        Our Research Department focuses on advancing knowledge, generating
+                        innovative solutions, and supporting evidence-based decision-making
+                        in fisheries, aquaculture, and marine ecosystems.
+                    </p>
+                </div>
+            </section>
+
+            {/* Research Description */}
+            <section className="research-section">
+                <h2>
+                    Multidisciplinary and collaborative research as the foundation of our
+                    department
+                </h2>
+                <p>
+                    The aim of our Department of Research is to promote innovation,
+                    generate new knowledge, and provide solutions that contribute to
+                    national development and global progress. Collaboration across
+                    different fields of study and disciplines is central to our work.
+                </p>
+                <p>
+                    Every year, we manage numerous funded projects and partnerships with
+                    universities, government institutions, and international
+                    organizations. These projects focus on advancing science, technology,
+                    and sustainable development through both applied and theoretical
+                    research.
+                </p>
+                <p>
+                    Key supporters of our department include the Ministry of Education and
+                    Vocational Training, the Ministry of Blue Economy and Fisheries, as
+                    well as national and international research councils. In addition, we
+                    collaborate with global funding partners to ensure our research
+                    remains impactful and relevant.
+                </p>
+                <hr />
+            </section>
+        </>
+    );
 }
 
-export default Research;
+
+function ResearchProjects() {
+    const projects = [
+        {
+            title: "Digital Innovation for Sustainable Development",
+            description:
+                "This project focuses on applying advanced digital technologies such as AI, data analytics, and IoT to support national development goals in education, health, and fisheries management.",
+            link: "#",
+        },
+        {
+            title: "Climate and Marine Research Initiative",
+            description:
+                "A collaborative program between local universities and international partners to study climate change impacts on marine ecosystems and propose practical solutions for coastal communities.",
+            link: "#",
+        },
+        {
+            title: "Research Capacity Building Program",
+            description:
+                "This initiative strengthens the research skills of young scientists through training, mentorship, and scholarships, ensuring a sustainable future for research and innovation in the country.",
+            link: "#",
+        },
+    ];
+
+    return (
+        <section className="projects-section">
+            <h2>Our Latest Projects</h2>
+            <p>
+                Highlights of our latest ongoing research projects. You can explore more
+                in our research archive.
+            </p>
+            <div className="projects-grid">
+                {projects.map((project, index) => (
+                    <div className="project-card" key={index}>
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
+                        <a href={project.link} className="arrow-link">
+                            →
+                        </a>
+                    </div>
+                ))}
+            </div>
+        </section>
 
 
+    );
+}
+
+function ResearchInfo() {
+    return (
+        <section className="research-info">
+            {/* Left Image */}
+            <div className="research-image">
+                <img src={researchImage} alt="Research Department" />
+            </div>
+
+            {/* Right Content */}
+            <div className="research-content">
+                <h2>Research and Innovation at ZAFIRI</h2>
+                <p>
+                    The Department of Research plays a central role in advancing
+                    knowledge, innovation, and evidence-based solutions for fisheries,
+                    aquaculture, and marine ecosystems. Through multidisciplinary
+                    research, we address pressing challenges and provide insights that
+                    support sustainable development.
+                </p>
+                <p>
+                    We collaborate with universities, government ministries, and global
+                    partners to conduct impactful research projects. Our goal is to
+                    strengthen research capacity, drive innovation, and ensure the
+                    long-term sustainability of marine and coastal resources.
+                </p>
+                <a
+                    href="#"
+                    className="research-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Learn More →
+                </a>
+            </div>
+        </section>
+    );
+}
 
 
+const ResearchRecommendations = () => {
+    return (
+        <div className="research-container">
+            <div className="research-text">
+                <h2>Research Insights</h2>
+                <div className="underline" />
+                <p>
+                    In our department, we generate evidence-based insights, reports, and briefs. Explore key findings and publications crafted to support policy-making, innovation, and scientific advancement.
+                </p>
+                <a
+                    href="https://issuu.com" // Replace with actual link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="research-button"
+                >
+                    Access our research library (issuu.com) ↗
+                </a>
+            </div>
+            <div className="research-image-container">
+                <img src={researchimage} alt="Stack of research papers" />
+            </div>
+        </div>
+    );
+};
 
 
+function ResearchPage() {
+    return (
+        <>
+            <Research />
+            <ResearchProjects />
+            <ResearchInfo />
+            <ResearchRecommendations />
+        </>
+    );
+}
 
-
-
-
+export default ResearchPage;

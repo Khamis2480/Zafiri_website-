@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Partners from "./pages/Department_lab/Department_lab";
 import Header from "./Components/header"; 
 import Research from "./pages/Department_res/Department_res";
+import ContactPage from "./pages/Contact/Contact";
 function App() {
   return (
     
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/department-lab" element={<Partners />} />
           <Route path="/department-res" element={<Research />} />
+          <Route path="/contact" element={<ContactPage />} />
 
         </Routes>
       {/* </IframeLayout> */}

@@ -6,6 +6,11 @@ import pear from "../../assets/home/back1.jpg";
 import watermelon from "../../assets/home/back2.jpg";
 import promoImage from '../../assets/laboratory/strategic.webp';
 
+// import doctorIcon from "../assets/icons/doctor.png";
+// import visitIcon from "../assets/icons/visit.png";
+// import adminIcon from "../assets/icons/admin.png";
+// import pharmacyIcon from "../assets/icons/pharmacy.png";
+
 import doctor1 from "../../assets/event/event1.JPG";
 import doctor2 from "../../assets/event/event2.JPG";
 import doctor3 from "../../assets/event/event3.JPG";
@@ -25,32 +30,43 @@ function Partners() {
         <div className="hero-content">
           <h1>Department of Laboratory</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+            “Ensuring scientific accuracy and quality for sustainable fisheries and marine resources.”
           </p>
         </div>
       </section>
-
-      {/* Services Section */}
       <section className="services">
         <div className="services-header">
           <h5 className="subtitle">What We Do</h5>
           <h2 className="title">What We Provide in Our Laboratory Services</h2>
           <p className="description">
-            Our Laboratory Department is equipped with modern facilities and skilled professionals to
-            support research, analysis, and quality control in fisheries and marine resources.
+            Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed dinonumy
+            eirmod tempor invidunt ut labore et dolore magn.
           </p>
         </div>
 
+        {/* Heartbeat line */}
         <div className="heartbeat">
           <img src={heartbeat} alt="heartbeat" />
         </div>
 
+        {/* Service Items */}
         <div className="services-grid">
-          <div className="service-card"><h4>Specialist Doctors</h4></div>
-          <div className="service-card"><h4>Frequent Visits</h4></div>
-          <div className="service-card"><h4>Cordial Administration</h4></div>
-          <div className="service-card"><h4>Specialized Pharmacy</h4></div>
+          <div className="service-card">
+            {/* <img src={doctorIcon} alt="Specialist Doctors" /> */}
+            <h4>Specialist Doctors</h4>
+          </div>
+          <div className="service-card">
+            {/* <img src={visitIcon} alt="Frequent Visits" /> */}
+            <h4>Frequent Visits</h4>
+          </div>
+          <div className="service-card">
+            {/* <img src={adminIcon} alt="Cordial Administration" /> */}
+            <h4>Cordial Administration</h4>
+          </div>
+          <div className="service-card">
+            {/* <img src={pharmacyIcon} alt="Specialized Pharmacy" /> */}
+            <h4>Specialized Pharmacy</h4>
+          </div>
         </div>
       </section>
 
@@ -78,82 +94,82 @@ function Partners() {
       </section>
 
 
-     <section className="promo-section">
-      <div className="promo-container">
-        <div className="promo-content">
-          <h2>
-            Our <span className="highlight">Strategies</span> of Skillshare
-          </h2>
-          <ul>
-            <li>Get unlimited access to thousands of inspiring classes</li>
-            <li>Taught by industry leaders &amp; working professionals</li>
-            <li>Topics include illustration, design, photography, and more</li>
-          </ul>
-        </div>
-        <div className="promo-image">
-          <img 
-            src={promoImage} 
-            alt="Skillshare learning experience" 
-          />
-        </div>
-      </div>
-    </section>
-
-
-     <section className="medical-team">
-      <div className="container">
-        <div className="section-header">
-          <h2>Team</h2>
-          <h3>Meet Our Technical</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed dìnonumy
-            eirmod tempor invidunt ut labore et dolore magn.
-          </p>
-        </div>
-
-        <div className="doctors-grid">
-          <div className="doctor-card">
-            <div className="doctor-image">
-              <img src={doctor1} alt="Dr. Hamir Jun." />
-            </div>
-            <div className="doctor-info">
-              <h4>Dr. Hamir Jun.</h4>
-              <p>Gastroenterology</p>
-            </div>
+      <section className="promo-section">
+        <div className="promo-container">
+          <div className="promo-content">
+            <h2>
+              Our <span className="highlight">Strategies</span> of Skillshare
+            </h2>
+            <ul>
+              <li>Get unlimited access to thousands of inspiring classes</li>
+              <li>Taught by industry leaders &amp; working professionals</li>
+              <li>Topics include illustration, design, photography, and more</li>
+            </ul>
           </div>
-
-          <div className="doctor-card">
-            <div className="doctor-image">
-              <img src={doctor2} alt="Dr. Gideu Ds." />
-            </div>
-            <div className="doctor-info">
-              <h4>Dr. Gideu Ds.</h4>
-              <p>Neurology</p>
-            </div>
-          </div>
-
-          <div className="doctor-card">
-            <div className="doctor-image">
-              <img src={doctor3} alt="Dr. Huduei Chy." />
-            </div>
-            <div className="doctor-info">
-              <h4>Dr. Huduei Chy.</h4>
-              <p>Orthopedics</p>
-            </div>
-          </div>
-
-          <div className="doctor-card">
-            <div className="doctor-image">
-              <img src={doctor4} alt="Dr. Marke Ah." />
-            </div>
-            <div className="doctor-info">
-              <h4>Dr. Marke Ah.</h4>
-              <p>Gynecology</p>
-            </div>
+          <div className="promo-image">
+            <img
+              src={promoImage}
+              alt="Skillshare learning experience"
+            />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+
+      <section className="medical-team">
+        <div className="container">
+          <div className="section-header">
+            <h2>Team</h2>
+            <h3>Meet Our Technical</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed dìnonumy
+              eirmod tempor invidunt ut labore et dolore magn.
+            </p>
+          </div>
+
+          <div className="doctors-grid">
+            <div className="doctor-card">
+              <div className="doctor-image">
+                <img src={doctor1} alt="Dr. Hamir Jun." />
+              </div>
+              <div className="doctor-info">
+                <h4>Dr. Hamir Jun.</h4>
+                <p>Gastroenterology</p>
+              </div>
+            </div>
+
+            <div className="doctor-card">
+              <div className="doctor-image">
+                <img src={doctor2} alt="Dr. Gideu Ds." />
+              </div>
+              <div className="doctor-info">
+                <h4>Dr. Gideu Ds.</h4>
+                <p>Neurology</p>
+              </div>
+            </div>
+
+            <div className="doctor-card">
+              <div className="doctor-image">
+                <img src={doctor3} alt="Dr. Huduei Chy." />
+              </div>
+              <div className="doctor-info">
+                <h4>Dr. Huduei Chy.</h4>
+                <p>Orthopedics</p>
+              </div>
+            </div>
+
+            <div className="doctor-card">
+              <div className="doctor-image">
+                <img src={doctor4} alt="Dr. Marke Ah." />
+              </div>
+              <div className="doctor-info">
+                <h4>Dr. Marke Ah.</h4>
+                <p>Gynecology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </>
   );

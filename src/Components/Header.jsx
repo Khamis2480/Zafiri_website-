@@ -234,7 +234,7 @@ const Header = () => {
                 <a href="#">Departments ▸</a>
                 <ul className="dropdown-submenu">
                   <li><a href="/department-lab" onClick={() => setIsNavOpen(false)}>Laboratory</a></li>
-                  <li><a href="/departments/research" onClick={() => setIsNavOpen(false)}>Research</a></li>
+                  <li><a href="/department-res" onClick={() => setIsNavOpen(false)}>Research</a></li>
                   <li><a href="/departments/administration" onClick={() => setIsNavOpen(false)}>Administration</a></li>
                 </ul>
               </li>
