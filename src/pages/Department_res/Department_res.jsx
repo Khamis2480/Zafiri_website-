@@ -1,7 +1,7 @@
 import React from "react";
 import heroImage from "../../assets/laboratory/research-page.jpg";
 import researchImage from "../../assets/laboratory/road.jpg";
-import researchimage from '../../assets/laboratory/respu.jpg'; 
+import researchimage from '../../assets/laboratory/respu.jpg';
 import "./Department_res.css";
 
 
@@ -23,36 +23,22 @@ function Research() {
                     </p>
                 </div>
             </section>
-
-            {/* Research Description */}
-            <section className="research-section">
+            <section className="research-description-section">
                 <h2>
-                    Multidisciplinary and collaborative research as the foundation of our
-                    department
+                    Multidisciplinary and collaborative research as the foundation of our department
                 </h2>
                 <p>
-                    The aim of our Department of Research is to promote innovation,
-                    generate new knowledge, and provide solutions that contribute to
-                    national development and global progress. Collaboration across
-                    different fields of study and disciplines is central to our work.
+                    The aim of our Department of Research is to promote innovation, generate new knowledge, and provide solutions that contribute to national development and global progress. Collaboration across different fields of study and disciplines is central to our work.
                 </p>
                 <p>
-                    Every year, we manage numerous funded projects and partnerships with
-                    universities, government institutions, and international
-                    organizations. These projects focus on advancing science, technology,
-                    and sustainable development through both applied and theoretical
-                    research.
+                    Every year, we manage numerous funded projects and partnerships with universities, government institutions, and international organizations. These projects focus on advancing science, technology, and sustainable development through both applied and theoretical research.
                 </p>
                 <p>
-                    Key supporters of our department include the Ministry of Education and
-                    Vocational Training, the Ministry of Blue Economy and Fisheries, as
-                    well as national and international research councils. In addition, we
-                    collaborate with global funding partners to ensure our research
-                    remains impactful and relevant.
+                    Key supporters of our department include the Ministry of Education and Vocational Training, the Ministry of Blue Economy and Fisheries, as well as national and international research councils. In addition, we collaborate with global funding partners to ensure our research remains impactful and relevant.
                 </p>
                 <hr />
-            </section>
-        </>
+            </section>       
+         </>
     );
 }
 

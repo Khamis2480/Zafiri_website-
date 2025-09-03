@@ -395,7 +395,7 @@ const EventsSection = () => {
     {
       id: 1,
       date: "2025-06-12",
-      image: "../asset/event/event1.JPG",
+      image: "../assets/event/event1.JPG",
       alt: "malindi",
       title: "FISH WEST",
       subtitle: "We are pleased for our students...",
@@ -406,7 +406,7 @@ const EventsSection = () => {
     {
       id: 2,
       date: "2025-03-30",
-      image: "../asset/event/event2.JPG",
+      image: "../assets/event/event2.JPG",
       alt: "MICHAMVI",
       title: "BWEJUU AND MICHAMVI",
       subtitle: "We are pleased for our students...",
@@ -417,7 +417,7 @@ const EventsSection = () => {
     {
       id: 3,
       date: "2025-02-27",
-      image: "../asset/event/event3.JPG",
+      image: "../assets/event/event3.JPG",
       alt: "mwani",
       title: "UGAWAJI WA MBEGU ZA MWANI",
       subtitle: "Wafanya kazi wa ZAFIRI wakigawa Mbegu kwa Wananchi",
@@ -428,7 +428,7 @@ const EventsSection = () => {
     {
       id: 4,
       date: "2025-02-27",
-      image: "../asset/event/event4.JPG",
+      image: "../assets/event/event4.JPG",
       alt: "mwani",
       title: "UPANDAJI WA MBEGU ZA MWANI",
       subtitle: "Wafanyakazi wa ZAFIRI na wananchi wakipanda mbegu za Mwani",
@@ -439,7 +439,7 @@ const EventsSection = () => {
     {
       id: 5,
       date: "2025-02-27",
-      image: "../asset/event/event5.JPG",
+      image: "../assets/event/event5.JPG",
       alt: "mwani",
       title: "UKAGUZI WA MASHAMBA YA MWANI",
       subtitle: "Wafanyakazi wa ZAFIRI wakikagua Mashamba ya Mwani",
@@ -450,7 +450,7 @@ const EventsSection = () => {
     {
       id: 6,
       date: "2025-02-27",
-      image: "../asset/event/eventi1.JPG",
+      image: "../assets/event/eventi1.JPG",
       alt: "Mwani",
       title: "UVUNAJI WA MWANI",
       subtitle: "Wafanyakazi wa ZAFIRI pamoja na Wananchi wakivuna Mwani",

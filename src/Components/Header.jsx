@@ -255,7 +255,7 @@ const Header = () => {
           >
             <a href="#">{translations[currentLang].navCenter}</a>
             <ul className="dropdown-menu">
-              <li><a href="/media/gallery" onClick={() => setIsNavOpen(false)}>Gallery</a></li>
+              <li><a href="/gallery" onClick={() => setIsNavOpen(false)}>Gallery</a></li>
               <li><a href="/media/news" onClick={() => setIsNavOpen(false)}>News</a></li>
             </ul>
           </li>

@@ -8,6 +8,7 @@ import Partners from "./pages/Department_lab/Department_lab";
 import Header from "./Components/header"; 
 import Research from "./pages/Department_res/Department_res";
 import ContactPage from "./pages/Contact/Contact";
+import PhotoGallery from "./pages/Gallery/Gallery";
 function App() {
   return (
     
@@ -22,6 +23,7 @@ function App() {
           <Route path="/department-lab" element={<Partners />} />
           <Route path="/department-res" element={<Research />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/gallery" element={<PhotoGallery />} />
 
         </Routes>
       {/* </IframeLayout> */}
