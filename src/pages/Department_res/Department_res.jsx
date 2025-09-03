@@ -8,13 +8,12 @@ import "./Department_res.css";
 function Research() {
     return (
         <>
-            {/* Hero Section */}
             <section
-                className="hero"
+                className="hero hero-research"
                 style={{ backgroundImage: `url(${heroImage})` }}
             >
-                <div className="overlay"></div>
-                <div className="hero-content">
+                <div className="overlay overlay-research"></div>
+                <div className="hero-content hero-research-content">
                     <h1>Department of Research</h1>
                     <p>
                         Our Research Department focuses on advancing knowledge, generating
@@ -23,6 +22,7 @@ function Research() {
                     </p>
                 </div>
             </section>
+
             <section className="research-description-section">
                 <h2>
                     Multidisciplinary and collaborative research as the foundation of our department
@@ -37,8 +37,8 @@ function Research() {
                     Key supporters of our department include the Ministry of Education and Vocational Training, the Ministry of Blue Economy and Fisheries, as well as national and international research councils. In addition, we collaborate with global funding partners to ensure our research remains impactful and relevant.
                 </p>
                 <hr />
-            </section>       
-         </>
+            </section>
+        </>
     );
 }
 

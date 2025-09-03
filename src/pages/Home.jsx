@@ -198,31 +198,30 @@ const ResearchSection = () => {
       <div className="research-header">
         <h2>Exploring Our Key Research Areas for Sustainable Marine Resources Management</h2>
         <p>
-          At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources.
-          Our work includes assessing fish stocks, promoting aquaculture, and studying the impacts of climate change on
-          our oceans.
+          At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources. 
+          Our work includes assessing fish stocks, promoting aquaculture, and studying the impacts of climate change on our oceans.
           By addressing these challenges, we aim to support local communities and preserve our marine ecosystems.
         </p>
       </div>
 
       <div className="research-cards">
-        <div className="card">
+        <div className="research-card">
           <i className="fas fa-fish"></i>
           <h3>Fisheries & Stock Assessment for Sustainable Food Security and Economic Growth</h3>
           <p>We monitor fish catches to ensure sustainable practices that benefit our economy.</p>
           <a href="#">Learn More →</a>
         </div>
 
-        <div className="card">
+        <div className="research-card">
           <i className="fas fa-seedling"></i>
-          <h3>Aquaculture & Fish Farming: Supporting Local farmers abd Reducing Wild Stock Pressure </h3>
+          <h3>Aquaculture & Fish Farming: Supporting Local Farmers and Reducing Wild Stock Pressure</h3>
           <p>Our research in aquaculture promotes responsible breeding and feeding practices.</p>
           <a href="#">Learn More →</a>
         </div>
 
-        <div className="card">
+        <div className="research-card">
           <i className="fas fa-water"></i>
-          <h3>Climate Change & Oceanography: Under standing Our Vulnerable Marine ecosystem </h3>
+          <h3>Climate Change & Oceanography: Understanding Our Vulnerable Marine Ecosystem</h3>
           <p>We study the effects of climate change on Zanzibar's marine environments.</p>
           <a href="#">Learn More →</a>
         </div>

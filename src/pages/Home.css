@@ -283,14 +283,12 @@
     font-size: 11px;
   }
 }
-
 .research-section {
-  margin: 0;
+  margin: 80px;
   padding: 0;
   line-height: 1.6;
   background: #f9f9f9;
   color: #000000;
-  margin: 80px;
 }
 
 .research-header {
@@ -321,7 +319,7 @@
   gap: 20px;
 }
 
-.card {
+.research-card {
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -330,36 +328,35 @@
   background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
 }
 
-.card:hover {
+.research-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 
-.card i {
+.research-card i {
   font-size: 40px;
-  color: #160090;
-  /* Blue marine tone */
+  color: #160090; /* Blue marine tone */
   margin-bottom: 15px;
 }
 
-.card h3 {
+.research-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #222;
 }
 
-.card p {
+.research-card p {
   font-size: 15px;
   margin-bottom: 15px;
 }
 
-.card a {
+.research-card a {
   text-decoration: none;
   color: #0077b6;
   font-weight: bold;
 }
 
-.card a:hover {
+.research-card a:hover {
   text-decoration: underline;
 }
 

@@ -9,6 +9,8 @@ import Header from "./Components/header";
 import Research from "./pages/Department_res/Department_res";
 import ContactPage from "./pages/Contact/Contact";
 import PhotoGallery from "./pages/Gallery/Gallery";
+import News from "./pages/News/News";
+import Events from "./pages/Events/Event";
 function App() {
   return (
     
@@ -24,6 +26,8 @@ function App() {
           <Route path="/department-res" element={<Research />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/gallery" element={<PhotoGallery />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/events" element={<Events />} />
 
         </Routes>
       {/* </IframeLayout> */}
