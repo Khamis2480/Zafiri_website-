@@ -21,19 +21,21 @@ import doctor4 from "../../assets/event/event4.JPG";
 function Partners() {
   return (
     <>
-      {/* Hero Section */}
       <section
-        className="hero"
+        className="hero-research"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="overlay"></div>
-        <div className="hero-content">
-          <h1>Department of Laboratory</h1>
+        <div className="overlay-research"></div>
+        <div className="hero-research-content">
+          <h1>Department of Research</h1>
           <p>
-            “Ensuring scientific accuracy and quality for sustainable fisheries and marine resources.”
+            Our Research Department focuses on advancing knowledge, generating
+            innovative solutions, and supporting evidence-based decision-making
+            in fisheries, aquaculture, and marine ecosystems.
           </p>
         </div>
       </section>
+
       <section className="services">
         <div className="services-header">
           <h5 className="subtitle">What We Do</h5>

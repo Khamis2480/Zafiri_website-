@@ -201,9 +201,9 @@ const Header = () => {
           >
             <a href="#">{translations[currentLang].navAbout}</a>
             <ul className="dropdown-menu">
-              <li><a href="/about/history" onClick={() => setIsNavOpen(false)}>History</a></li>
-              <li><a href="/about/mission" onClick={() => setIsNavOpen(false)}>Mission & Vision</a></li>
-              <li><a href="/about/director" onClick={() => setIsNavOpen(false)}>Director's Message</a></li>
+              <li><a href="/history" onClick={() => setIsNavOpen(false)}>History</a></li>
+              <li><a href="/mission" onClick={() => setIsNavOpen(false)}>Mission & Vision</a></li>
+              <li><a href="/message" onClick={() => setIsNavOpen(false)}>Director's Message</a></li>
               <li><a href="/about/organization" onClick={() => setIsNavOpen(false)}>Organization Structure</a></li>
               <li><a href="/about/board" onClick={() => setIsNavOpen(false)}>Organization Board</a></li>
             </ul>

@@ -9,11 +9,11 @@ function Research() {
     return (
         <>
             <section
-                className="hero hero-research"
+                className="hero-research"
                 style={{ backgroundImage: `url(${heroImage})` }}
             >
-                <div className="overlay overlay-research"></div>
-                <div className="hero-content hero-research-content">
+                <div className="overlay-research"></div>
+                <div className="hero-research-content">
                     <h1>Department of Research</h1>
                     <p>
                         Our Research Department focuses on advancing knowledge, generating

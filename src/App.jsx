@@ -11,6 +11,10 @@ import ContactPage from "./pages/Contact/Contact";
 import PhotoGallery from "./pages/Gallery/Gallery";
 import News from "./pages/News/News";
 import Events from "./pages/Events/Event";
+import History from "./pages/History/History";
+import DirectorMessage from "./pages/Message/Message";
+import Mission from "./pages/Mission/Mission"
+
 function App() {
   return (
     
@@ -28,6 +32,10 @@ function App() {
           <Route path="/gallery" element={<PhotoGallery />} />
           <Route path="/news" element={<News />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/history" element={<History/>} />
+          <Route path="/message" element={<DirectorMessage/>} />
+          <Route path="/mission" element={<Mission/>} />
+
 
         </Routes>
       {/* </IframeLayout> */}

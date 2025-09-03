@@ -53,53 +53,48 @@
   margin: 0 5px;
 }
 
-/* Section Title */
-.section-title {
+/* Message Card */
+.message-card {
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: #0a158e;
-  font-size: 32px;
-  font-weight: bold;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-/* History Section */
-.history-section {
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: auto;
   background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
 }
 
-.history-container {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: nowrap;
+.message-header {
+  margin-bottom: 15px;
 }
 
-.history-image {
-  flex: 0 0 40%;
+.message-img {
+  width: 150px;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid #1b6ca8;
+  /* blue border */
 }
 
-.history-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+.message-meta {
+  font-size: 20px;
+  color: #6b7280;
+  /* gray */
+  margin-bottom: 12px;
 }
 
-.history-text {
-  flex: 1;
-  line-height: 1.7;
-  font-size: 16px;
-  color: #333;
+.message-meta .name {
+  font-weight: 500;
+  color: #1f2937;
 }
 
-.history-text p {
-  margin-bottom: 20px;
+.message-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000000;
+  text-align: left;
 }
 
 /* Responsive Design */
@@ -116,23 +111,22 @@
     font-size: 0.8rem;
   }
 
-  .section-title {
-    font-size: 24px;
-    margin-top: 20px;
+  .message-card {
+    margin: 20px;
+    padding: 15px;
   }
 
-  .history-container {
-    flex-direction: column;
+  .message-img {
+    width: 120px;
+    height: 150px;
   }
 
-  .history-image,
-  .history-text {
-    width: 100%;
+  .message-meta {
+    font-size: 18px;
   }
 
-  .history-image {
-    flex: 0 0 auto;
-    margin-bottom: 20px;
+  .message-text {
+    font-size: 16px;
   }
 }
 
@@ -141,15 +135,22 @@
     font-size: 1.5rem;
   }
 
-  .section-title {
-    font-size: 20px;
+  .message-card {
+    margin: 15px;
+    padding: 12px;
   }
 
-  .history-section {
-    padding: 20px 15px;
+  .message-img {
+    width: 100px;
+    height: 130px;
   }
 
-  .history-text {
+  .message-meta {
+    font-size: 16px;
+  }
+
+  .message-text {
     font-size: 14px;
+    text-align: justify;
   }
 }
