@@ -1,0 +1,118 @@
+/* Team.css */
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team-heading {
+  text-align: center;
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.team-heading:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3498db;
+  margin: 15px auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-card-image {
+  height: 200px;
+  background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.team-card-content {
+  padding: 25px;
+  text-align: center;
+}
+
+.team-member-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 8px 0;
+}
+
+.team-member-position {
+  color: #e74c3c;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  font-size: 15px;
+}
+
+.team-member-bio {
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #3498db;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px 0;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  color: #e74c3c;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .team-card-content {
+    padding: 20px;
+  }
+}

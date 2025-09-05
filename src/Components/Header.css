@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: system-ui, Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   background: #fff;
 }
@@ -28,10 +28,12 @@ body {
   align-items: center;
   gap: 6px;
   font-size: 14px;
+  font-weight: bold;
 }
 
-#day { 
+#day, #location { 
   color: #f1f1f1; 
+  font-weight: bold;
 }
 
 #language-btn {
@@ -41,6 +43,7 @@ body {
   background: white;
   color: #0a73f7;
   font-size: 14px;
+  font-weight: bold;
 }
 
 /* Scroll banner */
@@ -53,7 +56,7 @@ body {
   justify-content: space-between;
   padding: 16px;
   height: auto;
-  min-height: 160px;
+  min-height: 200px;
   position: relative;
   transition: background-image 1s ease-in-out;
   flex-wrap: wrap;
@@ -76,12 +79,12 @@ body {
 }
 
 .logo-left img { 
-  width: 120px; 
+  width: 170px; 
   max-width: 100%;
   height: auto;
 }
 .logo-right img { 
-  width: 100px; 
+  width: 120px; 
   max-width: 100%;
   height: auto;
 }
@@ -100,7 +103,7 @@ body {
 }
 
 .marquee h1 {
-  font-size: 1.4em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #fff;
   white-space: nowrap;
@@ -118,11 +121,11 @@ body {
   text-align: center;
 }
 .static-title h2 { 
-  font-size: 1.1em; 
+  font-size: 1.9em; 
   line-height: 1.2;
 }
 .static-title h3 { 
-  font-size: 1.2em; 
+  font-size: 1.5em; 
   font-weight: bold;
   line-height: 1.2;
 }
@@ -147,7 +150,7 @@ body {
 
 .nav-toggle {
   display: none;
-  font-size: 24px;
+  font-size: 30px;
   background: transparent;
   border: 0;
   color: #fff;

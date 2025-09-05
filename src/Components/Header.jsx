@@ -204,8 +204,8 @@ const Header = () => {
               <li><a href="/history" onClick={() => setIsNavOpen(false)}>History</a></li>
               <li><a href="/mission" onClick={() => setIsNavOpen(false)}>Mission & Vision</a></li>
               <li><a href="/message" onClick={() => setIsNavOpen(false)}>Director's Message</a></li>
-              <li><a href="/about/organization" onClick={() => setIsNavOpen(false)}>Organization Structure</a></li>
-              <li><a href="/about/board" onClick={() => setIsNavOpen(false)}>Organization Board</a></li>
+              <li><a href="/organizationStructure" onClick={() => setIsNavOpen(false)}>Organization Structure</a></li>
+              <li><a href="/organizationStaff" onClick={() => setIsNavOpen(false)}>Organization Board</a></li>
             </ul>
           </li>
 
@@ -235,7 +235,7 @@ const Header = () => {
                 <ul className="dropdown-submenu">
                   <li><a href="/department-lab" onClick={() => setIsNavOpen(false)}>Laboratory</a></li>
                   <li><a href="/department-res" onClick={() => setIsNavOpen(false)}>Research</a></li>
-                  <li><a href="/departments/administration" onClick={() => setIsNavOpen(false)}>Administration</a></li>
+                  <li><a href="/department-pla" onClick={() => setIsNavOpen(false)}>Administration</a></li>
                 </ul>
               </li>
               <li className="dropdown-sub">
