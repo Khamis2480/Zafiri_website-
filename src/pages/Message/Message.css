@@ -62,7 +62,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
+  background-color: #87CEEB;
 }
 
 .message-header {
@@ -74,13 +74,13 @@
   height: 180px;
   border-radius: 12px;
   object-fit: cover;
-  border: 3px solid #1b6ca8;
+  border: 5px solid #170397;
   /* blue border */
 }
 
 .message-meta {
   font-size: 20px;
-  color: #6b7280;
+  color: #002a7d;
   /* gray */
   margin-bottom: 12px;
 }

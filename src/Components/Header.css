@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 8px 16px;
+  padding: 10px 16px;
   width: 100%;
 }
 
@@ -139,7 +139,7 @@ body {
 .navbar {
   background: #0a73f7;
   color: #fff;
-  padding: 0;
+  padding: 10px;
   display: flex;
   justify-content: center;
   position: sticky;
@@ -179,7 +179,7 @@ body {
 .nav-links a {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   padding: 15px 10px;
   display: block;
@@ -228,7 +228,7 @@ body {
   display: block;
   padding: 10px 15px;
   color: #333;
-  font-size: 14px;
+  font-size: 16px;
   transition: background 0.2s ease;
 }
 .dropdown-menu li a:hover { 

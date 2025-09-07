@@ -116,7 +116,7 @@
   border-radius: 20%;
   overflow: hidden;
   margin-right: 20px;
-  border: 3px solid #1a237e;
+  border: 3px solid #223aa6;
 }
 
 .vc-image img {
@@ -128,12 +128,12 @@
 .vc-details h2 {
   color: #1a237e;
   margin-bottom: 5px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .vc-details p {
-  color: #666;
-  font-size: 1rem;
+  color: #020202;
+  font-size: 1.1rem;
 }
 
 .message {
@@ -146,7 +146,7 @@
 
 .message p {
   margin-bottom: 15px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
@@ -301,14 +301,14 @@
 
 .research-header h2 {
   flex: 1;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   text-align: left;
 }
 
 .research-header p {
   flex: 2;
-  font-size: 16px;
+  font-size: 17px;
   color: #000000;
   text-align: justify;
 }
@@ -325,7 +325,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
+  background-color: #87CEEB;
 }
 
 .research-card:hover {
@@ -340,13 +340,13 @@
 }
 
 .research-card h3 {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 10px;
   color: #222;
 }
 
 .research-card p {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 15px;
 }
 
@@ -368,13 +368,13 @@
 }
 
 .services-section h2 {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 15px;
   font-weight: bold;
 }
 
 .services-section p {
-  font-size: 16px;
+  font-size: 18px;
   color: #000000;
   max-width: 700px;
   margin: 0 auto 40px;
@@ -385,7 +385,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
-  background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
+  background-color: #87CEEB;
 }
 
 .service-box {
@@ -414,13 +414,13 @@
 }
 
 .service-box h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .service-box p {
-  font-size: 14px;
+  font-size: 15px;
   color: #000000;
 }
 
@@ -439,21 +439,20 @@
 }
 
 .subtitle {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #000000;
   margin-bottom: 5px;
 }
 
 .projects-header h2 {
-  font-size: 2.2em;
+  font-size: 2.3em;
   margin: 5px 0;
   color: #111;
   text-align: left;
 }
 
 .description {
-  line-height: 1.3;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #000000;
   text-align: left;
 }
@@ -467,6 +466,7 @@
   text-decoration: none;
   color: #000;
   transition: 0.3s ease;
+  margin-top: 5px;
 }
 
 .view-more:hover {
@@ -563,8 +563,9 @@
   color: #111827; /* near-black */
   background: #ffffff;
   line-height: 1.6;
-  background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
+  background-color: #87CEEB;
   margin: 70px;
+  border-radius: 12px;
 }
 
 /* Two-column grid */
@@ -663,15 +664,15 @@
 
 /* scope headings and paragraphs so they don't affect other sections */
 .events-section-news h2 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 8px;
   text-align: left;
 }
 
 .events-section-news p {
-  font-size: 16px;
-  color: #333;
+  font-size: 18px;
+  color: #000000;
   text-align: left;
   line-height: 1.3;
   margin-bottom: 20px;

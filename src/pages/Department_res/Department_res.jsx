@@ -142,7 +142,7 @@ const ResearchRecommendations = () => {
                     rel="noopener noreferrer"
                     className="research-button"
                 >
-                    Access our research library (issuu.com) ↗
+                    Access our Research and and Project
                 </a>
             </div>
             <div className="research-image-container">

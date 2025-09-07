@@ -8,8 +8,15 @@ import image3 from '../assets/home/KIKAO 3.JPG';
 import image4 from '../assets/home/KIKAOO 4.JPG';
 import image5 from '../assets/home/KIKAOO5.JPG';
 import image6 from '../assets/home/lab.JPG';
-import viceChancellorImage from '../assets/event/3.JPG'; // Adjust path as needed
-import universityVideo from '../assets/zafiri video.mp4'; // Adjust path as needed
+import viceChancellorImage from '../assets/event/3.JPG'; 
+import universityVideo from '../assets/zafiri video.mp4'; 
+import event1 from "../assets/event/event1.JPG";
+import event2 from "../assets/event/event2.JPG";
+import event3 from "../assets/event/event3.JPG";
+import event4 from "../assets/event/event4.JPG";
+import event5 from "../assets/event/event5.JPG";
+import eventi1 from "../assets/event/3.JPG";
+
 
 
 const Slideshow = () => {
@@ -99,10 +106,10 @@ const ViceChancellorMessage = () => {
   useEffect(() => {
     // Ensure video plays automatically and loops
     const videoElement = videoRef.current;
-    
+
     if (videoElement) {
       videoElement.loop = true;
-      
+
       const playVideo = () => {
         videoElement.play().catch(error => {
           console.log('Autoplay prevented:', error);
@@ -140,7 +147,7 @@ const ViceChancellorMessage = () => {
 
       // Clean up
       return () => {
-        videoElement.removeEventListener('ended', () => {});
+        videoElement.removeEventListener('ended', () => { });
       };
     }
   }, []);
@@ -164,7 +171,7 @@ const ViceChancellorMessage = () => {
               <p>Assalamu Alaikum wa Rahmatullahi wa Barakatuh,</p>
               <p>It gives me great satisfaction to welcome all to the official Webpage of the Zafiri. I would like to convey special greetings to the academic and administrative staff, undergraduate and graduate students, alumni, parents and guardians, public and regulators.</p>
 
-              <a href="#" className="read-more">
+              <a href="../pages/Message/Message.jsx" className="read-more">
                 <i className="fas fa-book-open"></i> Read more
               </a>
             </div>
@@ -175,8 +182,8 @@ const ViceChancellorMessage = () => {
       <div className="video-section">
         <div className="video-container">
           <div className="video-wrapper">
-            <video 
-              ref={videoRef} 
+            <video
+              ref={videoRef}
               muted // Muted is often required for autoplay
               playsInline // Important for iOS devices
               autoPlay // Try to autoplay
@@ -198,7 +205,7 @@ const ResearchSection = () => {
       <div className="research-header">
         <h2>Exploring Our Key Research Areas for Sustainable Marine Resources Management</h2>
         <p>
-          At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources. 
+          At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources.
           Our work includes assessing fish stocks, promoting aquaculture, and studying the impacts of climate change on our oceans.
           By addressing these challenges, we aim to support local communities and preserve our marine ecosystems.
         </p>
@@ -231,7 +238,7 @@ const ResearchSection = () => {
 };
 
 
-import labImage from '../assets/home/lab.JPG'; 
+import labImage from '../assets/home/lab.JPG';
 // import fisheriesImage from '../assets/3.JPG'; 
 // import communityImage from '../assets/pollution.jpg'; 
 
@@ -346,7 +353,7 @@ const Projects = () => {
 
 
 
-import pollutionImage from '../assets/pollution.jpg'; 
+import pollutionImage from '../assets/pollution.jpg';
 
 const MarineSection = () => {
   return (
@@ -394,7 +401,7 @@ const EventsSection = () => {
     {
       id: 1,
       date: "2025-06-12",
-      image: "../assets/event/event1.JPG",
+      image: event1,
       alt: "malindi",
       title: "FISH WEST",
       subtitle: "We are pleased for our students...",
@@ -405,7 +412,7 @@ const EventsSection = () => {
     {
       id: 2,
       date: "2025-03-30",
-      image: "../assets/event/event2.JPG",
+      image: event2,
       alt: "MICHAMVI",
       title: "BWEJUU AND MICHAMVI",
       subtitle: "We are pleased for our students...",
@@ -416,7 +423,7 @@ const EventsSection = () => {
     {
       id: 3,
       date: "2025-02-27",
-      image: "../assets/event/event3.JPG",
+      image: event3,
       alt: "mwani",
       title: "UGAWAJI WA MBEGU ZA MWANI",
       subtitle: "Wafanya kazi wa ZAFIRI wakigawa Mbegu kwa Wananchi",
@@ -427,7 +434,7 @@ const EventsSection = () => {
     {
       id: 4,
       date: "2025-02-27",
-      image: "../assets/event/event4.JPG",
+      image: event4,
       alt: "mwani",
       title: "UPANDAJI WA MBEGU ZA MWANI",
       subtitle: "Wafanyakazi wa ZAFIRI na wananchi wakipanda mbegu za Mwani",
@@ -438,7 +445,7 @@ const EventsSection = () => {
     {
       id: 5,
       date: "2025-02-27",
-      image: "../assets/event/event5.JPG",
+      image: event5,
       alt: "mwani",
       title: "UKAGUZI WA MASHAMBA YA MWANI",
       subtitle: "Wafanyakazi wa ZAFIRI wakikagua Mashamba ya Mwani",
@@ -449,7 +456,7 @@ const EventsSection = () => {
     {
       id: 6,
       date: "2025-02-27",
-      image: "../assets/event/eventi1.JPG",
+      image: eventi1,
       alt: "Mwani",
       title: "UVUNAJI WA MWANI",
       subtitle: "Wafanyakazi wa ZAFIRI pamoja na Wananchi wakivuna Mwani",
@@ -459,17 +466,18 @@ const EventsSection = () => {
     }
   ];
 
+
   const centerCardAt = (idx, smooth = true) => {
     if (!trackRef.current) return;
-    
+
     const cards = trackRef.current.querySelectorAll('.event-card');
     if (!cards[idx]) return;
-    
+
     const card = cards[idx];
     const left = card.offsetLeft - (trackRef.current.clientWidth - card.clientWidth) / 2;
-    
+
     trackRef.current.scrollTo({ left, behavior: smooth ? 'smooth' : 'auto' });
-    
+
     // Update active classes
     cards.forEach((c, i) => {
       if (i === idx) {
@@ -512,14 +520,14 @@ const EventsSection = () => {
   useEffect(() => {
     // Initial positioning
     setTimeout(() => centerCardAt(currentIndex, false), 100);
-    
+
     // Start auto-play
     startAutoPlay();
-    
+
     // Handle window resize
     const handleResize = () => centerCardAt(currentIndex, false);
     window.addEventListener('resize', handleResize);
-    
+
     // Cleanup
     return () => {
       stopAutoPlay();
@@ -557,9 +565,9 @@ const EventsSection = () => {
 
       <div className="carousel-container">
         <button className="nav-btn prev" onClick={() => { stopAutoPlay(); prevCard(); startAutoPlay(); }}>&#10094;</button>
-        
-        <div 
-          className="carousel-track-event" 
+
+        <div
+          className="carousel-track-event"
           ref={trackRef}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
@@ -582,10 +590,10 @@ const EventsSection = () => {
             </div>
           ))}
         </div>
-        
+
         <button className="nav-btn next" onClick={() => { stopAutoPlay(); nextCard(); startAutoPlay(); }}>&#10095;</button>
       </div>
-      
+
       <div className="read-more-container">
         <a href="../../event page/Workspace.html" className="read-more-btn">Read More</a>
       </div>
@@ -677,7 +685,7 @@ const ImpactOverview = () => {
     };
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
-    
+
     // Observe each counter element
     impactData.forEach(item => {
       if (countersRef.current[item.id]) {
@@ -709,7 +717,7 @@ const ImpactOverview = () => {
         current = target;
         clearInterval(timer);
       }
-      
+
       setCounts(prev => ({
         ...prev,
         [id]: Math.floor(current)
@@ -722,8 +730,8 @@ const ImpactOverview = () => {
       <h2 className="section-title">ZAFIRI Impact Overview</h2>
       <div className="circle-counter-container">
         {impactData.map(item => (
-          <div 
-            key={item.id} 
+          <div
+            key={item.id}
             className="circle-box"
             ref={el => countersRef.current[item.id] = el}
           >
@@ -790,8 +798,8 @@ const Partners = () => {
         <div className="partners-carousel">
           <div className="partners-track">
             {duplicatedLogos.map((partner, index) => (
-              <div 
-                key={`${partner.id}-${index}`} 
+              <div
+                key={`${partner.id}-${index}`}
                 className="partner-card"
                 onClick={() => handlePartnerClick(partner.url)}
                 title={`Visit ${partner.alt} website`}
@@ -822,13 +830,13 @@ const Home = () => {
     <div className="home-container">
       <Slideshow />
       <ViceChancellorMessage />
-      <ResearchSection/>
-      <ServicesSection/>
-      <Projects/>
-      <MarineSection/>
-      <EventsSection/>
-      <ImpactOverview/>
-      <Partners/>
+      <ResearchSection />
+      <ServicesSection />
+      <Projects />
+      <MarineSection />
+      <EventsSection />
+      <ImpactOverview />
+      <Partners />
     </div>
   );
 };

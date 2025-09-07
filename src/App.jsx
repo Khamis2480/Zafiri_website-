@@ -17,6 +17,7 @@ import DirectorMessage from "./pages/Message/Message";
 import Mission from "./pages/Mission/Mission";
 import Team from "./pages/OrganizationsStaff/Staff";
 import Structure from "./pages/OrganizationStructure/Structure"
+import Services from "./pages/Services/Services";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/mission" element={<Mission/>} />
           <Route path="/organizationStaff" element={<Team/>} />
           <Route path="/organizationStructure" element={<Structure/>} />
+          <Route path="/services" element={<Services/>} />
 
 
 

@@ -68,7 +68,7 @@
   padding: 40px 20px;
   max-width: 1200px;
   margin: auto;
-  background: linear-gradient(rgba(24, 8, 170, 0.7), rgba(114, 187, 235, 0.7));
+  background-color: #87CEEB;
 }
 
 .history-container {
@@ -99,6 +99,7 @@
 }
 
 .history-text p {
+  font-size: 1.1em;
   margin-bottom: 20px;
 }
 

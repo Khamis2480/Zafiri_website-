@@ -1,0 +1,276 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Dark overlay */
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 20, 40, 0.6);
+  /* dark blue overlay */
+}
+
+/* Text content */
+.hero-content {
+  position: relative;
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb span {
+  margin: 0 5px;
+}
+
+.decision-section {
+  color: #003333;
+  line-height: 1.6;
+}
+
+/* Top Section Layout */
+.decision-hero {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d6efe4; /* light green background */
+  padding: 40px;
+  align-items: center;
+}
+
+.decision-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.decision-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.decision-text p {
+  margin-bottom: 20px;
+}
+
+.decision-btn {
+  background-color: #004d40;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.decision-btn:hover {
+  background-color: #00352d;
+}
+
+.decision-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.decision-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+/* Bottom Section */
+
+
+.decision-info  {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 2rem;
+  color: #064d42;
+  line-height: 1.7;
+}
+
+.decision-info h3{
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #064d42;
+}
+
+.decision-info p  {
+  margin-bottom: 1.7rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.decision-info hr {
+  margin-top: 1.5rem;
+  border: none;
+  border-top: 1px solid #064d42;
+}
+
+.infra-section {
+  color: #003333;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+/* Header */
+.infra-header {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.infra-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.infra-header p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Cards Layout */
+.infra-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 50px;
+  width: 75%;
+  margin-left: 14%
+}
+
+.infra-card {
+  background-color: #d6efe4; /* light green */
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infra-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.infra-card img {
+  width: 100%;
+  height: auto;
+}
+
+.infra-content {
+  padding: 20px;
+  position: relative;
+}
+
+.infra-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.infra-content p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+
+.other-services {
+  padding: 60px 20px;
+  background: #fff;
+
+}
+
+.services-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #003d2b;
+  margin-left: 13%;
+}
+
+.services-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #e6f3f1;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 23%;      /* control card width */
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.service-content {
+  padding: 15px;
+}
+
+.service-content h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #004d40;
+}
+
+.service-content p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.service-arrow {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #003d2b;
+}
+
