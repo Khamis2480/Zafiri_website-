@@ -18,6 +18,7 @@ import Mission from "./pages/Mission/Mission";
 import Team from "./pages/OrganizationsStaff/Staff";
 import Structure from "./pages/OrganizationStructure/Structure"
 import Services from "./pages/Services/Services";
+import Publication from "./pages/Publication/Publication";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/organizationStaff" element={<Team/>} />
           <Route path="/organizationStructure" element={<Structure/>} />
           <Route path="/services" element={<Services/>} />
+          <Route path="/publication" element={<Publication/>} />
 
 
 

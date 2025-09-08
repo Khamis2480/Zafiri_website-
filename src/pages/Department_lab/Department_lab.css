@@ -1,4 +1,5 @@
-.hero-research {
+/* Hero Section */
+.hero-lab-dept {
   position: relative;
   width: 100%;
   height: 70vh;
@@ -10,13 +11,13 @@
   text-align: left;
 }
 
-.overlay-research {
+.overlay-lab-dept {
   position: absolute;
   inset: 0;
- 
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.hero-research-content {
+.hero-lab-content {
   position: relative;
   z-index: 2;
   max-width: 600px;
@@ -24,13 +25,13 @@
   color: white;
 }
 
-.hero-research-content h1 {
+.hero-lab-content h1 {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.hero-research-content p {
+.hero-lab-content p {
   font-size: 1rem;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -38,69 +39,65 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .hero-research {
+  .hero-lab-dept {
     justify-content: center;
     text-align: center;
     padding: 0 20px;
   }
 
-  .hero-research-content h1 {
+  .hero-lab-content h1 {
     font-size: 2rem;
   }
 
-  .hero-research-content p {
+  .hero-lab-content p {
     font-size: 0.9rem;
   }
 }
 
-.research-description-section {
+/* Laboratory Description */
+.lab-description-section {
   max-width: 800px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 2rem;
   color: #064d42;
   line-height: 1.7;
 }
 
-.research-description-section h2 {
+.lab-description-section h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #064d42;
 }
 
-.research-description-section p {
+.lab-description-section p {
   margin-bottom: 1.2rem;
   font-size: 1rem;
   color: #333;
 }
 
-.research-description-section hr {
+.lab-description-section hr {
   margin-top: 1.5rem;
   border: none;
   border-top: 1px solid #064d42;
 }
 
-.projects-section {
+/* Projects Section */
+.projects-section-lab {
   text-align: center;
   padding: 3rem 2rem;
   color: #064d42;
   line-height: 1.7;
 }
 
-.projects-section h2 {
+.projects-section-lab h2 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.projects-section p {
-  margin-bottom: 2rem;
-  color: #444;
-  font-size: 1rem;
-}
-
-.projects-grid {
+.projects-grid-lab {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
@@ -108,71 +105,55 @@
   margin: 0 auto;
 }
 
-.project-card {
+.project-card-lab {
   background-color: #d7f0ec;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
-  position: relative;
   transition: transform 0.3s ease;
 }
 
-.project-card:hover {
+.project-card-lab:hover {
   transform: translateY(-5px);
 }
 
-.project-card h3 {
+.project-card-lab h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-.project-card p {
+.project-card-lab p {
   font-size: 0.95rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
   color: #333;
 }
 
-.arrow-link {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #064d42;
-  transition: transform 0.3s;
-}
-
-.arrow-link:hover {
-  transform: translateX(5px);
-}
-
-
-
-.research-info {
+/* Laboratory Info Section */
+.lab-info-section {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   margin: 50px 90px;
-  background-color: #0f5c50; /* dark green like in example */
+  background-color: #1045a1;
   color: #ffffff;
   border-radius: 12px;
   overflow: hidden;
 }
 
-/* Left Image */
-.research-image {
+.lab-image {
   flex: 1 1 50%;
   min-width: 300px;
 }
-.research-image img {
+
+.lab-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-/* Right Content */
-.research-content {
+.lab-content {
   flex: 1 1 50%;
   padding: 40px;
   display: flex;
@@ -180,19 +161,19 @@
   justify-content: center;
 }
 
-.research-content h2 {
+.lab-content h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
-.research-content p {
+.lab-content p {
   margin-bottom: 15px;
   line-height: 1.6;
   font-size: 1rem;
   color: #e0f2f1;
 }
 
-.research-btn {
+.lab-btn {
   display: inline-block;
   padding: 12px 20px;
   margin-top: 20px;
@@ -202,27 +183,28 @@
   border-radius: 6px;
   font-weight: bold;
   transition: all 0.3s ease;
-  width: fit-content;
 }
 
-.research-btn:hover {
+.lab-btn:hover {
   background: #e0f2f1;
   color: #0b3c34;
 }
 
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .research-info {
+  .lab-info-section {
     flex-direction: column;
+    margin: 30px 20px;
   }
 
-  .research-content {
+  .lab-content {
     padding: 20px;
   }
 }
 
 
-.research-container {
+/* Laboratory Reports */
+.lab-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -230,37 +212,29 @@
   padding: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin: 20px;
 }
 
-.research-text {
+.lab-text {
   flex: 1;
   min-width: 300px;
   max-width: 600px;
 }
 
-.research-text h2 {
+.lab-text h2 {
   color: #084c41;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
-.underline {
-  width: 60px;
-  height: 5px;
-  background-color: #084c41;
-  margin-bottom: 20px;
-}
-
-.research-text p {
+.lab-text p {
   color: #084c41;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
-.research-button {
+.lab-button {
   background-color: #0e5c4c;
   color: white;
   padding: 14px 24px;
@@ -271,11 +245,11 @@
   transition: background-color 0.3s;
 }
 
-.research-button:hover {
+.lab-button:hover {
   background-color: #094538;
 }
 
-.research-image-container {
+.lab-image-container {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -284,29 +258,24 @@
   margin-top: 20px;
 }
 
-.research-image-container img {
+.lab-image-container img {
   width: 300px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
 }
-
-
-
-/* Promo Section */
-.promo-section {
-  /* background-color: #0d2235; dark navy background */
+/* === Promo Section Wrapper === */
+.promo-lab-section {
   color: #050505;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  margin: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 30px 40px;
 }
 
-.promo-container {
+/* === Container === */
+.promo-lab-container {
   display: flex;
   max-width: 1200px;
   width: 100%;
@@ -315,35 +284,36 @@
   gap: 40px;
 }
 
-.promo-content {
+/* === Content === */
+.promo-lab-content {
   flex: 1;
   max-width: 600px;
 }
 
-.promo-content h2 {
+.promo-lab-content h2 {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 25px;
   line-height: 1.3;
 }
 
-.promo-content .highlight {
+.promo-lab-highlight {
   color: #00c896; /* green highlight */
 }
 
-.promo-content ul {
+.promo-lab-content ul {
   list-style: none;
   padding: 0;
 }
 
-.promo-content ul li {
+.promo-lab-content ul li {
   margin: 15px 0;
   font-size: 18px;
   position: relative;
   padding-left: 25px;
 }
 
-.promo-content ul li::before {
+.promo-lab-content ul li::before {
   content: "•";
   color: #00c896; /* green bullets */
   font-weight: bold;
@@ -353,14 +323,15 @@
   top: -2px;
 }
 
-.promo-image {
+/* === Image === */
+.promo-lab-image {
   flex: 1;
   max-width: 500px;
   display: flex;
   justify-content: center;
 }
 
-.promo-image img {
+.promo-lab-image img {
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -368,63 +339,54 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive design */
+/* === Responsive Design === */
 @media (max-width: 900px) {
-  .promo-container {
+  .promo-lab-container {
     flex-direction: column;
     text-align: center;
     gap: 30px;
   }
-  
-  .promo-content ul li {
+
+  .promo-lab-content ul li {
     padding-left: 0;
   }
-  
-  .promo-content ul li::before {
+
+  .promo-lab-content ul li::before {
     display: none;
   }
-  
-  .promo-image {
+
+  .promo-lab-image {
     max-width: 100%;
   }
-  
-  .promo-image img {
+
+  .promo-lab-image img {
     max-width: 300px;
   }
 }
 
 @media (max-width: 600px) {
-  .promo-section {
+  .promo-lab-section {
     padding: 40px 15px;
   }
-  
-  .promo-content h2 {
+
+  .promo-lab-content h2 {
     font-size: 26px;
   }
-  
-  .promo-content ul li {
+
+  .promo-lab-content ul li {
     font-size: 16px;
   }
 }
 
-.medical-team {
-  padding: 80px 0;
+/* Medical Team */
+.lab-team {
+  padding: 80px 20px;
   background-color: #f8f9fa;
-  font-family: 'Arial', sans-serif;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.section-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin: 50px;
 }
 
-.section-header h2 {
+.lab-team h2 {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -432,92 +394,74 @@
   margin-bottom: 10px;
 }
 
-.section-header h3 {
+.lab-team h3 {
   font-size: 32px;
-  color: #2c3e50;
+  color: #3d76af;
   margin-bottom: 20px;
 }
 
-.section-header p {
+.lab-team p {
   font-size: 16px;
-  color: #7f8c8d;
+  color: #000000;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+  margin-bottom: 12px;
 }
 
-.doctors-grid {
+.lab-doctors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
 }
 
-.doctor-card {
+.lab-doctor-card {
   background: white;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 20px;
 }
 
-.doctor-card:hover {
+.lab-doctor-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-.doctor-image {
-  height: 250px;
-  overflow: hidden;
-}
-
-.doctor-image img {
+.lab-doctor-card img {
   width: 100%;
-  height: 100%;
+  height: 250px;
   object-fit: cover;
-  transition: transform 0.5s ease;
 }
 
-.doctor-card:hover .doctor-image img {
-  transform: scale(1.05);
-}
-
-.doctor-info {
-  padding: 20px;
-  text-align: center;
-}
-
-.doctor-info h4 {
+.lab-doctor-card h4 {
   font-size: 18px;
   color: #2c3e50;
-  margin-bottom: 8px;
+  margin-top: 10px;
 }
 
-.doctor-info p {
+.lab-doctor-card p {
   font-size: 14px;
   color: #3a7bd5;
   font-weight: 500;
 }
 
-/* Responsive design */
+/* Responsive */
 @media (max-width: 768px) {
-  .medical-team {
-    padding: 60px 0;
+  .lab-team {
+    padding: 60px 15px;
   }
-  
-  .section-header h3 {
-    font-size: 28px;
-  }
-  
-  .doctors-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  .lab-doctors-grid {
     gap: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .doctors-grid {
+  .lab-doctors-grid {
     grid-template-columns: 1fr;
-    max-width: 300px;
+    max-width: 320px;
     margin: 0 auto;
   }
 }

@@ -263,7 +263,7 @@ const Header = () => {
 
           {/* Publications */}
           <li>
-            <a href="/publications" onClick={() => setIsNavOpen(false)}>
+            <a href="/publication" onClick={() => setIsNavOpen(false)}>
               {translations[currentLang].navPublication}
             </a>
           </li>

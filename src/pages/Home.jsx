@@ -595,7 +595,7 @@ const EventsSection = () => {
       </div>
 
       <div className="read-more-container">
-        <a href="../../event page/Workspace.html" className="read-more-btn">Read More</a>
+        <a href="../pages/News" className="read-more-btn">Read More</a>
       </div>
     </section>
   );

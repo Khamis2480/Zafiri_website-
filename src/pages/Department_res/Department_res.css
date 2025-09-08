@@ -1,4 +1,7 @@
-.hero-research {
+/* ===============================
+   HERO SECTION (Department of Research)
+   =============================== */
+.hero-research-dept {
   position: relative;
   width: 100%;
   height: 70vh;
@@ -6,31 +9,30 @@
   background-position: center;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   text-align: left;
 }
 
-.overlay-research {
+.overlay-research-dept {
   position: absolute;
   inset: 0;
-  background: rgba(86, 96, 174, 0.7); /* teal overlay */
+  background: rgba(86, 96, 174, 0.7); /* overlay */
 }
 
-.hero-research-content {
+.hero-research-content-dept {
   position: relative;
   z-index: 2;
   max-width: 600px;
   padding: 20px;
-  color: white;
+  color: #ffffff;
 }
 
-.hero-research-content h1 {
+.hero-research-content-dept h1 {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.hero-research-content p {
+.hero-research-content-dept p {
   font-size: 1rem;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -38,69 +40,69 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .hero-research {
+  .hero-research-dept {
     justify-content: center;
     text-align: center;
     padding: 0 20px;
   }
 
-  .hero-research-content h1 {
+  .hero-research-content-dept h1 {
     font-size: 2rem;
   }
 
-  .hero-research-content p {
+  .hero-research-content-dept p {
     font-size: 0.9rem;
   }
 }
 
-.research-description-section {
+/* ===============================
+   RESEARCH DESCRIPTION
+   =============================== */
+.research-description-dept {
   max-width: 800px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 2rem;
   color: #064d42;
   line-height: 1.7;
 }
 
-.research-description-section h2 {
+.research-description-dept h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #064d42;
 }
 
-.research-description-section p {
+.research-description-dept p {
   margin-bottom: 1.2rem;
   font-size: 1rem;
   color: #333;
 }
 
-.research-description-section hr {
+.research-description-dept hr {
   margin-top: 1.5rem;
   border: none;
   border-top: 1px solid #064d42;
 }
 
-.projects-section {
+/* ===============================
+   PROJECTS
+   =============================== */
+.projects-section-research {
   text-align: center;
   padding: 3rem 2rem;
   color: #064d42;
   line-height: 1.7;
 }
 
-.projects-section h2 {
+.projects-section-research h2 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.projects-section p {
-  margin-bottom: 2rem;
-  color: #444;
-  font-size: 1rem;
-}
-
-.projects-grid {
+.projects-grid-research {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
@@ -108,7 +110,7 @@
   margin: 0 auto;
 }
 
-.project-card {
+.project-card-research {
   background-color: #d7f0ec;
   padding: 1.5rem;
   text-align: left;
@@ -117,17 +119,17 @@
   transition: transform 0.3s ease;
 }
 
-.project-card:hover {
+.project-card-research:hover {
   transform: translateY(-5px);
 }
 
-.project-card h3 {
+.project-card-research h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-.project-card p {
+.project-card-research p {
   font-size: 0.95rem;
   margin-bottom: 1.2rem;
   color: #333;
@@ -147,32 +149,32 @@
   transform: translateX(5px);
 }
 
-
-
-.research-info {
+/* ===============================
+   RESEARCH INFO (Image + Content)
+   =============================== */
+.research-info-dept {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   margin: 50px 90px;
-  background-color: #0f5c50; /* dark green like in example */
+  background-color: #0f4da9;
   color: #ffffff;
   border-radius: 12px;
   overflow: hidden;
 }
 
-/* Left Image */
-.research-image {
+.research-image-dept {
   flex: 1 1 50%;
   min-width: 300px;
 }
-.research-image img {
+
+.research-image-dept img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Right Content */
-.research-content {
+.research-content-dept {
   flex: 1 1 50%;
   padding: 40px;
   display: flex;
@@ -180,24 +182,24 @@
   justify-content: center;
 }
 
-.research-content h2 {
+.research-content-dept h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
-.research-content p {
+.research-content-dept p {
   margin-bottom: 15px;
   line-height: 1.6;
   font-size: 1rem;
   color: #e0f2f1;
 }
 
-.research-btn {
+.research-btn-dept {
   display: inline-block;
   padding: 12px 20px;
   margin-top: 20px;
   background: #ffffff;
-  color: #0f5c50;
+  color: #0f4da9;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
@@ -205,24 +207,27 @@
   width: fit-content;
 }
 
-.research-btn:hover {
+.research-btn-dept:hover {
   background: #e0f2f1;
   color: #0b3c34;
 }
 
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .research-info {
+  .research-info-dept {
     flex-direction: column;
+    margin: 20px;
   }
 
-  .research-content {
+  .research-content-dept {
     padding: 20px;
   }
 }
 
-
-.research-container {
+/* ===============================
+   RESEARCH RECOMMENDATIONS
+   =============================== */
+.research-container-dept {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -232,13 +237,13 @@
   flex-wrap: wrap;
 }
 
-.research-text {
+.research-text-dept {
   flex: 1;
   min-width: 300px;
   max-width: 600px;
 }
 
-.research-text h2 {
+.research-text-dept h2 {
   color: #084c41;
   font-size: 28px;
   margin-bottom: 10px;
@@ -251,14 +256,14 @@
   margin-bottom: 20px;
 }
 
-.research-text p {
+.research-text-dept p {
   color: #084c41;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
-.research-button {
+.research-button-dept {
   background-color: #0e5c4c;
   color: white;
   padding: 14px 24px;
@@ -269,11 +274,11 @@
   transition: background-color 0.3s;
 }
 
-.research-button:hover {
+.research-button-dept:hover {
   background-color: #094538;
 }
 
-.research-image-container {
+.research-image-container-dept {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -282,10 +287,126 @@
   margin-top: 20px;
 }
 
-.research-image-container img {
+.research-image-container-dept img {
   width: 300px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
 }
 
+
+/* Promo Section */
+.promo-section {
+  /* background-color: #0d2235; dark navy background */
+  color: #050505;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.promo-container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.promo-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.promo-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.3;
+}
+
+.promo-content .highlight {
+  color: #00c896;
+  /* green highlight */
+}
+
+.promo-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.promo-content ul li {
+  margin: 15px 0;
+  font-size: 18px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.promo-content ul li::before {
+  content: "•";
+  color: #00c896;
+  /* green bullets */
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.promo-image {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.promo-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+  .promo-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .promo-content ul li {
+    padding-left: 0;
+  }
+
+  .promo-content ul li::before {
+    display: none;
+  }
+
+  .promo-image {
+    max-width: 100%;
+  }
+
+  .promo-image img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .promo-section {
+    padding: 40px 15px;
+  }
+
+  .promo-content h2 {
+    font-size: 26px;
+  }
+
+  .promo-content ul li {
+    font-size: 16px;
+  }
+}

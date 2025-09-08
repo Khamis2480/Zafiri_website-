@@ -216,7 +216,7 @@ const Team = () => {
         <div className="hero-content">
           <h1>THE PEOPLE BEHIND OUR SUCCESS</h1>
           <div className="breadcrumb">
-            <a href="../../../Home page/home/home.html">HOME</a> <span>&gt;</span>
+            <a href="/">HOME</a> <span>&gt;</span>
             <span>OUR DEDICATED TEAM </span>
           </div>
         </div>
