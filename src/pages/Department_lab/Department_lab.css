@@ -60,7 +60,7 @@
   margin: auto;
   margin-top: 20px;
   padding: 2rem;
-  color: #064d42;
+  color: #061e4d;
   line-height: 1.7;
 }
 
@@ -68,26 +68,25 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color: #064d42;
+  color: #071896;
 }
 
 .lab-description-section p {
   margin-bottom: 1.2rem;
   font-size: 1rem;
-  color: #333;
+  color: #141414;
 }
 
 .lab-description-section hr {
   margin-top: 1.5rem;
   border: none;
-  border-top: 1px solid #064d42;
+  border-top: 1px solid #060e4d;
 }
 
 /* Projects Section */
 .projects-section-lab {
   text-align: center;
   padding: 3rem 2rem;
-  color: #064d42;
   line-height: 1.7;
 }
 
@@ -95,6 +94,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+  color: #071896;
 }
 
 .projects-grid-lab {
@@ -106,7 +106,7 @@
 }
 
 .project-card-lab {
-  background-color: #d7f0ec;
+  background-color: #8cd4f5;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
@@ -173,22 +173,6 @@
   color: #e0f2f1;
 }
 
-.lab-btn {
-  display: inline-block;
-  padding: 12px 20px;
-  margin-top: 20px;
-  background: #ffffff;
-  color: #0f5c50;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-.lab-btn:hover {
-  background: #e0f2f1;
-  color: #0b3c34;
-}
 
 /* Mobile responsive */
 @media (max-width: 768px) {
@@ -208,7 +192,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #cfe9da;
+  background-color: #acecf6;
   padding: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
@@ -222,20 +206,20 @@
 }
 
 .lab-text h2 {
-  color: #084c41;
+  color: #071896;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
 .lab-text p {
-  color: #084c41;
+  color: #131313;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
 .lab-button {
-  background-color: #0e5c4c;
+  background-color: #071896;
   color: white;
   padding: 14px 24px;
   text-decoration: none;
@@ -246,7 +230,7 @@
 }
 
 .lab-button:hover {
-  background-color: #094538;
+  background-color: #000b5d;
 }
 
 .lab-image-container {
@@ -298,7 +282,7 @@
 }
 
 .promo-lab-highlight {
-  color: #00c896; /* green highlight */
+  color: #0057c8; /* green highlight */
 }
 
 .promo-lab-content ul {
@@ -390,7 +374,7 @@
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #3a7bd5;
+  color: #071896;;
   margin-bottom: 10px;
 }
 

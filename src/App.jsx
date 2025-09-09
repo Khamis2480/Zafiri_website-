@@ -19,6 +19,8 @@ import Team from "./pages/OrganizationsStaff/Staff";
 import Structure from "./pages/OrganizationStructure/Structure"
 import Services from "./pages/Services/Services";
 import Publication from "./pages/Publication/Publication";
+import Centre from "./pages/Centers/Center"
+import ResearchAreas from "./pages/Research-area/Research-area"
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
           <Route path="/organizationStructure" element={<Structure/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/publication" element={<Publication/>} />
+          <Route path="/center" element={<Centre/>} />
+          <Route path="/area" element={<ResearchAreas/>} />
 
 
 

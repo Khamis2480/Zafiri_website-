@@ -1,6 +1,4 @@
-/* ===============================
-   HERO SECTION (Department of Research)
-   =============================== */
+
 .hero-research-dept {
   position: relative;
   width: 100%;
@@ -55,9 +53,6 @@
   }
 }
 
-/* ===============================
-   RESEARCH DESCRIPTION
-   =============================== */
 .research-description-dept {
   max-width: 800px;
   margin: auto;
@@ -71,7 +66,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color: #064d42;
+  color: #071896;
 }
 
 .research-description-dept p {
@@ -83,16 +78,14 @@
 .research-description-dept hr {
   margin-top: 1.5rem;
   border: none;
-  border-top: 1px solid #064d42;
+  border-top: 1px solid #071896;
 }
 
-/* ===============================
-   PROJECTS
-   =============================== */
+
 .projects-section-research {
   text-align: center;
   padding: 3rem 2rem;
-  color: #064d42;
+  color: #06254d;
   line-height: 1.7;
 }
 
@@ -100,6 +93,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+  color: #071896;
 }
 
 .projects-grid-research {
@@ -111,7 +105,7 @@
 }
 
 .project-card-research {
-  background-color: #d7f0ec;
+  background-color: #a3e2f9;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
@@ -132,7 +126,7 @@
 .project-card-research p {
   font-size: 0.95rem;
   margin-bottom: 1.2rem;
-  color: #333;
+  color: #202020;
 }
 
 .arrow-link {
@@ -149,9 +143,7 @@
   transform: translateX(5px);
 }
 
-/* ===============================
-   RESEARCH INFO (Image + Content)
-   =============================== */
+
 .research-info-dept {
   display: flex;
   flex-wrap: wrap;
@@ -224,17 +216,17 @@
   }
 }
 
-/* ===============================
-   RESEARCH RECOMMENDATIONS
-   =============================== */
+
 .research-container-dept {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #cfe9da;
+  background-color: #8ae3f5;
   padding: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .research-text-dept {
@@ -244,7 +236,7 @@
 }
 
 .research-text-dept h2 {
-  color: #084c41;
+  color: #071896;
   font-size: 28px;
   margin-bottom: 10px;
 }
@@ -252,19 +244,19 @@
 .underline {
   width: 60px;
   height: 5px;
-  background-color: #084c41;
+  background-color: #132ad7;
   margin-bottom: 20px;
 }
 
 .research-text-dept p {
-  color: #084c41;
+  color: #2d2d2d;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
 .research-button-dept {
-  background-color: #0e5c4c;
+  background-color: #0e3d5c;
   color: white;
   padding: 14px 24px;
   text-decoration: none;
@@ -275,7 +267,7 @@
 }
 
 .research-button-dept:hover {
-  background-color: #094538;
+  background-color: #043556;
 }
 
 .research-image-container-dept {
@@ -330,8 +322,7 @@
 }
 
 .promo-content .highlight {
-  color: #00c896;
-  /* green highlight */
+  color: #0e3d5c;
 }
 
 .promo-content ul {

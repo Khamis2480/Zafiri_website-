@@ -195,7 +195,7 @@ const Header = () => {
           </li>
 
           {/* About */}
-          <li 
+          <li
             className={`dropdown ${activeDropdown === 'about' ? 'active' : ''}`}
             onClick={() => toggleDropdown('about')}
           >
@@ -205,26 +205,37 @@ const Header = () => {
               <li><a href="/mission" onClick={() => setIsNavOpen(false)}>Mission & Vision</a></li>
               <li><a href="/message" onClick={() => setIsNavOpen(false)}>Director's Message</a></li>
               <li><a href="/organizationStructure" onClick={() => setIsNavOpen(false)}>Organization Structure</a></li>
-              <li><a href="/organizationStaff" onClick={() => setIsNavOpen(false)}>Organization Board</a></li>
+              <li><a href="/organizationStaff" onClick={() => setIsNavOpen(false)}>Organization Staff</a></li>
             </ul>
           </li>
 
           {/* Research */}
-          <li 
+          <li
             className={`dropdown ${activeDropdown === 'research' ? 'active' : ''}`}
             onClick={() => toggleDropdown('research')}
           >
             <a href="#">{translations[currentLang].navResearch}</a>
             <ul className="dropdown-menu">
-              <li><a href="/research/complete" onClick={() => setIsNavOpen(false)}>Complete</a></li>
-              <li><a href="/research/ongoing" onClick={() => setIsNavOpen(false)}>Ongoing</a></li>
-              <li><a href="/research/areas" onClick={() => setIsNavOpen(false)}>Research Areas</a></li>
-              <li><a href="/research/publications" onClick={() => setIsNavOpen(false)}>Publications</a></li>
+              <li className="dropdown-sub">
+                <a href="#">Research </a>
+                <ul className="dropdown-submenu">
+                  <li><a href="" onClick={() => setIsNavOpen(false)}>On-going Research </a></li>
+                  <li><a href="" onClick={() => setIsNavOpen(false)}>Complete Research </a></li>
+                </ul>
+              </li>
+              <li className="dropdown-sub">
+                <a href="#">Projects </a>
+                <ul className="dropdown-submenu">
+                  <li><a href="" onClick={() => setIsNavOpen(false)}>On-going Project </a></li>
+                  <li><a href="" onClick={() => setIsNavOpen(false)}>Complete Project </a></li>
+                </ul>
+              </li>
+              <li><a href="/area" onClick={() => setIsNavOpen(false)}>Research Area </a></li>
             </ul>
           </li>
 
           {/* Departments & Centers with sub-dropdowns */}
-          <li 
+          <li
             className={`dropdown ${activeDropdown === 'department' ? 'active' : ''}`}
             onClick={() => toggleDropdown('department')}
           >
@@ -233,23 +244,23 @@ const Header = () => {
               <li className="dropdown-sub">
                 <a href="#">Departments ▸</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="/department-lab" onClick={() => setIsNavOpen(false)}>Laboratory</a></li>
-                  <li><a href="/department-res" onClick={() => setIsNavOpen(false)}>Research</a></li>
-                  <li><a href="/department-pla" onClick={() => setIsNavOpen(false)}>Administration</a></li>
+                  <li><a href="/department-lab" onClick={() => setIsNavOpen(false)}>Department of Laboratory</a></li>
+                  <li><a href="/department-res" onClick={() => setIsNavOpen(false)}>Department of Research</a></li>
+                  <li><a href="/department-pla" onClick={() => setIsNavOpen(false)}>Department of Administration</a></li>
                 </ul>
               </li>
               <li className="dropdown-sub">
                 <a href="#">Centers ▸</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="/centers/unguja" onClick={() => setIsNavOpen(false)}>Unguja Center</a></li>
-                  <li><a href="/centers/pemba" onClick={() => setIsNavOpen(false)}>Pemba Center</a></li>
+                  <li><a href="/centers/unguja" onClick={() => setIsNavOpen(false)}>Main Center</a></li>
+                  <li><a href="/center" onClick={() => setIsNavOpen(false)}>Pemba Center</a></li>
                 </ul>
               </li>
             </ul>
           </li>
 
           {/* Media */}
-          <li 
+          <li
             className={`dropdown ${activeDropdown === 'media' ? 'active' : ''}`}
             onClick={() => toggleDropdown('media')}
           >
