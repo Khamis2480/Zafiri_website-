@@ -1,11 +1,11 @@
 import React from "react";
 import "./Department_pla.css";
-import heroImage from "../../assets/laboratory/laboratory-equipment.jpeg";
+import heroImage from "../../assets/laboratory/hrm.jpg";
 import promoImage from "../../assets/laboratory/strategic.webp";
 
 import doctor1 from "../../assets/event/event1.JPG";
-// import researchImage from "../../assets/laboratory/research-dept.jpg";
-// import researchPapers from "../../assets/laboratory/research-papers.jpg";
+import researchImage from "../../assets/laboratory/respu.jpg";
+import researchPapers from "../../assets/laboratory/Chart.jpg";
 
 function HRAPHero() {
   return (
@@ -13,7 +13,7 @@ function HRAPHero() {
       className="hero-research"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      <div className="overlay-research"></div>
+      <div className="overlay-research-pla"></div>
       <div className="hero-research-content">
         <h1>Department of Human Resource, Administration & Planning</h1>
         <p>
@@ -92,7 +92,7 @@ function HRAPInfo() {
   return (
     <section className="research-info">
       <div className="research-image">
-        {/* <img src={researchImage} alt="HRAP Department" /> */}
+        <img src={researchPapers} alt="HRAP Department" />
       </div>
 
       <div className="research-content">
@@ -137,11 +137,11 @@ function HRAPRecommendations() {
           rel="noopener noreferrer"
           className="research-button"
         >
-          Access our HRAP resources (issuu.com) ↗
+          Access our HRAP resources  ↗
         </a>
       </div>
       <div className="research-image-container">
-        {/* <img src={researchPapers} alt="HRAP reports" /> */}
+        <img src={researchImage} alt="HRAP reports" />
       </div>
     </div>
   );
@@ -221,13 +221,7 @@ function HRAPValues() {
         </div>
       </div>
 
-      {/* Right Section - Images */}
-      {/* <div className="hr-values-images">
-          <img src={img1} alt="HR Meeting" />
-          <img src={img2} alt="Worker" />
-          <img src={img3} alt="Nurse" />
-          <img src={img4} alt="Training" />
-      </div> */}
+    
     </div>
   );
 }
@@ -238,7 +232,7 @@ function HRAPTeam() {
       <div className="container">
         <div className="section-header">
           <h2>Our Experts</h2>
-          <h3>Meet Our HR & Planning Specialist</h3>
+          <h3>Meet Our Human Resource Manager</h3>
           <p>
             Our dedicated professional brings expertise in human resource
             management, administration, and strategic planning to strengthen

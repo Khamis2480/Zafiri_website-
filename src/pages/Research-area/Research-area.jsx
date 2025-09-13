@@ -96,19 +96,22 @@ const ResearchAreas = () => {
   ];
 
   return (
-    <div className="research-areas-container">
-      <div className="research-header">
+   <div className="research-areas-container">
+      <div className="research-areas-header">
         <h1>Research Areas</h1>
-        <p>Exploring diverse aspects of fisheries, aquaculture, and marine sciences to advance sustainable practices and knowledge.</p>
+        <p>
+          Exploring diverse aspects of fisheries, aquaculture, and marine
+          sciences to advance sustainable practices and knowledge.
+        </p>
       </div>
-      
-      <div className="research-grid">
-        {researchAreas.map(area => (
-          <div key={area.id} className="research-card">
-            <div className="card-icon">{area.icon}</div>
+
+      <div className="research-areas-grid">
+        {researchAreas.map((area) => (
+          <div key={area.id} className="research-areas-card">
+            <div className="research-areas-icon">{area.icon}</div>
             <h3>{area.title}</h3>
             <p>{area.description}</p>
-            <button className="card-button">Learn More</button>
+            <button className="research-areas-button">Learn More</button>
           </div>
         ))}
       </div>

@@ -10,10 +10,10 @@
   text-align: left;
 }
 
-.overlay-research {
+.overlay-research-pla {
   position: absolute;
   inset: 0;
- 
+  background: rgba(0, 0, 0, 0.599);
 }
 
 .hero-research-content {
@@ -66,25 +66,25 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color: #064d42;
+  color: #071896;
 }
 
 .research-description-section p {
   margin-bottom: 1.2rem;
   font-size: 1rem;
-  color: #333;
+  color: #3f3f3f;
 }
 
 .research-description-section hr {
   margin-top: 1.5rem;
   border: none;
-  border-top: 1px solid #064d42;
+  border-top: 1px solid #011292;
 }
 
 .projects-section {
   text-align: center;
   padding: 3rem 2rem;
-  color: #064d42;
+  color: #071896;
   line-height: 1.7;
 }
 
@@ -96,7 +96,7 @@
 
 .projects-section p {
   margin-bottom: 2rem;
-  color: #444;
+  color:  #3f3f3f;
   font-size: 1rem;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .project-card {
-  background-color: #d7f0ec;
+  background-color: #b3e4f5;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
@@ -154,7 +154,7 @@
   flex-wrap: wrap;
   align-items: stretch;
   margin: 50px 90px;
-  background-color: #0f5c50; /* dark green like in example */
+  background-color: #1045a1;
   color: #ffffff;
   border-radius: 12px;
   overflow: hidden;
@@ -226,12 +226,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #cfe9da;
+  background-color: #baecfe;
   padding: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-left: 85px;
+  margin-right: 85px;
 }
 
 .research-text {
@@ -241,7 +241,7 @@
 }
 
 .research-text h2 {
-  color: #084c41;
+  color: #071896;
   font-size: 28px;
   margin-bottom: 10px;
 }
@@ -249,19 +249,19 @@
 .underline {
   width: 60px;
   height: 5px;
-  background-color: #084c41;
+  background-color: #071896;
   margin-bottom: 20px;
 }
 
 .research-text p {
-  color: #084c41;
+  color:  #333;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
 .research-button {
-  background-color: #0e5c4c;
+  background-color: rgb(113, 207, 242);
   color: white;
   padding: 14px 24px;
   text-decoration: none;
@@ -272,7 +272,7 @@
 }
 
 .research-button:hover {
-  background-color: #094538;
+  background-color: rgb(51, 196, 249);
 }
 
 .research-image-container {
@@ -328,7 +328,7 @@
 }
 
 .promo-content .highlight {
-  color: #00c896; /* green highlight */
+  color: #071896; /* green highlight */
 }
 
 .promo-content ul {
@@ -345,7 +345,7 @@
 
 .promo-content ul li::before {
   content: "•";
-  color: #00c896; /* green bullets */
+  color: #071896; /* green bullets */
   font-weight: bold;
   font-size: 24px;
   position: absolute;

@@ -1,57 +1,46 @@
 import React from "react";
+import { Tree, TreeNode } from "react-organizational-chart";
 import "./Structure.css";
 
 const Structure = () => {
   return (
-    <div className="org-chart">
-      {/* Bodi */}
-      <div className="box">BODI YA WAKURUGENZI</div>
-      <div className="arrow-down"></div>
+    <div className="orgchart-wrapper">
+      <Tree
+        label={<div className="org-node main">BODI YA WAKURUGENZI</div>}
+      >
+        <TreeNode label={<div className="org-node">MKURUGENZI MKUU</div>}>
+          
+          {/* Vitengo */}
+          <TreeNode label={<div className="org-node">KITENGO CHA MANUNUZI YA UMMA</div>} />
+          <TreeNode label={<div className="org-node">KITENGO CHA HUDUMA ZA SHERIA</div>} />
+          <TreeNode label={<div className="org-node">KITENGO CHA TEHAMA NA UHUSIANO WA UMMA</div>} />
+          <TreeNode label={<div className="org-node">KITENGO CHA UHASIBU</div>} />
+          <TreeNode label={<div className="org-node">KITENGO CHA UKAGUZI WA NDANI</div>} />
+          <TreeNode label={<div className="org-node">KITENGO CHA UDHIBITI UBORA</div>} />
+          <TreeNode label={<div className="org-node">KITIVO CHA UTAFITI PEMBA</div>} />
 
-      {/* Mkurugenzi Mkuu */}
-      <div className="box">MKURUGENZI MKUU</div>
-      <div className="arrow-down"></div>
+          {/* Idara Utafiti */}
+          <TreeNode label={<div className="org-node">IDARA YA UTAFITI, UBUNIFU NA UELIMISHAJI</div>}>
+            <TreeNode label={<div className="org-node">DIVISHENI YA UTAFITI WA VUVUVI</div>} />
+            <TreeNode label={<div className="org-node">DIVISHENI YA UTAFITI WA UKUZAJI WA VIUMBE MAJI</div>} />
+            <TreeNode label={<div className="org-node">DIVISHENI YA UTAFITI WA MAZINGIRA NA MIFUMO YA BAHARI</div>} />
+          </TreeNode>
 
-      {/* Vitengo vya Juu */}
-      <div className="horizontal-line"></div>
-      <div className="top-sections">
-        <div className="box">KITENGO CHA MANUNUZI YA UMMA</div>
-        <div className="box">KITENGO CHA HUDUMA ZA SHERIA</div>
-        <div className="box">KITENGO CHA TEHAMA NA UHUSIANO WA UMMA</div>
-        <div className="box">KITENGO CHA UHASIBU</div>
-        <div className="box">KITENGO CHA UDHIBITI UBORA NA VIASHIRIA HATARISHI</div>
-        <div className="box">KITENGO CHA UKAGUZI WA NDANI</div>
-        <div className="box">KITIVO CHA UTAFITI PEMBA</div>
-      </div>
+          {/* Idara Maabara */}
+          <TreeNode label={<div className="org-node">IDARA YA USIMAMIZI WA MAABARA</div>}>
+            <TreeNode label={<div className="org-node">DIVISHENI YA MAABARA YA KEMIA NA VIMELEA</div>} />
+            <TreeNode label={<div className="org-node">DIVISHENI YA MAABARA YA UZALISHAJI WA VIUMBE MAJI</div>} />
+          </TreeNode>
 
-      <div className="arrow-down"></div>
-      <div className="horizontal-line"></div>
+          {/* Idara Rasilimaliwatu */}
+          <TreeNode label={<div className="org-node">IDARA YA RASILIMALIWATU, UTAWALA NA MIPANGO</div>}>
+            <TreeNode label={<div className="org-node">DIVISHENI YA RASILIMALIWATU NA UTAWALA</div>} />
+            <TreeNode label={<div className="org-node">DIVISHENI YA MIPANGO NA TAKWIMU</div>} />
+            <TreeNode label={<div className="org-node">DIVISHENI YA USIMAMIZI WA KUMBUKUMBU</div>} />
+          </TreeNode>
 
-      {/* Departments */}
-      <div className="departments">
-        <div className="department">
-          <div className="box">IDARA YA UTAFITI, UBUNIFU NA UELIMISHAJI</div>
-          <div className="arrow-down"></div>
-          <div className="sub-box">DIVISHENI YA UTAFITI WA VUVUVI</div>
-          <div className="sub-box">DIVISHENI YA UTAFITI WA UKUAJI WA VIUMBE MAJI</div>
-          <div className="sub-box">DIVISHENI YA UTAFITI WA MAZINGIRA NA MIFUMO YA BAHARI</div>
-        </div>
-
-        <div className="department">
-          <div className="box">IDARA YA USIMAMIZI WA MAABARA</div>
-          <div className="arrow-down"></div>
-          <div className="sub-box">DIVISHENI YA MAABARA YA KEMIA NA VIMELEA</div>
-          <div className="sub-box">DIVISHENI YA MAABARA YA UZALISHAJI WA VIUMBE MAJI</div>
-        </div>
-
-        <div className="department">
-          <div className="box">IDARA YA RASILIMALIWATU, UTAWALA NA MIPANGO</div>
-          <div className="arrow-down"></div>
-          <div className="sub-box">DIVISHENI YA RASILIMALIWATU NA UTAWALA</div>
-          <div className="sub-box">DIVISHENI YA MIPANGO NA TAKWIMU</div>
-          <div className="sub-box">DIVISHENI YA USIMAMIZI WA KUMBUKUMBU</div>
-        </div>
-      </div>
+        </TreeNode>
+      </Tree>
     </div>
   );
 };
