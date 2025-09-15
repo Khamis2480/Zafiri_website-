@@ -8,14 +8,16 @@ import image3 from '../assets/home/KIKAO 3.JPG';
 import image4 from '../assets/home/KIKAOO 4.JPG';
 import image5 from '../assets/home/KIKAOO5.JPG';
 import image6 from '../assets/home/lab.JPG';
-import viceChancellorImage from '../assets/event/3.JPG'; 
-import universityVideo from '../assets/zafiri video.mp4'; 
-import event1 from "../assets/event/event1.JPG";
-import event2 from "../assets/event/event2.JPG";
-import event3 from "../assets/event/event3.JPG";
-import event4 from "../assets/event/event4.JPG";
-import event5 from "../assets/event/event5.JPG";
-import eventi1 from "../assets/event/3.JPG";
+import image7 from '../assets/home/IMG_9048.JPG';
+
+import viceChancellorImage from '../assets/home/IMG_6209.JPG';
+import universityVideo from '../assets/zafiri video.mp4';
+import event1 from "../assets/event/5L0A0232.JPG";
+import event2 from "../assets/event/5L0A0216.JPG";
+import event3 from "../assets/event/IMG_0908.JPG";
+import event4 from "../assets/event/IMG_0089.JPG";
+import event5 from "../assets/event/IMG_8707.JPG";
+import eventi1 from "../assets/event/IMG_2871.JPG";
 
 
 
@@ -25,12 +27,16 @@ const Slideshow = () => {
 
   const slides = [
     {
-      image: image1,
-      text: "Naibu Katibu mkuu wa Wizara ya Uchumi wa bulu pamoja na wakurugenzi wakifatiwa na Wadau wa shirika la Ethical Seafood Research"
+      image: image2,
+      text: "Uzinduzi wa Bodi ya Wakurugenzi wa Taasisi ya Utafiti wa Uvuvi na Maliasili za Baharini Zanzibar"
     },
     {
-      image: image2,
-      text: "Uzinduzi wa Bodi ya Taasisi ya utafiti wa Uvuvi na Maliasili za Baharini Zanzibar"
+      image: image6,
+      text: "Wataalamu wa ZAFIRI wakifanya Uchunguzi wa Vimelea katika Sampuli za maji ya bahari ikiwa ni Utafiti wa kuangalia ubora wa maji ya Bahari"
+    },
+    {
+      image: image7,
+      text: "Zoezi la ukusanyaji wa taarifa kwa wavuvi wadogo wadogo wa shughuli za utafutaji wa pweza na aina zote za jamii ya chaza  "
     },
     {
       image: image3,
@@ -45,8 +51,8 @@ const Slideshow = () => {
       text: "Picha ya Pamoja Wakurugenzi na Kamati za Uvuvi katika Kikao cha kuleta mrejesho juu ya utumiaji wa vifaa vinavyoonyesha taarifa za Shughuli za Uvuvi Baharini"
     },
     {
-      image: image6,
-      text: "Wataalamu wa ZAFIRI wakifanya uchunguzi wa Vimelea katika sampuli za maji ya Bahari"
+      image: image1,
+      text: "Naibu Katibu mkuu Ndg.Zahour Kassim Alkharous na Wkurugenzi wa Wizara ya Uchumi wa buluu wakifatiwa na Wadau wa shirika la Ethical Seafood Research"
     }
   ];
 
@@ -238,9 +244,9 @@ const ResearchSection = () => {
 };
 
 
-import labImage from '../assets/home/lab.JPG';
-// import fisheriesImage from '../assets/3.JPG'; 
-// import communityImage from '../assets/pollution.jpg'; 
+import labImage from '../assets/event/IMG_9721.JPG';
+import fisheriesImage from '../assets/event/IMG_1500.JPG'; 
+import communityImage from '../assets/event/IMG_0059.JPG'; 
 
 const ServicesSection = () => {
   return (
@@ -260,13 +266,13 @@ const ServicesSection = () => {
         </div>
 
         <div className="service-box">
-          {/* <img src={fisheriesImage} alt="Fisheries" /> */}
+          { <img src={fisheriesImage} alt="Fisheries" /> }
           <h3>Promoting Sustainable Fisheries Practices</h3>
           <p>Our initiatives support the balance between fishing and conservation.</p>
         </div>
 
         <div className="service-box">
-          {/* <img src={communityImage} alt="Community" /> */}
+          { <img src={communityImage} alt="Community" /> }
           <h3>Community Engagement and Education</h3>
           <p>We connect research findings with local community needs.</p>
         </div>
@@ -286,7 +292,7 @@ const Projects = () => {
     <section className="projects">
       <div className="projects-header">
         <div>
-          <p className="subtitle">Our Projects</p>
+          <p className="subtitle">OUR PROJECTS</p>
           <h2>Driving Innovation for a Sustainable Blue Economy</h2>
           <p className="description">The Zanzibar Fisheries and Marine Resources Research Institute (ZAFIRI) Projects focus on
             promoting sustainable fisheries, advancing aquaculture, conserving marine ecosystems, and strengthening
@@ -400,23 +406,23 @@ const EventsSection = () => {
   const eventsData = [
     {
       id: 1,
-      date: "2025-06-12",
+      date: "2025-04-02",
       image: event1,
       alt: "malindi",
-      title: "FISH WEST",
-      subtitle: "We are pleased for our students...",
-      uploaded: "2025-06-25 09:26:26",
+      title: "GLEANING",
+      subtitle: "Upokeaji wa meli ya utafiti Zanibar",
+      uploaded: "2024-12-25 09:26:26",
       daysOld: "64 Days Old",
       badge: "ZAFIRI"
     },
     {
       id: 2,
-      date: "2025-03-30",
+      date: "2025-02-13",
       image: event2,
       alt: "MICHAMVI",
-      title: "BWEJUU AND MICHAMVI",
-      subtitle: "We are pleased for our students...",
-      uploaded: "2025-03-30 14:38:38",
+      title: "",
+      subtitle: "Mkurugenzi wa ZAFIRI akikabidhi vifaa kwa wakulim wa Mwani",
+      uploaded: "2025-02-15 14:38:38",
       daysOld: "138 Days Old",
       badge: "ZAFIRI"
     },
@@ -426,19 +432,19 @@ const EventsSection = () => {
       image: event3,
       alt: "mwani",
       title: "UGAWAJI WA MBEGU ZA MWANI",
-      subtitle: "Wafanya kazi wa ZAFIRI wakigawa Mbegu kwa Wananchi",
+      subtitle: "Watafiti wakitathmini kiwango cha taka ngumu zilizokusnywa katka fukwe za bahari",
       uploaded: "2025-03-04 09:08:03",
       daysOld: "169 Days Old",
       badge: "ZAFIRI"
     },
     {
       id: 4,
-      date: "2025-02-27",
+      date: "2024-12-25",
       image: event4,
       alt: "mwani",
-      title: "UPANDAJI WA MBEGU ZA MWANI",
-      subtitle: "Wafanyakazi wa ZAFIRI na wananchi wakipanda mbegu za Mwani",
-      uploaded: "2025-03-04 09:08:03",
+      title: "UKUSANYAJI WA TAARIFA PEMBA",
+      subtitle: "Ukusanyajiwa taarifa za Uvuvi mdogo mdogo ikiwemo Pweza na aina zote za chaza ",
+      uploaded: "2024-12-25 09:08:03",
       daysOld: "169 Days Old",
       badge: "ZAFIRI"
     },

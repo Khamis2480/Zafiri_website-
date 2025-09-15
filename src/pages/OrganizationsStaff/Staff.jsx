@@ -9,7 +9,7 @@ import sakhileTsotsobeImage from '../../assets/staff/IMG-20250906-WA0076.jpg';
 import a from '../../assets/staff/IMG-20250906-WA0077.jpg';
 import b from '../../assets/staff/IMG-20250906-WA0078.jpg';
 import c from '../../assets/staff/IMG-20250906-WA0079.jpg';
-import d from '../../assets/staff/IMG-20250906-WA0080.jpg';
+import d from '../../assets/staff/IMG_9677.JPG';
 import e from '../../assets/staff/IMG-20250906-WA0081.jpg';
 import f from '../../assets/staff/IMG-20250906-WA0082.jpg';
 import g from '../../assets/staff/IMG-20250906-WA0083.jpg';
