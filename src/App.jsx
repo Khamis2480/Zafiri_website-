@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // ✅ Import pages
-import Home from "./pages/Home";  
+import Home from "./pages/Home"; 
+// import Footer from "./Components/Footer"
 // import IframeLayout from "./Components/Iframe/Iframe";     
 import Partners from "./pages/Department_lab/Department_lab";
 import Header from "./Components/header"; 
@@ -28,6 +29,7 @@ function App() {
     <Router>
       {/* ✅ Reusable Header */}
       <Header />
+      {/* <Footer /> */}
 
       {/* ✅ Page Routes */}
       {/* <IframeLayout> */}
