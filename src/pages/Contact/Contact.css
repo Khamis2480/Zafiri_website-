@@ -60,7 +60,6 @@
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
-  font-family: 'Arial', sans-serif;
 }
 
 .contact-container h2 {
@@ -93,7 +92,7 @@
 
 .info-box i {
   font-size: 2rem;
-  color: #00e1d4;
+  color: #6fddf0;
   margin-bottom: 10px;
 }
 
@@ -107,7 +106,7 @@
 }
 
 .info-box a:hover {
-  color: #00bfb1; /* Optional hover color */
+  color: #6fddf0; /* Optional hover color */
 }
 
 
@@ -154,7 +153,7 @@
 }
 
 .contact-form button {
-  background-color: #00e1d4;
+  background-color: #6fddf0;
   color: white;
   border: none;
   padding: 12px;
@@ -165,5 +164,5 @@
 }
 
 .contact-form button:hover {
-  background-color: #00bfb1;
+  background-color: #0648d6;
 }

@@ -54,19 +54,19 @@ function ResearchDescription() {
 function ResearchProjects() {
     const projects = [
         {
-            title: "Digital Innovation for Sustainable Development",
+            title: "Division of fisheries Research and aquaculture",
             description:
                 "This project focuses on applying advanced digital technologies such as AI, data analytics, and IoT to support national development goals in education, health, and fisheries management.",
             link: "#",
         },
         {
-            title: "Climate and Marine Research Initiative",
+            title: "Division of Marine Environment Conservation Research",
             description:
                 "A collaborative program between local universities and international partners to study climate change impacts on marine ecosystems and propose practical solutions for coastal communities.",
             link: "#",
         },
         {
-            title: "Research Capacity Building Program",
+            title: "Division of Marine system Research",
             description:
                 "This initiative strengthens the research skills of young scientists through training, mentorship, and scholarships, ensuring a sustainable future for research and innovation in the country.",
             link: "#",
@@ -75,15 +75,12 @@ function ResearchProjects() {
 
     return (
         <section className="projects-section-research">
-            <h2>Our Latest Projects</h2>
+            <h2>Our Division </h2>
             <div className="projects-grid-research">
                 {projects.map((project, index) => (
                     <div className="project-card-research" key={index}>
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
-                        <a href={project.link} className="arrow-link">
-                            →
-                        </a>
                     </div>
                 ))}
             </div>
@@ -141,7 +138,7 @@ function PromoSection() {
     <section className="promo-section">
       <div className="promo-container">
         <div className="promo-content">
-          <h2> Our <span className="highlight">Strategies</span> in Laboratory Services </h2>
+          <h2> Our <span className="highlight">Strategies</span> in Research department </h2>
           <ul> <li>Adopt cutting-edge laboratory technologies</li>
             <li>Ensure compliance with global testing standards</li>
             <li>Provide timely and reliable laboratory results</li>

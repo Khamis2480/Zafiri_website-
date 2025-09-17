@@ -153,17 +153,32 @@ export default function Services() {
                 <div className="research-ethics-content">
                     <div className="ethics-text">
                         <h2>For the external researchers</h2>
-                        <p>Get your ethical certificate here</p>
-                        <button className="apply-button">APPLY HERE</button>
-                    </div>
-                    <div className="ethics-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            alt="Research Ethics Certificate"
-                        />
+                        <p>
+                            An <strong>ethical certificate</strong> is an official approval issued
+                            to ensure that all research activities are conducted in accordance with
+                            recognized ethical standards. It safeguards the rights, dignity, and
+                            safety of participants, promotes responsible research practices, and
+                            ensures compliance with institutional and national guidelines.
+                            <br /><br />
+                            By obtaining this certificate, external researchers demonstrate their
+                            commitment to conducting research that respects human rights, protects
+                            the environment, and upholds integrity in scientific investigation.
+                        </p>
+
+                        <div className="buttons">
+                            <button className="apply-button">APPLY HERE</button>
+                            <a
+                                href="/files/sample-ethical-certificate.pdf"
+                                download
+                                className="download-link"
+                            >
+                                Download Sample Certificate
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </>
     );
 };

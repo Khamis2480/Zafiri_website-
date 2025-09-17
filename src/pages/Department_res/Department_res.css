@@ -31,7 +31,7 @@
 }
 
 .hero-research-content-dept p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -63,7 +63,7 @@
 }
 
 .research-description-dept h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #071896;
@@ -71,7 +71,7 @@
 
 .research-description-dept p {
   margin-bottom: 1.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
 }
 
@@ -105,8 +105,8 @@
 }
 
 .project-card-research {
-  background-color: #a3e2f9;
-  padding: 1.5rem;
+  background-color: #acecf6;
+  padding: 1.7rem;
   text-align: left;
   border-radius: 8px;
   position: relative;
@@ -118,29 +118,15 @@
 }
 
 .project-card-research h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .project-card-research p {
   font-size: 0.95rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
   color: #202020;
-}
-
-.arrow-link {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #064d42;
-  transition: transform 0.3s;
-}
-
-.arrow-link:hover {
-  transform: translateX(5px);
 }
 
 
@@ -221,7 +207,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #8ae3f5;
+  background-color: #acecf6;
   padding: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
@@ -256,7 +242,7 @@
 }
 
 .research-button-dept {
-  background-color: #0e3d5c;
+  background-color: #140894;
   color: white;
   padding: 14px 24px;
   text-decoration: none;

@@ -32,7 +32,7 @@
 }
 
 .hero-lab-content p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -65,7 +65,7 @@
 }
 
 .lab-description-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #071896;
@@ -73,7 +73,7 @@
 
 .lab-description-section p {
   margin-bottom: 1.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #141414;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .projects-section-lab h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #071896;
@@ -106,8 +106,8 @@
 }
 
 .project-card-lab {
-  background-color: #8cd4f5;
-  padding: 1.5rem;
+  background-color: #acecf6;
+  padding: 1.7rem;
   text-align: left;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -118,13 +118,13 @@
 }
 
 .project-card-lab h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .project-card-lab p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   color: #333;
 }
@@ -168,7 +168,7 @@
 
 .lab-content p {
   margin-bottom: 15px;
-  line-height: 1.6;
+  line-height: 1.7;
   font-size: 1rem;
   color: #e0f2f1;
 }
@@ -193,10 +193,12 @@
   justify-content: space-between;
   align-items: center;
   background-color: #acecf6;
-  padding: 40px;
+  padding: 60px;
   border-radius: 8px;
   flex-wrap: wrap;
   margin: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .lab-text {
@@ -214,7 +216,7 @@
 .lab-text p {
   color: #131313;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
   margin-bottom: 30px;
 }
 
@@ -255,7 +257,7 @@
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  margin: 30px 40px;
+  margin: 30px 20px;
 }
 
 /* === Container === */
@@ -374,13 +376,13 @@
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #071896;;
+  color: #3f50d3;
   margin-bottom: 10px;
 }
 
 .lab-team h3 {
   font-size: 32px;
-  color: #3d76af;
+  color: #071896;
   margin-bottom: 20px;
 }
 

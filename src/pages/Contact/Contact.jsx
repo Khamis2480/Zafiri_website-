@@ -36,7 +36,7 @@ const ContactPage = () => {
             <i className="fas fa-phone-alt"></i>
             <h3>Call Us</h3>
             <p>
-              <a href="tel:+255624505872">+61 (8) 8234 3555</a>
+              <a href="tel:+255624505872">+255 624 505 872</a>
             </p>
 
           </div>

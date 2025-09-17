@@ -31,7 +31,7 @@
 }
 
 .hero-research-content p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -63,7 +63,7 @@
 }
 
 .research-description-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #071896;
@@ -71,7 +71,7 @@
 
 .research-description-section p {
   margin-bottom: 1.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #3f3f3f;
 }
 
@@ -109,8 +109,8 @@
 }
 
 .project-card {
-  background-color: #b3e4f5;
-  padding: 1.5rem;
+  background-color: #acecf6;
+  padding: 1.7rem;
   text-align: left;
   border-radius: 8px;
   position: relative;
@@ -122,29 +122,15 @@
 }
 
 .project-card h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .project-card p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-bottom: 1.2rem;
   color: #333;
-}
-
-.arrow-link {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #064d42;
-  transition: transform 0.3s;
-}
-
-.arrow-link:hover {
-  transform: translateX(5px);
 }
 
 
@@ -226,7 +212,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #baecfe;
+  background-color: #acecf6;
   padding: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
@@ -261,7 +247,7 @@
 }
 
 .research-button {
-  background-color: rgb(113, 207, 242);
+  background-color: #0a1ca2;
   color: white;
   padding: 14px 24px;
   text-decoration: none;
@@ -272,7 +258,7 @@
 }
 
 .research-button:hover {
-  background-color: rgb(51, 196, 249);
+  background-color: rgb(5, 19, 169);
 }
 
 .research-image-container {
@@ -411,7 +397,6 @@
 .medical-team {
   padding: 80px 0;
   background-color: #f8f9fa;
-  font-family: 'Arial', sans-serif;
 }
 
 .container {
@@ -441,7 +426,7 @@
 
 .section-header p {
   font-size: 16px;
-  color: #7f8c8d;
+  color: #212121;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;

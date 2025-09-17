@@ -137,7 +137,7 @@ function HRAPRecommendations() {
           rel="noopener noreferrer"
           className="research-button"
         >
-          Access our HRAP resources  ↗
+          Access our HRAP resources  
         </a>
       </div>
       <div className="research-image-container">

@@ -277,7 +277,7 @@
 /* ResearchEthics.css */
 .research-ethics-container {
   width: 100%;
-  padding: 60px 20px;
+  padding: 70px 20px;
   background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
 }
 
@@ -285,9 +285,10 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 50px;
+  gap: 60px;
 }
 
 .ethics-text {
@@ -296,20 +297,30 @@
 }
 
 .ethics-text h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #2c3e50;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   line-height: 1.2;
 }
 
 .ethics-text p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #34495e;
-  margin-bottom: 30px;
-  line-height: 1.4;
+  margin-bottom: 35px;
+  line-height: 1.6;
+  text-align: justify;
 }
 
+/* Buttons group */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Apply button */
 .apply-button {
   background: #3498db;
   color: white;
@@ -329,23 +340,28 @@
   box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
 }
 
+/* Download link styled like button */
+.download-link {
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  padding: 15px 35px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+   box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+}
+
+.download-link:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+/* Remove unused image styling */
 .ethics-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ethics-image img {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
-}
-
-.ethics-image img:hover {
-  transform: scale(1.02);
+  display: none;
 }
 
 /* Responsive design */
@@ -353,34 +369,38 @@
   .research-ethics-content {
     flex-direction: column;
     text-align: center;
-    gap: 30px;
+    gap: 40px;
   }
-  
+
   .ethics-text h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
-  
+
   .ethics-text p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    justify-content: center;
   }
 }
 
 @media (max-width: 768px) {
   .research-ethics-container {
-    padding: 40px 15px;
+    padding: 50px 15px;
   }
-  
+
   .ethics-text h2 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
-  
+
   .ethics-text p {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
-  
-  .apply-button {
-    padding: 12px 30px;
+
+  .apply-button,
+  .download-link {
+    padding: 12px 28px;
     font-size: 1rem;
   }
 }
-
