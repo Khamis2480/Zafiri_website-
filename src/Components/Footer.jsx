@@ -1,8 +1,8 @@
 import React from 'react';
-import './Footer.css'; // Make sure to create this CSS file
+import './Footer.css'; 
 
 // Import images (adjust path as needed)
-import zafiriLogo from '../asset/logo/zafiri.png';
+import zafiriLogo from '../assets/logo/zafiri.png';
 
 const Footer = () => {
   return (

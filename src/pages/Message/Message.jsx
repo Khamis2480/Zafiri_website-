@@ -2,7 +2,7 @@ import React from 'react';
 import './Message.css';
 
 // Import images (adjust paths as needed)
-import heroImage from '../../assets/event/3.JPG';
+import heroImage from '../../assets/histo/message from me.png';
 import directorPhoto from '../../assets/event/download.jpg';
 
 const DirectorMessage = () => {

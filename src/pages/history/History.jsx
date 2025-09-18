@@ -3,7 +3,7 @@ import './History.css';
 
 // Import images (adjust paths as needed)
 import heroImage from '../../assets/histo/history image.jpg';
-import zafiriBuilding from '../../assets/histo/history image.jpg';
+import zafiriBuilding from '../../assets/histo/zafir-building.jpg';
 
 const History = () => {
   return (
