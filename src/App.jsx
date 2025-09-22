@@ -16,11 +16,11 @@ import History from "./pages/History/History";
 import DirectorMessage from "./pages/Message/Message";
 import Mission from "./pages/Mission/Mission";
 import Team from "./pages/OrganizationsStaff/Staff";
-import Structure from "./pages/OrganizationStructure/Structure"
+import Structure from "./pages/OrganizationStructure/Structure";
 import Services from "./pages/Services/Services";
 import Publication from "./pages/Publication/Publication";
-import Centre from "./pages/Centers/Center"
-import ResearchAreas from "./pages/Research-area/Research-area"
+import Centre from "./pages/Centers/Center";
+import ResearchAreas from "./pages/Research-area/Research-area";
 
 function App() {
   return (

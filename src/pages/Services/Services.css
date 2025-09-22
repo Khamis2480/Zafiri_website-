@@ -1,4 +1,4 @@
-/* Hero Section */
+
 .hero {
   position: relative;
   width: 100%;
@@ -13,7 +13,6 @@
   margin-bottom: 40px;
 }
 
-/* Dark overlay */
 .hero .overlay {
   position: absolute;
   top: 0;
@@ -21,10 +20,8 @@
   width: 100%;
   height: 100%;
   background: rgba(10, 20, 40, 0.6);
-  /* dark blue overlay */
 }
 
-/* Text content */
 .hero-content {
   position: relative;
   color: white;
@@ -37,7 +34,6 @@
   font-weight: 700;
 }
 
-/* Breadcrumb */
 .breadcrumb {
   font-size: 0.9rem;
   color: #ddd;
@@ -53,99 +49,75 @@
   margin: 0 5px;
 }
 
-.decision-section {
-  color: #003333;
-  line-height: 1.6;
-}
 
-/* Top Section Layout */
-.decision-hero {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #d6efe4; /* light green background */
-  padding: 40px;
-  align-items: center;
-}
-
-.decision-text {
-  flex: 1;
-  min-width: 300px;
-  padding: 20px;
-}
-
-.decision-text h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.decision-text p {
-  margin-bottom: 20px;
-}
-
-.decision-btn {
-  background-color: #004d40;
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.decision-btn:hover {
-  background-color: #00352d;
-}
-
-.decision-image {
-  flex: 1;
-  min-width: 300px;
-  text-align: center;
-}
-
-.decision-image img {
-  width: 100%;
-  max-width: 500px;
+.why-choose-section {
+  padding: 40px 20px;
+  background: #f8faf9;
   border-radius: 8px;
 }
 
-/* Bottom Section */
-
-
-.decision-info  {
-  max-width: 800px;
-  margin: auto;
-  margin-top: 10px;
-  padding: 2rem;
-  color: #064d42;
-  line-height: 1.7;
+.why-choose-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #004d40;
 }
 
-.decision-info h3{
-  font-size: 2.0rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  color: #064d42;
-}
-
-.decision-info p  {
-  margin-bottom: 1.7rem;
-  font-size: 1rem;
+.why-choose-section .lead {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
   color: #333;
+  margin-left: 30%;
+  
 }
 
-.decision-info hr {
-  margin-top: 1.5rem;
-  border: none;
-  border-top: 1px solid #064d42;
+.points-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
 }
+
+.point-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.point-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.point-icon {
+  font-size: 2rem;
+}
+
+.point-body h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #003d2b;
+}
+
+.point-body p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
 
 .infra-section {
   color: #003333;
-  padding: 20px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
-/* Header */
 .infra-header {
   max-width: 800px;
   margin: 0 auto 40px;
@@ -164,17 +136,16 @@
   line-height: 1.6;
 }
 
-/* Cards Layout */
 .infra-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 50px;
-  width: 75%;
-  margin-left: 14%
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .infra-card {
-  background-color: #d6efe4; /* light green */
+  background-color: #d6efe4;
   border-radius: 8px;
   overflow: hidden;
   text-align: left;
@@ -195,7 +166,6 @@
 
 .infra-content {
   padding: 20px;
-  position: relative;
 }
 
 .infra-content h3 {
@@ -211,11 +181,9 @@
 }
 
 
-
 .other-services {
   padding: 60px 20px;
   background: #fff;
-
 }
 
 .services-header h2 {
@@ -223,7 +191,7 @@
   margin-bottom: 30px;
   text-align: left;
   color: #003d2b;
-  margin-left: 13%;
+  margin-left: 10%;
 }
 
 .services-grid {
@@ -237,7 +205,7 @@
   background: #e6f3f1;
   border-radius: 10px;
   overflow: hidden;
-  width: 23%;      /* control card width */
+  width: 280px;
   transition: transform 0.3s ease;
 }
 
@@ -274,7 +242,6 @@
   color: #003d2b;
 }
 
-/* ResearchEthics.css */
 .research-ethics-container {
   width: 100%;
   padding: 70px 20px;
@@ -312,7 +279,6 @@
   text-align: justify;
 }
 
-/* Buttons group */
 .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -320,7 +286,6 @@
   align-items: center;
 }
 
-/* Apply button */
 .apply-button {
   background: #3498db;
   color: white;
@@ -340,7 +305,6 @@
   box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
 }
 
-/* Download link styled like button */
 .download-link {
   background: #3498db;
   color: white;
@@ -350,7 +314,7 @@
   font-weight: 600;
   border-radius: 50px;
   transition: all 0.3s ease;
-   box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
 }
 
 .download-link:hover {
@@ -359,13 +323,12 @@
   box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
 }
 
-/* Remove unused image styling */
-.ethics-image {
-  display: none;
-}
 
-/* Responsive design */
 @media (max-width: 992px) {
+  .decision-hero {
+    flex-direction: column;
+  }
+
   .research-ethics-content {
     flex-direction: column;
     text-align: center;
@@ -386,6 +349,22 @@
 }
 
 @media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .why-choose-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .points-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .infra-cards {
+    width: 100%;
+  }
+
   .research-ethics-container {
     padding: 50px 15px;
   }

@@ -204,39 +204,40 @@ const ViceChancellorMessage = () => {
   );
 };
 
-
 const ResearchSection = () => {
   return (
-    <section className="research-section">
-      <div className="research-header">
-        <h2>Exploring Our Key Research Areas for Sustainable Marine Resources Management</h2>
-        <p>
-          At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources.
-          Our work includes assessing fish stocks, promoting aquaculture, and studying the impacts of climate change on our oceans.
-          By addressing these challenges, we aim to support local communities and preserve our marine ecosystems.
-        </p>
-      </div>
-
-      <div className="research-cards">
-        <div className="research-card">
-          <i className="fas fa-fish"></i>
-          <h3>Fisheries & Stock Assessment for Sustainable Food Security and Economic Growth</h3>
-          <p>We monitor fish catches to ensure sustainable practices that benefit our economy.</p>
-          <a href="#">Learn More →</a>
+    <section className="research-section parallax-section research-bg">
+      <div className="overlay">
+        <div className="research-header">
+          <h2>Exploring Our Key Research Areas for Sustainable Marine Resources Management</h2>
+          <p>
+            At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources.
+            Our work includes assessing fish stocks, promoting aquaculture, and studying the impacts of climate change on our oceans.
+            By addressing these challenges, we aim to support local communities and preserve our marine ecosystems.
+          </p>
         </div>
 
-        <div className="research-card">
-          <i className="fas fa-seedling"></i>
-          <h3>Aquaculture & Fish Farming: Supporting Local Farmers and Reducing Wild Stock Pressure</h3>
-          <p>Our research in aquaculture promotes responsible breeding and feeding practices.</p>
-          <a href="#">Learn More →</a>
-        </div>
+        <div className="research-cards">
+          <div className="research-card">
+            <i className="fas fa-fish"></i>
+            <h3>Fisheries & Stock Assessment; for Sustainable Food Security and Economic Growth</h3>
+            <p>We monitor fish catches to ensure sustainable practices that benefit our economy.</p>
+            <a href="#">Learn More →</a>
+          </div>
 
-        <div className="research-card">
-          <i className="fas fa-water"></i>
-          <h3>Climate Change & Oceanography: Understanding Our Vulnerable Marine Ecosystem</h3>
-          <p>We study the effects of climate change on Zanzibar's marine environments.</p>
-          <a href="#">Learn More →</a>
+          <div className="research-card">
+            <i className="fas fa-seedling"></i>
+            <h3>Aquaculture & Fish Farming; Supporting Local farmers abd Reducing Wild Stock Pressure</h3>
+            <p>Our research in aquaculture promotes responsible breeding and feeding practices.</p>
+            <a href="#">Learn More →</a>
+          </div>
+
+          <div className="research-card">
+            <i className="fas fa-water"></i>
+            <h3>Climate Change & Oceanography; Under standing Our Vulnerable Marine ecosystem </h3>
+            <p>We study the effects of climate change on Zanzibar's marine environments.</p>
+            <a href="#">Learn More →</a>
+          </div>
         </div>
       </div>
     </section>
@@ -250,31 +251,33 @@ import communityImage from '../assets/event/IMG_0059.JPG';
 
 const ServicesSection = () => {
   return (
-    <section className="services-section">
-      <h2>Empowering Sustainable Marine Resource Management</h2>
-      <p>
-        At ZAFIRI, we provide comprehensive research and scientific advice to ensure the sustainable
-        use of marine and fisheries resources. Our commitment is to enhance food security and support
-        local economies through innovative practices.
-      </p>
+    <section className="services-section parallax-section services-bg">
+      <div className="overlay">
+        <h2>Empowering Sustainable Marine Resource Management</h2>
+        <p>
+          At ZAFIRI, we provide comprehensive research and scientific advice to ensure the sustainable
+          use of marine and fisheries resources. Our commitment is to enhance food security and support
+          local economies through innovative practices.
+        </p>
 
-      <div className="services-container">
-        <div className="service-box">
-          <img src={labImage} alt="Research" />
-          <h3>Research and Scientific Advice</h3>
-          <p>We conduct in-depth studies to inform policy and practice.</p>
-        </div>
+        <div className="services-container">
+          <div className="service-box">
+            <img src={labImage} alt="Research" />
+            <h3>Research and Scientific Advice</h3>
+            <p>We conduct in-depth studies to inform policy and practice.</p>
+          </div>
 
-        <div className="service-box">
-          { <img src={fisheriesImage} alt="Fisheries" /> }
-          <h3>Promoting Sustainable Fisheries Practices</h3>
-          <p>Our initiatives support the balance between fishing and conservation.</p>
-        </div>
+          <div className="service-box">
+            <img src={fisheriesImage} alt="Fisheries" />
+            <h3>Promoting Sustainable Fisheries Practices</h3>
+            <p>Our initiatives support the balance between fishing and conservation.</p>
+          </div>
 
-        <div className="service-box">
-          { <img src={communityImage} alt="Community" /> }
-          <h3>Community Engagement and Education</h3>
-          <p>We connect research findings with local community needs.</p>
+          <div className="service-box">
+            <img src={communityImage} alt="Community" />
+            <h3>Community Engagement and Education</h3>
+            <p>We connect research findings with local community needs.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -773,18 +776,18 @@ import partner15 from '../assets/partner/15.png';
 const Partners = () => {
   // Partner data with website URLs
   const partnerLogos = [
-    { id: 1, src: partner1, alt: "COSTECH", url: "https://www.costech.go.tz/" },
-    { id: 5, src: partner5, alt: "WIOMSA", url: "https://wiomsa.org/" },
-    { id: 6, src: partner6, alt: "Matis", url: "https://matis.is/" },
-    { id: 7, src: partner7, alt: "UNESCO", url: "https://www.unesco.org/" },
-    { id: 8, src: partner8, alt: "SWIOFP", url: "https://www.swiofp.net/" },
-    { id: 9, src: partner9, alt: "SUZA", url: "https://www.suza.ac.tz/" },
+    { id: 1, src: partner1, alt: "WORLDFISH", url: "https://worldfishcenter.org" },
+    { id: 5, src: partner5, alt: "UDISM", url: "https://www.udsm.ac.tz" },
+    { id: 6, src: partner6, alt: "Sio", url: "https://www.sio.org.cn " },
+    { id: 7, src: partner7, alt: "TAFIRI", url: "https://www.tafiri.go.tz" },
+    { id: 8, src: partner8, alt: "COSTECH", url: "https://crweb.costech.or.tz" },
+    { id: 9, src: partner9, alt: "SYKE", url: "https://www.syke.fi › ..." },
     { id: 10, src: partner10, alt: "State University of Zanzibar", url: "https://www.suza.ac.tz/" },
-    { id: 11, src: partner11, alt: "WIOMSA Research", url: "https://wiomsa.org/" },
+    { id: 11, src: partner11, alt: "WORLD BANK", url: "https://www.worldbank.org › ext" },
     { id: 12, src: partner12, alt: "Matis Food Research", url: "https://matis.is/" },
     { id: 13, src: partner13, alt: "UNESCO Education", url: "https://www.unesco.org/" },
     { id: 14, src: partner14, alt: "SWIOFP Program", url: "https://www.swiofp.net/" },
-    { id: 15, src: partner15, alt: "COSTECH Innovation", url: "https://www.costech.go.tz/" },
+    { id: 15, src: partner15, alt: "COSTECH Innovation", url: "https://www.fao.org › home" },
   ];
 
   // Duplicate the array for seamless infinite scrolling

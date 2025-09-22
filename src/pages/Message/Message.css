@@ -89,6 +89,11 @@
   font-weight: 500;
   color: #1f2937;
 }
+.message-position{ 
+  font-weight: 500;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
 
 .message-text {
   font-size: 18px;

@@ -3,7 +3,7 @@ import './Message.css';
 
 // Import images (adjust paths as needed)
 import heroImage from '../../assets/histo/message from me.png';
-import directorPhoto from '../../assets/event/download.jpg';
+import directorPhoto from '../../assets/home/IMG_6209.JPG';
 
 const DirectorMessage = () => {
   return (
@@ -29,6 +29,9 @@ const DirectorMessage = () => {
         </div>
         <p className="message-meta">
           Dkt: <span className="name">Zakaria Ali Khamis</span>
+        </p>
+        <p className="message-position">
+          DIRECTOR GENERAL
         </p>
         <p className="message-text">
           Assalamu Alaikum wa Rahmatullahi wa Barakatuh,

@@ -283,20 +283,33 @@
     font-size: 11px;
   }
 }
-.research-section {
-  margin: 80px;
-  padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #000000;
+
+/* === Shared Parallax Section Styles === */
+.parallax-section {
+  background-image: url('../assets/home/fish.jpg'); /* 🔹 Shared background */
+  background-attachment: fixed;  /* Parallax effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 80px 20px;
 }
 
+ .parallax-section .overlay {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+} 
+
+/* === Research Section === */
 .research-header {
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
-  gap: 90px;
-  margin-bottom: 20px;
+  gap: 60px;
+  margin-bottom: 30px;
+  line-height: 1.6;
 }
 
 .research-header h2 {
@@ -309,45 +322,45 @@
 .research-header p {
   flex: 2;
   font-size: 17px;
-  color: #000000;
   text-align: justify;
+  color: #eee;
 }
 
 .research-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
 .research-card {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #87CEEB;
 }
 
 .research-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .research-card i {
   font-size: 40px;
-  color: #160090; /* Blue marine tone */
+  color: #160090;
   margin-bottom: 15px;
 }
 
 .research-card h3 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 10px;
-  color: #222;
+  font-weight: bold;
 }
 
 .research-card p {
-  font-size: 17px;
-  margin-bottom: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .research-card a {
@@ -360,11 +373,9 @@
   text-decoration: underline;
 }
 
-/* -- Services Section -- */
+/* === Services Section === */
 .services-section {
   text-align: center;
-  padding: 50px 20px;
-  margin: 70px;
 }
 
 .services-section h2 {
@@ -375,9 +386,9 @@
 
 .services-section p {
   font-size: 18px;
-  color: #000000;
   max-width: 700px;
   margin: 0 auto 40px;
+  color: #eee;
 }
 
 .services-container {
@@ -385,43 +396,52 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
-  background-color: #87CEEB;
 }
 
 .service-box {
   flex: 1 1 300px;
-  padding: 20px;
-  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   overflow: hidden;
-  /* ensures image doesn't overflow */
-  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .service-box img {
   width: 100%;
   object-fit: cover;
-  /* image fills box, crops if needed */
   border-radius: 12px 12px 0 0;
-  /* rounded top corners */
-  display: block;
 }
 
 .service-box h3 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 15px 0 10px;
   font-weight: bold;
 }
 
 .service-box p {
   font-size: 15px;
-  color: #000000;
+  padding: 0 15px 20px;
+  color: #242424;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .research-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
