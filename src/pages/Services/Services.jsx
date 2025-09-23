@@ -90,6 +90,16 @@ export default function Services() {
       title: "Research vessel Aranda",
       desc: "Aranda is a modern, ice-reinforced research vessel.",
     },
+    {
+      image: infra3,
+      title: "Research vessel Aranda",
+      desc: "Aranda is a modern, ice-reinforced research vessel.",
+    },
+    {
+      image: infra3,
+      title: "Research vessel Aranda",
+      desc: "Aranda is a modern, ice-reinforced research vessel.",
+    },
   ];
 
   return (
@@ -121,13 +131,19 @@ export default function Services() {
         {/* ✅ Research Infrastructure Section */}
         <section className="infra-section">
           <div className="infra-header">
-            <h2>Versatile and high-quality research infrastructures</h2>
+            <h2>Our Services</h2>
             <p>
-              We offer high-quality laboratory and quality assurance services,
-              marine research infrastructure services, and data resources with
-              interface services for use by our partners. Our services also
-              include the research vessel Aranda, measurement stations, and
-              numerous different measurement devices.
+              At ZAFIRI, we are proud to offer a wide range of specialized services
+              that support sustainable fisheries and marine resource management.
+              From state-of-the-art laboratories to modern research vessels and
+              advanced monitoring systems, our services are designed to deliver
+              accurate data, innovative solutions, and real impact for communities,
+              policymakers, and global partners.
+            </p>
+            <p>
+              Whether it’s conducting water quality analysis, guiding aquaculture
+              development, or providing evidence-based advisory, ZAFIRI’s services
+              ensure excellence, reliability, and sustainability every step of the way.
             </p>
           </div>
 

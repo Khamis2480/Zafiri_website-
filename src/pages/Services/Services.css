@@ -1,4 +1,4 @@
-
+/* ================= Hero Section ================= */
 .hero {
   position: relative;
   width: 100%;
@@ -49,11 +49,12 @@
   margin: 0 5px;
 }
 
-
+/* ================= Why Choose Our Services ================= */
 .why-choose-section {
-  padding: 40px 20px;
+  padding: 60px 20px;
   background: #f8faf9;
   border-radius: 8px;
+  margin-bottom: 60px;
 }
 
 .why-choose-section h2 {
@@ -68,8 +69,9 @@
   font-size: 1.1rem;
   margin-bottom: 40px;
   color: #333;
-  margin-left: 30%;
-  
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .points-grid {
@@ -111,9 +113,9 @@
   line-height: 1.5;
 }
 
-
+/* ================= Infra Section ================= */
 .infra-section {
-  color: #003333;
+  color: #1b1b1b;
   padding: 60px 20px;
   text-align: center;
 }
@@ -124,22 +126,23 @@
 }
 
 .infra-header h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-bottom: 15px;
   font-weight: bold;
-  color: #004d40;
+  color: #000000;
 }
 
 .infra-header p {
-  color: #444;
-  font-size: 1rem;
+  color: #1a1a1a;
+  font-size: 1.1rem;
   line-height: 1.6;
+  text-align: left;
 }
 
 .infra-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 30px;
   width: 80%;
   margin: 0 auto;
 }
@@ -180,171 +183,10 @@
   margin-bottom: 20px;
 }
 
-
-.other-services {
-  padding: 60px 20px;
-  background: #fff;
-}
-
-.services-header h2 {
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-  text-align: left;
-  color: #003d2b;
-  margin-left: 10%;
-}
-
-.services-grid {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.service-card {
-  background: #e6f3f1;
-  border-radius: 10px;
-  overflow: hidden;
-  width: 280px;
-  transition: transform 0.3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-}
-
-.service-card img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-}
-
-.service-content {
-  padding: 15px;
-}
-
-.service-content h3 {
-  font-size: 1rem;
-  margin-bottom: 10px;
-  color: #004d40;
-}
-
-.service-content p {
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
-.service-arrow {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #003d2b;
-}
-
-.research-ethics-container {
-  width: 100%;
-  padding: 70px 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
-}
-
-.research-ethics-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 60px;
-}
-
-.ethics-text {
-  flex: 1;
-  padding: 20px;
-}
-
-.ethics-text h2 {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #2c3e50;
-  margin-bottom: 25px;
-  line-height: 1.2;
-}
-
-.ethics-text p {
-  font-size: 1.4rem;
-  color: #34495e;
-  margin-bottom: 35px;
-  line-height: 1.6;
-  text-align: justify;
-}
-
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-}
-
-.apply-button {
-  background: #3498db;
-  color: white;
-  border: none;
-  padding: 15px 40px;
-  font-size: 1.2rem;
-  font-weight: 600;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
-}
-
-.apply-button:hover {
-  background: #2980b9;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
-}
-
-.download-link {
-  background: #3498db;
-  color: white;
-  text-decoration: none;
-  padding: 15px 35px;
-  font-size: 1.2rem;
-  font-weight: 600;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
-}
-
-.download-link:hover {
-  background: #2980b9;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
-}
-
-
+/* ================= Responsive ================= */
 @media (max-width: 992px) {
-  .decision-hero {
-    flex-direction: column;
-  }
-
-  .research-ethics-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 40px;
-  }
-
-  .ethics-text h2 {
-    font-size: 2.2rem;
-  }
-
-  .ethics-text p {
-    font-size: 1.2rem;
-  }
-
-  .buttons {
-    justify-content: center;
+  .infra-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
   }
 }
 
@@ -362,24 +204,7 @@
   }
 
   .infra-cards {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
     width: 100%;
-  }
-
-  .research-ethics-container {
-    padding: 50px 15px;
-  }
-
-  .ethics-text h2 {
-    font-size: 1.9rem;
-  }
-
-  .ethics-text p {
-    font-size: 1.05rem;
-  }
-
-  .apply-button,
-  .download-link {
-    padding: 12px 28px;
-    font-size: 1rem;
   }
 }

@@ -44,8 +44,8 @@ const Footer = () => {
             <div className="social-icons">
               <a href="#"><i className="fab fa-facebook-f"></i></a>
               <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="https://www.youtube.com"><i className="fab fa-youtube"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/@ZAFIRIWUBU"><i className="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/zafiriwubu"><i className="fab fa-instagram"></i></a>
             </div>
           </div>
 
