@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./Components/language/i18n"
 
 // ✅ Import pages
 import Home from "./pages/Home";
@@ -24,39 +26,41 @@ import ResearchAreas from "./pages/Research-area/Research-area";
 
 function App() {
   return (
+    <I18nextProvider i18n={i18n}>
 
-    <Router>
-      {/* ✅ Reusable Header */}
-      <Header />
-
-
-      {/* ✅ Page Routes */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/department-lab" element={<Partners />} />
-        <Route path="/department-res" element={<Research />} />
-        <Route path="/department-pla" element={<Planning />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/gallery" element={<PhotoGallery />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/history" element={<History />} />
-        <Route path="/message" element={<DirectorMessage />} />
-        <Route path="/mission" element={<Mission />} />
-        <Route path="/organizationStaff" element={<Team />} />
-        <Route path="/organizationStructure" element={<Structure />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/publication" element={<Publication />} />
-        <Route path="/center" element={<Centre />} />
-        <Route path="/area" element={<ResearchAreas />} />
+      <Router>
+        {/* ✅ Reusable Header */}
+        <Header />
 
 
+        {/* ✅ Page Routes */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/department-lab" element={<Partners />} />
+          <Route path="/department-res" element={<Research />} />
+          <Route path="/department-pla" element={<Planning />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/gallery" element={<PhotoGallery />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/message" element={<DirectorMessage />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/organizationStaff" element={<Team />} />
+          <Route path="/organizationStructure" element={<Structure />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/publication" element={<Publication />} />
+          <Route path="/center" element={<Centre />} />
+          <Route path="/area" element={<ResearchAreas />} />
 
-      </Routes>
 
-      <Footer />
 
-    </Router>
+        </Routes>
+
+        <Footer />
+
+      </Router>
+    </I18nextProvider>
   );
 }
 

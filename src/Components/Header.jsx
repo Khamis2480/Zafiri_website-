@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./Header.css";
 
 // Import images
@@ -10,43 +11,8 @@ import back3 from "../assets/home/back3.jpg";
 import back4 from "../assets/home/back4.jpg";
 import back5 from "../assets/home/back5.jpg";
 
-const translations = {
-  en: {
-    workingDay: (day) => `${day} (Working Day)`,
-    weekend: (day) => `${day} (Weekend)`,
-    titleMain: "MINISTRY OF BLUE ECONOMY AND FISHERIES",
-    marqueeTitle: "ZANZIBAR FISHERIES AND MARINE RESOURCES RESEARCH INSTITUTE",
-    marqueeSubtitle: "(ZAFIRI)",
-    navHome: "Home",
-    navAbout: "About Us",
-    navResearch: "Research & Projects",
-    navDepartment: "Departments & Centers",
-    navCenter: "Media",
-    navPublication: "Publications",
-    navContact: "Contact Us",
-    navService: "Services",
-  },
-  sw: {
-    workingDay: (day) => `${day} (Siku ya Kazi)`,
-    weekend: (day) => `${day} (Siku ya Mapumziko)`,
-    titleMain: "WIZARA YA BIASHARA YA BLUU NA UVUVI",
-    marqueeTitle:
-      "KITUO CHA UCHUNGUZI WA UVUVI NA RASILIMALI ZA BAHARI ZANZIBAR",
-    marqueeSubtitle: "(ZAFIRI)",
-    navHome: "Nyumbani",
-    navAbout: "Kuhusu",
-    navResearch: "Utafiti na Miradi",
-    navDepartment: "Idara na Vituo",
-    navCenter: "Kituo cha Habari",
-    navPublication: "Machapisho",
-    navContact: "Wasiliana nasi",
-    navService: "Huduma",
-
-  },
-};
-
 const Header = () => {
-  const [currentLang, setCurrentLang] = useState("en");
+  const { t, i18n } = useTranslation();
   const [currentTime, setCurrentTime] = useState("");
   const [currentDay, setCurrentDay] = useState("");
   const [currentBgIndex, setCurrentBgIndex] = useState(0);
@@ -59,9 +25,7 @@ const Header = () => {
   useEffect(() => {
     const updateClock = () => {
       const now = new Date(
-        new Date().toLocaleString("en-US", {
-          timeZone: "Africa/Dar_es_Salaam",
-        })
+        new Date().toLocaleString("en-US", { timeZone: "Africa/Dar_es_Salaam" })
       );
       setCurrentTime(now.toLocaleTimeString());
     };
@@ -73,43 +37,25 @@ const Header = () => {
   // Day
   useEffect(() => {
     const updateDay = () => {
-      const daysEN = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-      ];
-      const daysSW = [
-        "Jumapili",
-        "Jumatatu",
-        "Jumanne",
-        "Jumatano",
-        "Alhamisi",
-        "Ijumaa",
-        "Jumamosi",
-      ];
+      const daysEN = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      const daysSW = ["Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"];
 
       const now = new Date(
-        new Date().toLocaleString("en-US", {
-          timeZone: "Africa/Dar_es_Salaam",
-        })
+        new Date().toLocaleString("en-US", { timeZone: "Africa/Dar_es_Salaam" })
       );
       const dayIndex = now.getDay();
-      const dayName = currentLang === "en" ? daysEN[dayIndex] : daysSW[dayIndex];
+      const dayName = i18n.language === "en" ? daysEN[dayIndex] : daysSW[dayIndex];
       const isWorking = dayIndex >= 1 && dayIndex <= 5;
 
       setCurrentDay(
         isWorking
-          ? translations[currentLang].workingDay(dayName)
-          : translations[currentLang].weekend(dayName)
+          ? t("workingDay", { day: dayName })
+          : t("weekend", { day: dayName })
       );
     };
 
     updateDay();
-  }, [currentLang]);
+  }, [i18n.language, t]);
 
   // Background slideshow
   useEffect(() => {
@@ -120,11 +66,7 @@ const Header = () => {
   }, [backgrounds.length]);
 
   const toggleDropdown = (dropdownName) => {
-    if (activeDropdown === dropdownName) {
-      setActiveDropdown(null);
-    } else {
-      setActiveDropdown(dropdownName);
-    }
+    setActiveDropdown(activeDropdown === dropdownName ? null : dropdownName);
   };
 
   return (
@@ -146,8 +88,8 @@ const Header = () => {
         </div>
         <select
           id="language-btn"
-          value={currentLang}
-          onChange={(e) => setCurrentLang(e.target.value)}
+          value={i18n.language}
+          onChange={(e) => i18n.changeLanguage(e.target.value)}
         >
           <option value="en">English</option>
           <option value="sw">Swahili</option>
@@ -164,11 +106,11 @@ const Header = () => {
         </div>
         <div className="marquee-wrapper">
           <div className="marquee">
-            <h1>{translations[currentLang].titleMain}</h1>
+            <h1>{t("titleMain")}</h1>
           </div>
           <div className="static-title">
-            <h2>{translations[currentLang].marqueeTitle}</h2>
-            <h3>{translations[currentLang].marqueeSubtitle}</h3>
+            <h2>{t("marqueeTitle")}</h2>
+            <h3>{t("marqueeSubtitle")}</h3>
           </div>
         </div>
         <div className="logo-right">
@@ -188,72 +130,71 @@ const Header = () => {
         </button>
 
         <ul className={`nav-links ${isNavOpen ? "active" : ""}`}>
+          {/* Home */}
           <li>
-            <a href="/" onClick={() => setIsNavOpen(false)}>
-              {translations[currentLang].navHome}
-            </a>
+            <a href="/">{t("navHome")}</a>
           </li>
 
           {/* About */}
           <li
-            className={`dropdown ${activeDropdown === 'about' ? 'active' : ''}`}
-            onClick={() => toggleDropdown('about')}
+            className={`dropdown ${activeDropdown === "about" ? "active" : ""}`}
+            onClick={() => toggleDropdown("about")}
           >
-            <a href="#">{translations[currentLang].navAbout}</a>
+            <a href="#">{t("navAbout")}</a>
             <ul className="dropdown-menu">
-              <li><a href="/history" onClick={() => setIsNavOpen(false)}>History</a></li>
-              <li><a href="/mission" onClick={() => setIsNavOpen(false)}>Mission & Vision</a></li>
-              <li><a href="/message" onClick={() => setIsNavOpen(false)}>Director's Message</a></li>
-              <li><a href="/organizationStructure" onClick={() => setIsNavOpen(false)}>Organization Structure</a></li>
-              <li><a href="/organizationStaff" onClick={() => setIsNavOpen(false)}>Organization Staff</a></li>
+              <li><a href="/history">{t("aboutHistory")}</a></li>
+              <li><a href="/mission">{t("aboutMission")}</a></li>
+              <li><a href="/message">{t("aboutMessage")}</a></li>
+              <li><a href="/organizationStructure">{t("aboutStructure")}</a></li>
+              <li><a href="/organizationStaff">{t("aboutStaff")}</a></li>
             </ul>
           </li>
 
           {/* Research */}
           <li
-            className={`dropdown ${activeDropdown === 'research' ? 'active' : ''}`}
-            onClick={() => toggleDropdown('research')}
+            className={`dropdown ${activeDropdown === "research" ? "active" : ""}`}
+            onClick={() => toggleDropdown("research")}
           >
-            <a href="#">{translations[currentLang].navResearch}</a>
+            <a href="#">{t("navResearch")}</a>
             <ul className="dropdown-menu">
               <li className="dropdown-sub">
-                <a href="#">Research </a>
+                <a href="#">{t("researchMain")}</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="" onClick={() => setIsNavOpen(false)}>On-going Research </a></li>
-                  <li><a href="" onClick={() => setIsNavOpen(false)}>Complete Research </a></li>
+                  <li><a href="/research-ongoing">{t("researchOngoing")}</a></li>
+                  <li><a href="/research-complete">{t("researchComplete")}</a></li>
                 </ul>
               </li>
               <li className="dropdown-sub">
-                <a href="#">Projects </a>
+                <a href="#">{t("projectMain")}</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="" onClick={() => setIsNavOpen(false)}>On-going Project </a></li>
-                  <li><a href="" onClick={() => setIsNavOpen(false)}>Complete Project </a></li>
+                  <li><a href="/project-ongoing">{t("projectOngoing")}</a></li>
+                  <li><a href="/project-complete">{t("projectComplete")}</a></li>
                 </ul>
               </li>
-              <li><a href="/area" onClick={() => setIsNavOpen(false)}>Research Area </a></li>
+              <li><a href="/area">{t("researchArea")}</a></li>
             </ul>
           </li>
 
-          {/* Departments & Centers with sub-dropdowns */}
+          {/* Departments & Centers */}
           <li
-            className={`dropdown ${activeDropdown === 'department' ? 'active' : ''}`}
-            onClick={() => toggleDropdown('department')}
+            className={`dropdown ${activeDropdown === "department" ? "active" : ""}`}
+            onClick={() => toggleDropdown("department")}
           >
-            <a href="#">{translations[currentLang].navDepartment}</a>
+            <a href="#">{t("navDepartment")}</a>
             <ul className="dropdown-menu">
               <li className="dropdown-sub">
-                <a href="#">Departments ▸</a>
+                <a href="#">{t("depMain")}</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="/department-lab" onClick={() => setIsNavOpen(false)}>Department of Laboratory</a></li>
-                  <li><a href="/department-res" onClick={() => setIsNavOpen(false)}>Department of Research</a></li>
-                  <li><a href="/department-pla" onClick={() => setIsNavOpen(false)}>Department of Administration</a></li>
+                  <li><a href="/department-lab">{t("depLab")}</a></li>
+                  <li><a href="/department-res">{t("depRes")}</a></li>
+                  <li><a href="/department-admin">{t("depAdmin")}</a></li>
                 </ul>
               </li>
               <li className="dropdown-sub">
-                <a href="#">Centers ▸</a>
+                <a href="#">{t("centerMain")}</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="/centers/unguja" onClick={() => setIsNavOpen(false)}>Main Center</a></li>
-                  <li><a href="/center" onClick={() => setIsNavOpen(false)}>Pemba Center</a></li>
+                  <li><a href="/center-unguja">{t("centerUnguja")}</a></li>
+                  <li><a href="/center-pemba">{t("centerPemba")}</a></li>
                 </ul>
               </li>
             </ul>
@@ -261,37 +202,30 @@ const Header = () => {
 
           {/* Media */}
           <li
-            className={`dropdown ${activeDropdown === 'media' ? 'active' : ''}`}
-            onClick={() => toggleDropdown('media')}
+            className={`dropdown ${activeDropdown === "media" ? "active" : ""}`}
+            onClick={() => toggleDropdown("media")}
           >
-            <a href="#">{translations[currentLang].navCenter}</a>
+            <a href="#">{t("navCenter")}</a>
             <ul className="dropdown-menu">
-              <li><a href="/gallery" onClick={() => setIsNavOpen(false)}>Gallery</a></li>
-              <li><a href="/news" onClick={() => setIsNavOpen(false)}>News</a></li>
-              <li><a href="/events" onClick={() => setIsNavOpen(false)}>Events</a></li>
+              <li><a href="/gallery">{t("mediaGallery")}</a></li>
+              <li><a href="/news">{t("mediaNews")}</a></li>
+              <li><a href="/events">{t("mediaEvents")}</a></li>
             </ul>
           </li>
 
           {/* Publications */}
           <li>
-            <a href="/publication" onClick={() => setIsNavOpen(false)}>
-              {translations[currentLang].navPublication}
-            </a>
+            <a href="/publication">{t("navPublication")}</a>
           </li>
 
-          {/* Services - ADDED THIS */}
+          {/* Services */}
           <li>
-            <a href="/services" onClick={() => setIsNavOpen(false)}>
-              {translations[currentLang].navService}
-            </a>
+            <a href="/services">{t("navService")}</a>
           </li>
-
 
           {/* Contact */}
           <li>
-            <a href="/contact" onClick={() => setIsNavOpen(false)}>
-              {translations[currentLang].navContact}
-            </a>
+            <a href="/contact">{t("navContact")}</a>
           </li>
         </ul>
       </nav>

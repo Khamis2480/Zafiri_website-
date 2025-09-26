@@ -25,10 +25,16 @@ import o from '../../assets/staff/IMG-20250906-WA0091.jpg';
 import p from '../../assets/staff/IMG-20250906-WA0092.jpg';
 import q from '../../assets/staff/IMG-20250906-WA0093.jpg';
 import r from '../../assets/staff/IMG-20250906-WA0094.jpg';
-import s from '../../assets/staff/IMG-20250906-WA0095.jpg';
+import s from '../../assets/staff/IMG-20250906-WA0075.jpg';
 import u from '../../assets/staff/IMG-20250906-WA0096.jpg';
 import v from '../../assets/staff/IMG-20250906-WA0097.jpg';
 import t from '../../assets/staff/IMG-20250906-WA0098.jpg';
+import ab from '../../assets/staff/IMG-20250924-WA0013.jpg';
+import ac from '../../assets/staff/IMG-20250924-WA0012.jpg';
+import ad from '../../assets/staff/IMG-20250906-WA0077.jpg';
+import ae from '../../assets/staff/IMG-20250906-WA0099.jpg';
+import af from '../../assets/staff/IMG-20250906-WA0081.jpg';
+import ag from '../../assets/staff/IMG-20250924-WA0009.jpg';
 
 const Team = () => {
   const [expandedCards, setExpandedCards] = useState({});
@@ -56,7 +62,7 @@ const Team = () => {
       name: "Rukia Shebe Ali",
       position: "Microbiology",
       gender: "Female",
-       bio: "Ali has worked in the natural resources sector for more than 10 years. He also worked with CARE International and WWF Tanzania in Communication, Awareness and Training.",
+      bio: "Ali has worked in the natural resources sector for more than 10 years. He also worked with CARE International and WWF Tanzania in Communication, Awareness and Training.",
       image: aliThaniImage
     },
     {
@@ -67,8 +73,8 @@ const Team = () => {
       image: lornaSladeImage
     },
     {
-      name: "Sakhile Tsotsobe",
-      position: "Chief Technical Advisor",
+      name: "Abuu Bakar Thabit Noman",
+      position: "",
       gender: "Male",
       bio: "Sakhile is a seasoned technical expert with a proven track record in implementing complex systems and providing strategic technical guidance.",
       image: sakhileTsotsobeImage
@@ -76,7 +82,7 @@ const Team = () => {
     {
       name: "Mohammed Omar Khamis",
       position: "Marine Conservation Researcher",
-      gender: "Male", 
+      gender: "Male",
       bio: "Dedicated team member contributing to technical operations and support.",
       image: a
     },
@@ -123,7 +129,7 @@ const Team = () => {
       image: g
     },
     {
-      name: "Staff Member H",
+      name: "Fatma Mohammed Kadir",
       position: "Finance Officer",
       gender: "Female",
       bio: "Manages budgets, financial tracking, and accountability processes.",
@@ -165,7 +171,7 @@ const Team = () => {
       image: m
     },
     {
-      name: "Staff Member N",
+      name: "Abdallah Hamad Bakari",
       position: "Monitoring & Evaluation",
       gender: "Female",
       bio: "Oversees project monitoring and evaluation to ensure quality delivery.",
@@ -179,10 +185,10 @@ const Team = () => {
       image: o
     },
     {
-      name: "Staff Member P",
-      position: "Field Officer",
+      name: "Shadia Ahmada Hamad ",
+      position: "Geoinformatics Officer",
       gender: "Female",
-      bio: "Responsible for on-ground fieldwork, reporting, and community outreach.",
+      bio: "is a geospatial scientist focused on marine and environmental conservation. She applies GIS, remote sensing, and spatial data analysis to map and monitor coastal ecosystems. Her work supports sustainable management, climate change reporting, and conservation planning.",
       image: p
     },
     {
@@ -200,14 +206,14 @@ const Team = () => {
       image: r
     },
     {
-      name: "Staff Member S",
+      name: "Omar Hussein Ngushi",
       position: "Communications Officer",
       gender: "Male",
       bio: "Handles organizational communications, social media, and public relations.",
       image: s
     },
     {
-      name: "Staff Member T",
+      name: "Moh'd Azad Sharif",
       position: "Operations Assistant",
       gender: "Female",
       bio: "Assists in day-to-day operations and ensures project milestones are met.",
@@ -221,11 +227,53 @@ const Team = () => {
       image: u
     },
     {
-      name: "Staff Member V",
-      position: "Research Intern",
+      name: "Jamila Haji Ali",
+      position: "Marine Conservation Research Officer",
       gender: "Female",
       bio: "Engages in fieldwork, data entry, and preliminary analysis.",
       image: v
+    },
+    {
+      name: "Hashim Kombo Hassan",
+      position: "Marine Conservation Research Officer",
+      gender: "Male",
+      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      image: ab
+    },
+    {
+      name: "Ahmed Kombo Suleiman",
+      position: "Marine Ecology Research Officer",
+      gender: "Male",
+      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      image: ac
+    },
+    {
+      name: "Mohammed Omar Khamis",
+      position: "Marine Conservation Research Officer",
+      gender: "Male",
+      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      image: ad
+    },
+    {
+      name: "Ahmad Khamis Ali",
+      position: "Marine Ecology Research Officer",
+      gender: "Male",
+      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      image: ae
+    },
+    {
+      name: "Nadiya Juma Haji",
+      position: "Marine Ecology Research Officer",
+      gender: "Female",
+      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      image: af
+    },
+    {
+      name: "Riziki Abdulla Sharia",
+      position: "Store keeper",
+      gender: "Female",
+      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      image: ag
     },
   ];
 

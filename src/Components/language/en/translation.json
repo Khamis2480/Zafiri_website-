@@ -1,0 +1,165 @@
+{
+  "workingDay": "{{day}} (Working Day)",
+  "weekend": "{{day}} (Weekend)",
+  "titleMain": "MINISTRY OF BLUE ECONOMY AND FISHERIES",
+  "marqueeTitle": "ZANZIBAR FISHERIES AND MARINE RESOURCES RESEARCH INSTITUTE",
+  "marqueeSubtitle": "(ZAFIRI)",
+  "navHome": "Home",
+  "navAbout": "About Us",
+  "navResearch": "Research & Projects",
+  "navDepartment": "Departments & Centers",
+  "navCenter": "Media",
+  "navPublication": "Publications",
+  "navContact": "Contact Us",
+  "navService": "Services",
+  "aboutHistory": "History",
+  "aboutMission": "Mission & Vision",
+  "aboutMessage": "Director's Message",
+  "aboutStructure": "Organization Structure",
+  "aboutStaff": "Organization Staff",
+  "researchMain": "Research",
+  "researchOngoing": "On-going Research",
+  "researchComplete": "Complete Research",
+  "projectMain": "Projects",
+  "projectOngoing": "On-going Project",
+  "projectComplete": "Complete Project",
+  "researchArea": "Research Area",
+  "depMain": "Departments ▸",
+  "depLab": "Department of Laboratory",
+  "depRes": "Department of Research",
+  "depAdmin": "Department of Administration",
+  "centerMain": "Centers ▸",
+  "centerUnguja": "Main Center",
+  "centerPemba": "Pemba Center",
+  "mediaGallery": "Gallery",
+  "mediaNews": "News",
+  "mediaEvents": "Events",
+  
+  "slideshow": {
+    "slide1": "Launch of the Board of Directors of Zanzibar Fisheries and Marine Resources Research Institute",
+    "slide2": "ZAFIRI experts conducting Microorganism Analysis in marine water samples as part of research to check the quality of sea water",
+    "slide3": "Data collection exercise for small-scale fishermen engaged in octopus fishing and all types of clam species",
+    "slide4": "Meeting to plan development strategies for Aquaculture to promote the sector",
+    "slide5": "Zanzibar Blue Economy Ministry and its institutions meet with AABS project donors",
+    "slide6": "Group photo of Directors and Fisheries Committees in a meeting to review the use of devices showing fishing activity data at sea",
+    "slide7": "Deputy Secretary General Ndg. Zahour Kassim Alkharous and Directors of the Blue Economy Ministry followed by stakeholders from Ethical Seafood Research organization"
+  },
+  "viceChancellor": {
+    "name": "Dr. Zakaria Ali Khamis",
+    "title": "DIRECTOR GENERAL",
+    "greeting": "Assalamu Alaikum wa Rahmatullahi wa Barakatuh,",
+    "message": "It gives me great satisfaction to welcome all to the official Webpage of the Zafiri. I would like to convey special greetings to the academic and administrative staff, undergraduate and graduate students, alumni, parents and guardians, public and regulators.",
+    "readMore": "Read more"
+  },
+  "research": {
+    "title": "Exploring Our Key Research Areas for Sustainable Marine Resources Management",
+    "description": "At ZAFIRI, we focus on critical research areas that enhance the sustainability of Zanzibar's marine resources. Our work includes assessing fish stocks, promoting aquaculture, and studying the impacts of climate change on our oceans. By addressing these challenges, we aim to support local communities and preserve our marine ecosystems.",
+    "fisheries": {
+      "title": "Fisheries & Stock Assessment; for Sustainable Food Security and Economic Growth",
+      "description": "We monitor fish catches to ensure sustainable practices that benefit our economy.",
+      "learnMore": "Learn More →"
+    },
+    "aquaculture": {
+      "title": "Aquaculture & Fish Farming; Supporting Local farmers and Reducing Wild Stock Pressure",
+      "description": "Our research in aquaculture promotes responsible breeding and feeding practices.",
+      "learnMore": "Learn More →"
+    },
+    "climate": {
+      "title": "Climate Change & Oceanography; Understanding Our Vulnerable Marine ecosystem",
+      "description": "We study the effects of climate change on Zanzibar's marine environments.",
+      "learnMore": "Learn More →"
+    }
+  },
+  "services": {
+    "title": "Empowering Sustainable Marine Resource Management",
+    "description": "At ZAFIRI, we provide comprehensive research and scientific advice to ensure the sustainable use of marine and fisheries resources. Our commitment is to enhance food security and support local economies through innovative practices.",
+    "research": {
+      "title": "Research and Scientific Advice",
+      "description": "We conduct in-depth studies to inform policy and practice."
+    },
+    "fisheries": {
+      "title": "Promoting Sustainable Fisheries Practices",
+      "description": "Our initiatives support the balance between fishing and conservation."
+    },
+    "community": {
+      "title": "Community Engagement and Education",
+      "description": "We connect research findings with local community needs."
+    }
+  },
+  "projects": {
+    "subtitle": "OUR PROJECTS",
+    "title": "Driving Innovation for a Sustainable Blue Economy",
+    "description": "The Zanzibar Fisheries and Marine Resources Research Institute (ZAFIRI) Projects focus on promoting sustainable fisheries, advancing aquaculture, conserving marine ecosystems, and strengthening community capacity. Through research, innovation, and partnerships, these projects support Zanzibar's Blue Economy by protecting marine resources, improving livelihoods, and guiding evidence-based policy for long-term sustainability.",
+    "viewMore": "View More →",
+    "marineConservation": {
+      "title": "Marine Conservation and Coastal Protection",
+      "description": "ZAFIRI is committed to safeguarding Zanzibar's coastal and marine ecosystems through scientific research and community-based programs. The project focuses on coral reef restoration, mangrove replanting, and sustainable fishing practices to ensure long-term marine biodiversity and food security"
+    },
+    "aquaculture": {
+      "title": "Aquaculture and Innovation",
+      "description": "Through aquaculture development, ZAFIRI is advancing sustainable fish farming technologies. The project promotes research in hatchery development, seaweed farming, and other innovative aquaculture methods that reduce pressure on natural fisheries and increase income for local communities."
+    },
+    "capacityBuilding": {
+      "title": "Capacity Building and Community Engagement",
+      "description": "ZAFIRI places strong emphasis on education and training for fishers, students, and community groups. This project equips stakeholders with knowledge on marine resource management, climate change adaptation, and environmental stewardship."
+    }
+  },
+  "marine": {
+    "title": "Marine Pollution & Coastal Environment",
+    "description": "Plastic waste, oil spills, and habitat degradation threaten the marine ecosystem. Preserving biodiversity and protecting the coast are essential for sustaining tourism and local communities."
+  },
+  "events": {
+    "title": "ZAFIRI Events and News",
+    "description": "The Events and News section of the Zanzibar Fisheries and Marine Resources Research Institute (ZAFIRI) provides timely updates on official activities, research programs, community initiatives, and partnerships. It serves as a platform to share achievements, announcements, and institutional developments that support Zanzibar's vision of a sustainable Blue Economy.",
+    "readMore": "Read More",
+    "eventsList": {
+      "event1": {
+        "title": "RECEPTION OF ZANZIBAR RESEARCH VESSEL",
+        "subtitle": "Coinciding with the celebration of 50 years since the establishment of the marine research vessel"
+      },
+      "event2": {
+        "title": "SEAWEED FARMING",
+        "subtitle": "ZAFIRI Director handing over equipment to seaweed farmers"
+      },
+      "event3": {
+        "title": "SOLID WASTE ON BEACHES",
+        "subtitle": "Researchers assessing the level of solid waste collected on sea beaches"
+      },
+      "event4": {
+        "title": "DATA COLLECTION IN PEMBA",
+        "subtitle": "Collection of small-scale fishing data including octopus and all types of clams"
+      },
+      "event5": {
+        "title": "WATER QUALITY",
+        "subtitle": "Collection of water samples to check the quality of sea water"
+      },
+      "event6": {
+        "title": "AQUACULTURE",
+        "subtitle": "Monitoring the development of sea cucumber farming and its growth"
+      }
+    }
+  },
+  "impact": {
+    "title": "ZAFIRI Impact Overview",
+    "visitors": {
+      "title": "Visitors",
+      "description": "Shows the number of people visiting the ZAFIRI platform across different regions and periods."
+    },
+    "publications": {
+      "title": "Publications",
+      "description": "Highlights the published scientific articles and marine research shared by ZAFIRI."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Ongoing and completed projects showcasing innovations and marine sustainability."
+    },
+    "events": {
+      "title": "Events",
+      "description": "Details workshops, exhibitions, and marine awareness campaigns organized by ZAFIRI."
+    }
+  },
+  "partners": {
+    "title": "Our Partners & Collaborators",
+    "visitWebsite": "Visit Website"
+  }
+}

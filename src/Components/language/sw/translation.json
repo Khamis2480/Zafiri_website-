@@ -1,0 +1,172 @@
+{
+  "workingDay": "{{day}} (Siku ya Kazi)",
+  "weekend": "{{day}} (Siku ya Mapumziko)",
+
+  "titleMain": "WIZARA YA BIASHARA YA BLUU NA UVUVI",
+  "marqueeTitle": "KITUO CHA UCHUNGUZI WA UVUVI NA RASILIMALI ZA BAHARI ZANZIBAR",
+  "marqueeSubtitle": "(ZAFIRI)",
+
+  "navHome": "Nyumbani",
+  "navAbout": "Kuhusu Sisi",
+  "navResearch": "Utafiti na Miradi",
+  "navDepartment": "Idara na Vituo",
+  "navCenter": "Kituo cha Habari",
+  "navPublication": "Machapisho",
+  "navContact": "Wasiliana Nasi",
+  "navService": "Huduma",
+
+  "aboutHistory": "Historia",
+  "aboutMission": "Dira na Malengo",
+  "aboutMessage": "Ujumbe wa Mkurugenzi",
+  "aboutStructure": "Muundo wa Taasisi",
+  "aboutStaff": "Wafanyakazi wa Taasisi",
+
+  "researchMain": "Utafiti",
+  "researchOngoing": "Utafiti Unaondelea",
+  "researchComplete": "Utafiti Uliokamilika",
+  "projectMain": "Miradi",
+  "projectOngoing": "Mradi Unaondelea",
+  "projectComplete": "Mradi Uliokamilika",
+  "researchArea": "Eneo la Utafiti",
+
+  "depMain": "Idara ▸",
+  "depLab": "Idara ya Maabara",
+  "depRes": "Idara ya Utafiti",
+  "depAdmin": "Idara ya Utawala",
+  "centerMain": "Vituo ▸",
+  "centerUnguja": "Kituo Kikuu",
+  "centerPemba": "Kituo cha Pemba",
+
+  "mediaGallery": "Maktaba ya Picha",
+  "mediaNews": "Habari",
+  "mediaEvents": "Matukio",
+
+  
+  "slideshow": {
+    "slide1": "Uzinduzi wa Bodi ya Wakurugenzi wa Taasisi ya Utafiti wa Uvuvi na Maliasili za Baharini Zanzibar",
+    "slide2": "Wataalamu wa ZAFIRI wakifanya Uchunguzi wa Vimelea katika Sampuli za maji ya bahari ikiwa ni Utafiti wa kuangalia ubora wa maji ya Bahari",
+    "slide3": "Zoezi la ukusanyaji wa taarifa kwa wavuvi wadogo wadogo wa shughuli za utafutaji wa pweza na aina zote za jamii ya chaza",
+    "slide4": "Kikao cha kupanga mikakati ya maendeleo ya Ufugaji wa Viumbe maji ila kukuza Sekta hiyo",
+    "slide5": "Wizara ya Uchumi wa Buluu Zanzibar na Taasisi zake imekutana na Wafadhili wa mradi wa AABS",
+    "slide6": "Picha ya Pamoja Wakurugenzi na Kamati za Uvuvi katika Kikao cha kuleta mrejesho juu ya utumiaji wa vifaa vinavyoonyesha taarifa za Shughuli za Uvuvi Baharini",
+    "slide7": "Naibu Katibu mkuu Ndg.Zahour Kassim Alkharous na Wkurugenzi wa Wizara ya Uchumi wa buluu wakifatiwa na Wadau wa shirika la Ethical Seafood Research"
+  },
+ "viceChancellor": {
+    "name": "Dkt. Zakaria Ali Khamis",
+    "title": "MKURUGENZI MKUU",
+    "greeting": "Assalamu Alaikum wa Rahmatullahi wa Barakatuh",
+    "message": "Ninapata kuridhika kubwa kuwakaribisha wote kwenye Tovuti Rasmi ya Zafiri. Napenda kutoa salamu za pekee kwa wafanyakazi wa kitaaluma na kiutawala, wanafunzi wa shahada ya kwanza na wahitimu, waliomaliza, wazazi na walezi, umma na wasimamizi.",
+    "readMore": "Soma Zaidi"
+  },
+  "research": {
+    "title": "Kuchunguza Maeneo Yetu Makuu ya Utafiti kwa Usimamizi Endelevu wa Rasilimali za Bahari",
+    "description": "Katika ZAFIRI, tunalenga maeneo muhimu ya utafiti yanayoboresha uendelevu wa rasilimali za bahari za Zanzibar. Kazi yetu inajumuisha kukadiria akiba ya samaki, kukuza ufugaji wa samaki, na kuchunguza athari za mabadiliko ya tabiancha kwenye bahari zetu. Kwa kushughulikia changamoto hizi, tunakusudia kusaidia jamii za wenyeji na kuhifadhi mifumo ikolojia yetu ya bahari.",
+    "fisheries": {
+      "title": "Uvuvi na Tathmini ya Akiba; kwa Ulinzi Endelevu wa Chakula na Ukuaji wa Kiuchumi",
+      "description": "Tunafuatilia uvuvio wa samaki ili kuhakikisha mazoea endelevu yanayofaa uchumi wetu.",
+      "learnMore": "Jifunze Zaidi →"
+    },
+    "aquaculture": {
+      "title": "Ufugaji wa Samaki na Kilimo cha Samaki; Kusaidia Wakulima wa Ndani na Kupunguza Mshiko wa Akiba ya Mwituni",
+      "description": "Utafiti wetu katika ufugaji wa samaki unakuza mazoea madhubuti ya kuzaliana na kulisha.",
+      "learnMore": "Jifunze Zaidi →"
+    },
+    "climate": {
+      "title": "Mabadiliko ya Tabianchi na Ocanografia; Kuelewa Mfumo Wetu Tete wa Bahari",
+      "description": "Tunachunguza athari za mabadiliko ya tabianchi kwenye mazingira ya bahari ya Zanzibar.",
+      "learnMore": "Jifunze Zaidi →"
+    }
+  },
+  "services": {
+    "title": "Kuwawezesha Usimamizi Endelevu wa Rasilimali za Bahari",
+    "description": "Katika ZAFIRI, tunatoa utafiti kamili na ushauri wa kisayansi ili kuhakikisha matumizi endelevu ya rasilimali za bahari na uvuvi. Dhamira yetu ni kuboresha usalama wa chakula na kusaidia uchumi wa ndani kupitia mazoea ya ubunifu.",
+    "research": {
+      "title": "Utafiti na Ushauri wa Kisayansi",
+      "description": "Tunafanya tafiti za kina ili kutoa taarifa kwa sera na mazoea."
+    },
+    "fisheries": {
+      "title": "Kukuza Mazoea Endelevu ya Uvuvi",
+      "description": "Mipango yetu inasaidia usawa kati ya uvuvi na uhifadhi."
+    },
+    "community": {
+      "title": "Ushirikishwaji wa Jamii na Elimu",
+      "description": "Tunaunganisha matokeo ya utafiti na mahitaji ya jamii za wenyeji."
+    }
+  },
+  "projects": {
+    "subtitle": "MIRADI YETU",
+    "title": "Kuendesha Ubunifu kwa Uchumi wa Buluu Endelevu",
+    "description": "Miradi ya Taasisi ya Utafiti wa Uvuvi na Rasilimali za Bahari Zanzibar (ZAFIRI) inalenga kukuza uvuvi endelevu, kuendeleza ufugaji wa samaki, kuhifadhi mifumo ikolojia ya bahari, na kuimarisha uwezo wa jamii. Kupitia utafiti, ubunifu, na ushirikiano, miradi hii inasaidia Uchumi wa Buluu wa Zanzibar kwa kulinda rasilimali za bahari, kuboresha maisha, na kuongoza sera yenye msingi wa uthibitisho kwa uendelevu wa muda mrefu.",
+    "viewMore": "Tazama Zaidi →",
+    "marineConservation": {
+      "title": "Uhifadhi wa Bahari na Ulinzi wa Pwani",
+      "description": "ZAFIRI imejikita katika kulinda mifumo ikolojia ya pwani na bahari ya Zanzibar kupitia utafiti wa kisayansi na programu zinazoshirikisha jamii. Mradi unalenga urejeshaji wa miamba ya matumbawe, upandaji tena wa mikoko, na mazoea endelevu ya uvuvi ili kuhakikisha bioanuwai ya bahari na usalama wa chakula kwa muda mrefu."
+    },
+    "aquaculture": {
+      "title": "Ufugaji wa Samaki na Ubunifu",
+      "description": "Kupitia maendeleo ya ufugaji wa samaki, ZAFIRI inaendeleza teknolojia endelevu za ufugaji wa samaki. Mradi unakuza utafiti katika ukuzaji vifaranga, kilimo cha mwani, na mbinu zingine za ubunifu za ufugaji wa samaki ambazo hupunguza msongo kwenye uvuvi wa asili na kuongeza kipato kwa jamii za wenyeji."
+    },
+    "capacityBuilding": {
+      "title": "Ujenzi wa Uwezo na Ushirikishwaji wa Jamii",
+      "description": "ZAFIRI inaweka mkazo mkuu kwenye elimu na mafunzo kwa wavuvi, wanafunzi, na vikundi vya jamii. Mradi huu unaandaa wadau na ujuzi wa usimamizi wa rasilimali za bahari, kukabiliana na mabadiliko ya tabianchi, na uangalizi wa mazingira."
+    }
+  },
+  "marine": {
+    "title": "Uchafuzi wa Bahari na Mazingira ya Pwani",
+    "description": "Taka za plastiki, kumwagika kwa mafuta, na uharibifu wa makazi yanatishia mfumo wa bahari. Kuhifadhi bioanuwai na kulinda pwani ni muhimu kwa kudumisha utalii na jamii za wenyeji."
+  },
+  "events": {
+    "title": "Matukio na Habari za ZAFIRI",
+    "description": "Sehemu ya Matukio na Habari ya Taasisi ya Utafiti wa Uvuvi na Rasilimali za Bahari Zanzibar (ZAFIRI) inatoa taarifa za haraka kuhusu shughuli za kiserikali, programu za utafiti, mikakati ya jamii, na ushirikiano. Inatumika kama jukwaa la kushirikisha mafanikio, matangazo, na maendeleo ya taasisi yanayosaidia dhana ya Zanzibar ya Uchumi wa Buluu endelevu.",
+    "readMore": "Soma Zaidi",
+    "eventsList": {
+      "event1": {
+        "title": "UPOKEAJI WA MELI YA UTAFITI ZANZIBAR",
+        "subtitle": "Ikiambatan na sherehe ya kutimiza miaka 50 ya kuanzishwa kwa meli ya utafiti wa bahari"
+      },
+      "event2": {
+        "title": "UKULIMA WA MWANI",
+        "subtitle": "Mkurugenzi wa ZAFIRI akikabidhi vifaa kwa wakulim wa Mwani"
+      },
+      "event3": {
+        "title": "TAKA NGUMU KATIKA FUKWE",
+        "subtitle": "Watafiti wakitathmini kiwango cha taka ngumu zilizokusanywa katika fukwe za bahari"
+      },
+      "event4": {
+        "title": "UKUSANYAJI WA TAARIFA PEMBA",
+        "subtitle": "Ukusanyaji wa taarifa za Uvuvi mdogo mdogo ikiwemo Pweza na aina zote za chaza"
+      },
+      "event5": {
+        "title": "UBORA WA MAJI",
+        "subtitle": "Uchukuaji wa vipimo vya maji kwa ajili ya kuangalia ubora wa maji ya bahari"
+      },
+      "event6": {
+        "title": "UFUGAJI WA VIUMBE BAharini",
+        "subtitle": "Kuangalia maendeleo ya ufugaji wa Majongoo bahari na ukuwaji wake"
+      }
+    }
+  },
+  "impact": {
+    "title": "Muhtasari wa Athari za ZAFIRI",
+    "visitors": {
+      "title": "Wageni",
+      "description": "Inaonyesha idadi ya watu wanaotembelea jukwaa la ZAFIRI katika maeneo na vipindi tofauti."
+    },
+    "publications": {
+      "title": "Machapisho",
+      "description": "Inaangazia makala za kisayansi zilizochapishwa na tafiti za baharini zinazoshirikishwa na ZAFIRI."
+    },
+    "projects": {
+      "title": "Miradi",
+      "description": "Miradi inayoendelea na iliyokamilika inayodhihirisha ubunifu na uendelevu wa bahari."
+    },
+    "events": {
+      "title": "Matukio",
+      "description": "Inaelezea warsha, maonyesho, na kampeni za uhamasishaji wa baharini zinazoratibiwa na ZAFIRI."
+    }
+  },
+  "partners": {
+    "title": "Washirika na Wadau Wetu",
+    "visitWebsite": "Tembelea Tovuti"
+  }
+}

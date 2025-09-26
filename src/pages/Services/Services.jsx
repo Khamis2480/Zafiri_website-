@@ -154,6 +154,7 @@ export default function Services() {
                 <div className="infra-content">
                   <h3>{card.title}</h3>
                   <p>{card.desc}</p>
+                   <a href="/area">Learn More →</a>
                 </div>
               </div>
             ))}
