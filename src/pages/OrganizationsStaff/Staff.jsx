@@ -74,9 +74,9 @@ const Team = () => {
     },
     {
       name: "Abuu Bakar Thabit Noman",
-      position: "",
+      position: "Aquaculture Research Officer",
       gender: "Male",
-      bio: "Sakhile is a seasoned technical expert with a proven track record in implementing complex systems and providing strategic technical guidance.",
+      bio: "s an Aquaculture Researcher specializing in sustainable marine aquaculture and resource management, promoting food security and economic growth. He advances innovative practices, engages communities, and supports the Blue Economy while safeguarding marine resources.",
       image: sakhileTsotsobeImage
     },
     {
@@ -101,10 +101,10 @@ const Team = () => {
       image: c
     },
     {
-      name: "Staff Member D",
-      position: "Field Coordinator",
+      name: "Salwa Haji Abdulla ",
+      position: "Geo-Informatics Officer",
       gender: "Female",
-      bio: "Coordinates fieldwork and ensures successful project implementation.",
+      bio: "is a Geoinformatics officer specializing in marine research using GIS, spatial analysis and Remote sensing technology.I am passionate on using spatial technology  to support  decision  making.conservtion plans  for sustainable development of marine resources.",
       image: d
     },
     {
@@ -118,7 +118,7 @@ const Team = () => {
       name: "Maitham Tahir Bakar",
       position: "Fisheries Research Officer",
       gender: "Female",
-      bio: "Builds strong connections with community stakeholders and partners.",
+      bio: "is an aquaculture specialist dedicated to sustainable practices, conducting research and collaborating with stakeholders to enhance food security and biodiversity. She is committed to supporting communities and preserving Zanzibar’s marine heritage.",
       image: f
     },
     {
@@ -137,9 +137,9 @@ const Team = () => {
     },
     {
       name: "Sukhayla Khamis Juma",
-      position: "Marine Aqualculture Researcher",
+      position: "Aqualculture Research Officer",
       gender: "Female",
-      bio: "Provides support to technical teams in system deployment and troubleshooting.",
+      bio: "is a specialist in sustainable aquaculture and marine resource management. She improves aquaculture productivity and livelihoods through research, community collaboration, and sustainable fish and seaweed farming. Committed to outreach and empowering farmers for sustainable economy.",
       image: i
     },
     {
@@ -237,7 +237,7 @@ const Team = () => {
       name: "Hashim Kombo Hassan",
       position: "Marine Conservation Research Officer",
       gender: "Male",
-      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      bio: "is a marine conservation researcher whose work examines coastal ecosystem management, marine litter dynamics, aquatic ecosystems, the ocean observation system, and the impacts of climate change on marine resources in Zanzibar. ",
       image: ab
     },
     {
@@ -251,7 +251,7 @@ const Team = () => {
       name: "Mohammed Omar Khamis",
       position: "Marine Conservation Research Officer",
       gender: "Male",
-      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      bio: "As a marine conservation researcher I am committed to strengthening marine conservation and sustainable uses of marine and coastal resources.  I have actively contributed to various marine scientific research, conservation initiatives and monitoring of marine ecosystem resources.",
       image: ad
     },
     {
@@ -281,7 +281,7 @@ const Team = () => {
   const rankOrder = {
     "Chief Executive Officer": 1,
     "Chief Technical Advisor": 2,
-    "Technical Advisor Co-founder": 3,
+    "Marine Conservation Officer": 3,
     "Program Manager": 4,
     "Project Officer": 5,
     "Research Staff": 6,
