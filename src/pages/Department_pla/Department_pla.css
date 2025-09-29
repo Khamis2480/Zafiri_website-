@@ -91,13 +91,8 @@
 .projects-section h2 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
-}
+  margin-bottom: 40px;
 
-.projects-section p {
-  margin-bottom: 2rem;
-  color:  #3f3f3f;
-  font-size: 1rem;
 }
 
 .projects-grid {
@@ -532,7 +527,7 @@
 }
 
 .value-item .icon {
-  color: #f4b400; /* Yellow accent */
+  color: #071896;
   font-size: 1.2rem;
   margin-right: 10px;
   margin-top: 5px;
@@ -542,7 +537,7 @@
   margin: 0;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #222;
+  color: #333;
 }
 
 .value-item p {

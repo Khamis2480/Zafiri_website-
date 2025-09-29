@@ -235,7 +235,7 @@
 }
 
 .research-text-dept p {
-  color: #2d2d2d;
+  color: #333;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
@@ -253,7 +253,7 @@
 }
 
 .research-button-dept:hover {
-  background-color: #043556;
+  background-color:  #090071;
 }
 
 .research-image-container-dept {

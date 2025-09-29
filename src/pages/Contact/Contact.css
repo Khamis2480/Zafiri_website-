@@ -68,8 +68,8 @@
 }
 
 .subtext {
-  color: #777;
-  font-size: 1rem;
+  color: #333;
+  font-size: 1.1rem;
   margin-bottom: 40px;
 }
 
@@ -92,7 +92,7 @@
 
 .info-box i {
   font-size: 2rem;
-  color: #6fddf0;
+  color: #071896;
   margin-bottom: 10px;
 }
 

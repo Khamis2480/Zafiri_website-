@@ -23,6 +23,7 @@ import Services from "./pages/Services/Services";
 import Publication from "./pages/Publication/Publication";
 import Centre from "./pages/Centers/Center";
 import ResearchAreas from "./pages/Research-area/Research-area";
+import Certificate from "./pages/Services/Certificate/Certificate"
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/publication" element={<Publication />} />
           <Route path="/center" element={<Centre />} />
           <Route path="/area" element={<ResearchAreas />} />
+          <Route path="/Certificate" element={<Certificate />} />
 
 
 

@@ -71,11 +71,7 @@ function HRAPProjects() {
 
   return (
     <section className="projects-section">
-      <h2>Our HRAP Programs</h2>
-      <p>
-        Highlights of our human resource, administrative, and planning programs
-        that drive organizational growth and sustainability.
-      </p>
+      <h2>Our Division</h2>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
@@ -132,7 +128,7 @@ function HRAPRecommendations() {
           direction.
         </p>
         <a
-          href="https://issuu.com"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="research-button"

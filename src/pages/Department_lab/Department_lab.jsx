@@ -70,10 +70,8 @@ function LaboratoryProjects() {
   ];
   return (
     <section className="projects-section-lab">
-      <h2>Our Laboratory Programs</h2>
-      <p>
-        Highlights of our laboratory-based programs and initiatives designed to safeguard marine ecosystems, fisheries, and community health.
-      </p>
+      <h2>Our Division</h2>
+      
       <div className="projects-grid-lab">
         {projects.map((p, i) => (
           <div className="project-card-lab" key={i}>
@@ -113,12 +111,13 @@ function LaboratoryRecommendations() {
     <div className="lab-container">
       <div className="lab-text">
         <h2>Laboratory Reports</h2>
+        <div className="underline" />
         <p>
           Access our laboratory publications, technical briefs, and reports generated from ongoing analyses.
           These documents guide stakeholders, policymakers, and researchers with evidence-based data.
         </p>
-        <a href="https://issuu.com" className="lab-button">
-          Access Reports ↗
+        <a href="" className="lab-button">
+          Access laboratory Reports 
         </a>
       </div>
       <div className="lab-image-container">

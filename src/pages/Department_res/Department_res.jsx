@@ -123,7 +123,7 @@ function ResearchRecommendations() {
                   In our department, we generate evidence-based insights, reports, and briefs.
                    Explore key findings and publications crafted to support policy-making, innovation, and scientific advancement.
                 </p>
-                <a href="https://issuu.com" className="research-button-dept">
+                <a href="" className="research-button-dept">
                     Access Research Projects
                 </a>
             </div>

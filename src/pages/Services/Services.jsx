@@ -77,30 +77,36 @@ export default function Services() {
   const infraCards = [
     {
       image: infra1,
-      title: "Research infrastructures",
-      desc: "We offer our laboratories, equipment, and data for use in research projects and by our partners.",
+      title: "Ethical certificate",
+      desc: "We issue ethical certificates to ensure research follows recognized standards and protects participants.",
+      path: "/Certificate",
     },
     {
       image: infra2,
       title: "Quality and laboratory services",
-      desc: "We act as national environmental reference laboratory appointed by the Ministry of the Environment.",
+      desc: "We provide advanced laboratory testing and act as the national reference lab.",
+      path: "/lab-services",
     },
     {
       image: infra3,
       title: "Research vessel Aranda",
-      desc: "Aranda is a modern, ice-reinforced research vessel.",
+      desc: "Aranda is a modern, ice-reinforced research vessel supporting marine exploration.",
+      path: "/research-vessel",
     },
     {
       image: infra3,
-      title: "Research vessel Aranda",
-      desc: "Aranda is a modern, ice-reinforced research vessel.",
+      title: "Marine monitoring stations",
+      desc: "We operate specialized stations for continuous environmental data collection.",
+      path: "/monitoring-stations",
     },
     {
       image: infra3,
-      title: "Research vessel Aranda",
-      desc: "Aranda is a modern, ice-reinforced research vessel.",
+      title: "Data resources",
+      desc: "We provide open access to marine research datasets and analysis tools.",
+      path: "/data-resources",
     },
   ];
+
 
   return (
     <>
@@ -154,11 +160,12 @@ export default function Services() {
                 <div className="infra-content">
                   <h3>{card.title}</h3>
                   <p>{card.desc}</p>
-                   <a href="/area">Learn More →</a>
+                  <a href={card.path}>Learn More →</a>
                 </div>
               </div>
             ))}
           </div>
+
         </section>
       </div>
     </>
