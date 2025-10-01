@@ -25,15 +25,15 @@ import o from '../../assets/staff/IMG-20250906-WA0091.jpg';
 import p from '../../assets/staff/IMG-20250906-WA0092.jpg';
 import q from '../../assets/staff/IMG-20250906-WA0093.jpg';
 import r from '../../assets/staff/IMG-20250906-WA0094.jpg';
-import s from '../../assets/staff/IMG-20250906-WA0075.jpg';
+import s from '../../assets/staff/IMG_0129.JPG';
 import u from '../../assets/staff/IMG-20250906-WA0096.jpg';
 import v from '../../assets/staff/IMG-20250906-WA0097.jpg';
 import t from '../../assets/staff/IMG-20250906-WA0098.jpg';
 import ab from '../../assets/staff/IMG-20250924-WA0013.jpg';
 import ac from '../../assets/staff/IMG-20250924-WA0012.jpg';
-import ad from '../../assets/staff/IMG-20250906-WA0077.jpg';
+import ad from '../../assets/staff/IMG_9828.JPG';
 import ae from '../../assets/staff/IMG-20250906-WA0099.jpg';
-import af from '../../assets/staff/IMG-20250906-WA0081.jpg';
+import af from '../../assets/staff/IMG_0081.JPG';
 import ag from '../../assets/staff/IMG-20250924-WA0009.jpg';
 
 const Team = () => {
@@ -62,14 +62,14 @@ const Team = () => {
       name: "Rukia Shebe Ali",
       position: "Microbiology",
       gender: "Female",
-      bio: "Ali has worked in the natural resources sector for more than 10 years. He also worked with CARE International and WWF Tanzania in Communication, Awareness and Training.",
+      bio: " Microbiologist specialized in bacteria, fungi, and algae, with a focus on their microscopic characteristics and features. Skilled in studying microbial diversity and functions in aquatic systems. Dedicated to advancing knowledge that supports ecosystem health and sustainable resource management.",
       image: aliThaniImage
     },
     {
       name: "Omar Hussein Ngushi",
       position: "Statistic officer",
       gender: "Male",
-      bio: "Lorna brings extensive technical expertise with over 15 years of experience. She has been pivotal in developing innovative solutions.",
+      bio: " is a skilled Data analysit professional with a background in official statistics. I specializes in data management, statistical analysis, and research and Questionnare design, with strong expertise in analytical tools such as STATA, R, SPSS, and Excel. His work focuses on producing evidence-based insights to guide policy development, project evaluation, and sustainable marine resource management.",
       image: lornaSladeImage
     },
     {
@@ -111,7 +111,7 @@ const Team = () => {
       name: "Khalid Rashid Suleiman",
       position: "Office Supervisor",
       gender: "Male",
-      bio: "Provides administrative and office support to ensure smooth operations.",
+      bio: "Is a Office supervisor at ZAFIRI in my Biology to ensuring the building is clean and tidy and also ensuring all work servics are abvailable such as water and electricity, Transportation and also ensure the safety of the building and all work work assets are safe",
       image: e
     },
     {
@@ -143,17 +143,17 @@ const Team = () => {
       image: i
     },
     {
-      name: "Staff Member J",
-      position: "Researcher",
+      name: "Hidaya Abdallah Juma",
+      position: "Secretary",
       gender: "Female",
       bio: "Conducts research and provides insights for program development.",
       image: j
     },
     {
       name: "Yussuf Abdulla Mohamed",
-      position: "Lboratory Assistance(Chemistry)",
+      position: "Laboratory Assistance(Chemistry)",
       gender: "Male",
-      bio: "Supports day-to-day operations and logistics management.",
+      bio: "Is a skilled Laboratory Technician with experience in conducting sample collection and sample tests, maintaining laboratory Equipment (handling) and maintaining laboratory safety and accuracy in scientific analysis. ",
       image: k
     },
     {
@@ -173,14 +173,14 @@ const Team = () => {
     {
       name: "Abdallah Hamad Bakari",
       position: "Monitoring & Evaluation",
-      gender: "Female",
+      gender: "Male",
       bio: "Oversees project monitoring and evaluation to ensure quality delivery.",
       image: n
     },
     {
-      name: "Staff Member O",
-      position: "IT Support",
-      gender: "Male",
+      name: "Rahma Sultan Salum",
+      position: "Archieve and Records Officer",
+      gender: "Female",
       bio: "Provides IT support, manages digital systems, and maintains databases.",
       image: o
     },
@@ -193,44 +193,44 @@ const Team = () => {
     },
     {
       name: "Nyange Hassan Mwadini",
-      position: "Microbiology Laboratory Officer",
+      position: "Laboratory technician",
       gender: "Male",
-      bio: "Leads program strategy, implementation, and resource mobilization.",
+      bio: "Is a laboratory technician he hold a Bachelor of Science in Biology which provide him with a solid foundation in biological sciences. In his role as a lab technician   he utilize his experties to coduct analysis of sample and contribut to scientific research and health care development ",
       image: q
     },
     {
-      name: "Staff Member R",
-      position: "Assistant Researcher",
-      gender: "Female",
+      name: "Ali Said Ali",
+      position: "Head of Research Department",
+      gender: "Male",
       bio: "Supports research initiatives, data collection, and reporting.",
       image: r
     },
     {
-      name: "Omar Hussein Ngushi",
-      position: "Communications Officer",
+      name: "Mansur Suleiman Juma",
+      position: "Lab Chemists",
       gender: "Male",
-      bio: "Handles organizational communications, social media, and public relations.",
+      bio: "Is a chemist focuses on test and studies materials to undestand their chemical properties. He use laboratory equipmentto analyze marine resource and product.he give support in research quality control and environmrntal protection",
       image: s
     },
     {
       name: "Moh'd Azad Sharif",
-      position: "Operations Assistant",
-      gender: "Female",
-      bio: "Assists in day-to-day operations and ensures project milestones are met.",
+      position: "Chief ICT officer",
+      gender: "Male",
+      bio: " is an accomplished Information and Communication Technologies Officer with a Bachelor of Science in Computer Science, with expertise in system administration, Mohammed has successfully managed various systems, including the Government Mailing System, Electronic Office System, and Zanzibar Government Asset Registration System. His technical skills also extend to Local Internet Services, CCTV Camera Systems, PBX systems, Attendance Biometric Systems, and Advanced Access Control Systems. Additionally, he provides crucial help desk support for internal assistance, ensuring seamless operations.",
       image: t
     },
     {
-      name: "Staff Member U",
-      position: "Project Intern",
+      name: "Yussuf Salim Bakar",
+      position: "Aquaculture Research Officer",
       gender: "Male",
-      bio: "Provides support to senior staff while learning practical project management.",
+      bio: "Is a Researcher at ZAFIRI His work is mainly focus on coral reef and reef fisheries management marine culture and fish stock assesment",
       image: u
     },
     {
       name: "Jamila Haji Ali",
       position: "Marine Conservation Research Officer",
       gender: "Female",
-      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      bio: "she is a bachelor degree holder in Geography and Environmental studies. Her main functions in ZAFIRl are to conduct all marine related Researches basically in Marine Conservation, dissemination of findings. Moreover, she is also working with GIS in marine and coastal researches, with focus on mapping, monitoring and interpretation to support marine conservation, climate adaptation and sustainable resources management",
       image: v
     },
     {
@@ -244,12 +244,12 @@ const Team = () => {
       name: "Ahmed Kombo Suleiman",
       position: "Marine Ecology Research Officer",
       gender: "Male",
-      bio: "Engages in fieldwork, data entry, and preliminary analysis.",
+      bio: "Dedicated to marine ecosystems and marine life by supporting marine conservation through scientific research and fieldwork to promoting sustainable conservation practices of marine resources.",
       image: ac
     },
     {
-      name: "Mohammed Omar Khamis",
-      position: "Marine Conservation Research Officer",
+      name: "Abdul Fahad Othman",
+      position: "Chief Accountant",
       gender: "Male",
       bio: "As a marine conservation researcher I am committed to strengthening marine conservation and sustainable uses of marine and coastal resources.  I have actively contributed to various marine scientific research, conservation initiatives and monitoring of marine ecosystem resources.",
       image: ad

@@ -4,10 +4,10 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "./Components/language/i18n"
 
 // ✅ Import pages
-import Home from "./pages/Home";
-import Footer from "./Components/Footer"
-import Partners from "./pages/Department_lab/Department_lab";
 import Header from "./Components/header";
+import Home from "./pages/Home";
+import Footer from "./Components/Footer";
+import Partners from "./pages/Department_lab/Department_lab";
 import Research from "./pages/Department_res/Department_res";
 import Planning from "./pages/Department_pla/Department_pla";
 import ContactPage from "./pages/Contact/Contact";
@@ -23,7 +23,7 @@ import Services from "./pages/Services/Services";
 import Publication from "./pages/Publication/Publication";
 import Centre from "./pages/Centers/Center";
 import ResearchAreas from "./pages/Research-area/Research-area";
-import Certificate from "./pages/Services/Certificate/Certificate"
+import Certificate from "./pages/Services/Certificate/Certificate";
 
 function App() {
   return (
