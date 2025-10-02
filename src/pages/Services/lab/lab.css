@@ -1,0 +1,84 @@
+.lab-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.lab-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.lab-section {
+  margin-bottom: 30px;
+}
+
+.lab-section h2 {
+  font-size: 1.5rem;
+  color: #0b6b5f;
+  margin-bottom: 10px;
+}
+
+.lab-section p,
+.lab-section ul,
+.lab-section ol {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.lab-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.lab-section ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.lab-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.apply-btn,
+.download-btn {
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Apply Now button */
+.apply-btn {
+  background: #0b6b5f;
+  color: #fff;
+}
+
+.apply-btn:hover {
+  background: #064d42;
+}
+
+/* Download button */
+.download-btn {
+  background: #eaf5f3;
+  color: #0b6b5f;
+  border: 1px solid #0b6b5f;
+}
+
+.download-btn:hover {
+  background: #d2ebe6;
+}

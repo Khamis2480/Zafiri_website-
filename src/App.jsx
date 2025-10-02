@@ -24,6 +24,10 @@ import Publication from "./pages/Publication/Publication";
 import Centre from "./pages/Centers/Center";
 import ResearchAreas from "./pages/Research-area/Research-area";
 import Certificate from "./pages/Services/Certificate/Certificate";
+import Laboratory from "./pages/Services/lab/lab";
+import Consultancy from "./pages/Services/Consu/Consultancy"
+import Outreach from "./pages/Services/out/Outreach";
+import ResearchServices from "./pages/Services/Res/ResearchServices";
 
 function App() {
   return (
@@ -54,6 +58,10 @@ function App() {
           <Route path="/center" element={<Centre />} />
           <Route path="/area" element={<ResearchAreas />} />
           <Route path="/Certificate" element={<Certificate />} />
+          <Route path="/Laboratory" element={<Laboratory />} />
+          <Route path="/Consultancy" element={<Consultancy />} />
+          <Route path="/Outreach" element={<Outreach />} />
+          <Route path="/ResearchServices" element={<ResearchServices />} />
 
 
 

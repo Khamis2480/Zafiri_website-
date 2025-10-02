@@ -1,0 +1,59 @@
+.outreach-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.outreach-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.outreach-section {
+  margin-bottom: 30px;
+}
+
+.outreach-section h2 {
+  font-size: 1.5rem;
+  color: #0b6b5f;
+  margin-bottom: 10px;
+}
+
+.outreach-section p,
+.outreach-section ul {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.outreach-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.outreach-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0b6b5f;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #064d42;
+}

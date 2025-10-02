@@ -84,26 +84,26 @@ export default function Services() {
     {
       image: infra2,
       title: "Quality and laboratory services",
-      desc: "We provide advanced laboratory testing and act as the national reference lab.",
-      path: "/lab-services",
+      desc: "Providing high-quality testing and analysis for marine, fisheries, and aquaculture research.",
+      path: "/Laboratory",
     },
     {
       image: infra3,
-      title: "Research vessel Aranda",
-      desc: "Aranda is a modern, ice-reinforced research vessel supporting marine exploration.",
-      path: "/research-vessel",
+      title: "Consultancy",
+      desc: "Expert advisory on marine resource management, policy development, and sustainable fisheries.",
+      path: "/Consultancy",
     },
     {
       image: infra3,
-      title: "Marine monitoring stations",
-      desc: "We operate specialized stations for continuous environmental data collection.",
-      path: "/monitoring-stations",
+      title: "Outreach",
+      desc: "Community engagement, training programs, and awareness campaigns on marine conservation.",
+      path: "/Outreach",
     },
     {
       image: infra3,
-      title: "Data resources",
-      desc: "We provide open access to marine research datasets and analysis tools.",
-      path: "/data-resources",
+      title: "Researchs",
+      desc: "Advanced studies and projects addressing marine and fisheries challenges.",
+      path: "/ResearchServices",
     },
   ];
 
