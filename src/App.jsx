@@ -28,6 +28,17 @@ import Laboratory from "./pages/Services/lab/lab";
 import Consultancy from "./pages/Services/Consu/Consultancy"
 import Outreach from "./pages/Services/out/Outreach";
 import ResearchServices from "./pages/Services/Res/ResearchServices";
+import FishStock from "./pages/Research-area/Fish/fish";
+import CaptureFishery from "./pages/Research-area/capture/CaptureFishery";
+import Aquaculture from "./pages/Research-area/Aquaculture/Aquaculture";
+import FishBiology from "./pages/Research-area/FishBiology/FishBiology";
+import FishDisease from "./pages/Research-area/FishDisease/FishDisease";
+import Oceanography from "./pages/Research-area/Oceanography/Oceanography";
+import ClimateChange from "./pages/Research-area/ClimateChange/ClimateChange";
+import CoastalPollution from "./pages/Research-area/CoastalPollution/CoastalPollution";
+import SocioEconomics from "./pages/Research-area/SocioEconomics/SocioEconomics";
+
+
 
 function App() {
   return (
@@ -62,6 +73,17 @@ function App() {
           <Route path="/Consultancy" element={<Consultancy />} />
           <Route path="/Outreach" element={<Outreach />} />
           <Route path="/ResearchServices" element={<ResearchServices />} />
+          <Route path="/FishStock" element={<FishStock />} />
+          <Route path="/CaptureFishery" element={<CaptureFishery />} />
+          <Route path="/Aquaculture" element={<Aquaculture />} />
+          <Route path="/FishBiology" element={<FishBiology />} />
+          <Route path="/FishDisease" element={<FishDisease />} />
+          <Route path="/Oceanography" element={<Oceanography />} />
+          <Route path="/ClimateChange" element={<ClimateChange />} />
+          <Route path="/CoastalPollution" element={<CoastalPollution />} />
+          <Route path="/SocioEconomics" element={<SocioEconomics />} />
+          
+          
 
 
 

@@ -2,7 +2,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .research-areas-header {
@@ -12,14 +11,14 @@
 
 .research-areas-header h1 {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #071896;
   margin-bottom: 15px;
   font-weight: 700;
 }
 
 .research-areas-header p {
   font-size: 1.1rem;
-  color: #7f8c8d;
+  color: #333;
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
@@ -32,40 +31,18 @@
 }
 
 .research-areas-card {
-  background: white;
-  border-radius: 12px;
   padding: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
   height: 100%;
-  position: relative;
   overflow: hidden;
+  background: #acecf6;
+  border: 1px solid #86eafa;
+  border-radius: 12px;
 }
 
-.research-areas-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5px;
-  height: 100%;
-  background: linear-gradient(to bottom, #3498db, #2c3e50);
-}
-
-.research-areas-card:nth-child(3n+1)::before {
-  background: linear-gradient(to bottom, #3498db, #2ecc71);
-}
-
-.research-areas-card:nth-child(3n+2)::before {
-  background: linear-gradient(to bottom, #9b59b6, #e74c3c);
-}
-
-.research-areas-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-}
 
 .research-areas-icon {
   font-size: 3rem;
@@ -75,14 +52,14 @@
 
 .research-areas-card h3 {
   font-size: 1.4rem;
-  color: #2c3e50;
+  color: #050505;
   margin-bottom: 15px;
   font-weight: 600;
   line-height: 1.3;
 }
 
 .research-areas-card p {
-  color: #5d7a9c;
+  color: #333;
   line-height: 1.6;
   margin-bottom: 25px;
   flex-grow: 1;
@@ -99,6 +76,7 @@
   transition: background 0.3s ease;
   align-self: flex-start;
   margin-top: auto;
+  text-decoration: none;   
 }
 
 .research-areas-button:hover {

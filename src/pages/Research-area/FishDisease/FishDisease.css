@@ -1,0 +1,106 @@
+.disease-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.disease-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.disease-section {
+  margin-bottom: 40px;
+}
+
+.disease-section h2 {
+  font-size: 1.6rem;
+  color: #0b6b5f;
+  margin-bottom: 15px;
+}
+
+.disease-section p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+/* Key themes */
+.disease-key-themes {
+  list-style: none;
+  padding: 0;
+}
+
+.disease-key-themes li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Projects */
+.disease-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.disease-project-card {
+  background: #f4fbf9;
+  border: 1px solid #cce3dd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.disease-project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #064d42;
+}
+
+.disease-project-card:hover {
+  transform: translateY(-5px);
+  background: #eaf8f3;
+}
+
+/* Buttons */
+.disease-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.disease-contact-btn,
+.disease-back-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.disease-contact-btn {
+  background: #0b6b5f;
+  color: #fff;
+}
+
+.disease-contact-btn:hover {
+  background: #064d42;
+}
+
+.disease-back-btn {
+  background: #eaf5f3;
+  color: #0b6b5f;
+  border: 1px solid #0b6b5f;
+}
+
+.disease-back-btn:hover {
+  background: #d2ebe6;
+}

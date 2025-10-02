@@ -1,0 +1,106 @@
+.bio-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.bio-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.bio-section {
+  margin-bottom: 40px;
+}
+
+.bio-section h2 {
+  font-size: 1.6rem;
+  color: #0b6b5f;
+  margin-bottom: 15px;
+}
+
+.bio-section p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+/* Key themes */
+.bio-key-themes {
+  list-style: none;
+  padding: 0;
+}
+
+.bio-key-themes li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Projects */
+.bio-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.bio-project-card {
+  background: #f4fbf9;
+  border: 1px solid #cce3dd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.bio-project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #064d42;
+}
+
+.bio-project-card:hover {
+  transform: translateY(-5px);
+  background: #eaf8f3;
+}
+
+/* Buttons */
+.bio-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.bio-contact-btn,
+.bio-back-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.bio-contact-btn {
+  background: #0b6b5f;
+  color: #fff;
+}
+
+.bio-contact-btn:hover {
+  background: #064d42;
+}
+
+.bio-back-btn {
+  background: #eaf5f3;
+  color: #0b6b5f;
+  border: 1px solid #0b6b5f;
+}
+
+.bio-back-btn:hover {
+  background: #d2ebe6;
+}
