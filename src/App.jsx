@@ -37,6 +37,12 @@ import Oceanography from "./pages/Research-area/Oceanography/Oceanography";
 import ClimateChange from "./pages/Research-area/ClimateChange/ClimateChange";
 import CoastalPollution from "./pages/Research-area/CoastalPollution/CoastalPollution";
 import SocioEconomics from "./pages/Research-area/SocioEconomics/SocioEconomics";
+import Bioinformatics from "./pages/Research-area/Bioinformatics/Bioinformatics";
+import FishFarmingProcessing from "./pages/Research-area/FishFarmingProcessing/FishFarmingProcessing";
+import AquaticEcosystems from "./pages/Research-area/AquaticEcosystems/AquaticEcosystems";
+import FishBreedingFeeding from "./pages/Research-area/FishBreedingFeeding/FishBreedingFeeding";
+import FishHandlingProcessing from "./pages/Research-area/FishHandlingProcessing/FishHandlingProcessing";
+import TissueCulturing from "./pages/Research-area/TissueCulturing/TissueCulturing";
 
 
 
@@ -82,7 +88,13 @@ function App() {
           <Route path="/ClimateChange" element={<ClimateChange />} />
           <Route path="/CoastalPollution" element={<CoastalPollution />} />
           <Route path="/SocioEconomics" element={<SocioEconomics />} />
-          
+          <Route path="/Bioinformatics" element={<Bioinformatics  />} />
+          <Route path="/FishFarmingProcessing" element={<FishFarmingProcessing  />} />
+          <Route path="/AquaticEcosystems" element={<AquaticEcosystems  />} />
+          <Route path="/FishBreedingFeeding" element={<FishBreedingFeeding  />} />
+          <Route path="/FishHandlingProcessing" element={<FishHandlingProcessing  />} />
+          <Route path="/TissueCulturing" element={<TissueCulturing  />} />
+
           
 
 

@@ -192,7 +192,7 @@ const Header = () => {
               <li className="dropdown-sub">
                 <a href="#">{t("centerMain")}</a>
                 <ul className="dropdown-submenu">
-                  <li><a href="/center-pemba">{t("centerPemba")}</a></li>
+                  <li><a href="/center">{t("centerPemba")}</a></li>
                 </ul>
               </li>
             </ul>

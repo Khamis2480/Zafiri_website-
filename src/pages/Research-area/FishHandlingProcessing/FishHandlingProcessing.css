@@ -1,0 +1,134 @@
+.fhsp-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.fhsp-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.fhsp-section {
+  margin-bottom: 40px;
+}
+
+.fhsp-section h2 {
+  font-size: 1.6rem;
+  color: #0b6b5f;
+  margin-bottom: 15px;
+}
+
+.fhsp-section p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.fhsp-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fhsp-section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* --- Featured Projects --- */
+.fhsp-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.fhsp-project-card {
+  background: #f4fbf9;
+  border: 1px solid #cce3dd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.fhsp-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  background: #eaf8f3;
+}
+
+.fhsp-project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #064d42;
+}
+
+.fhsp-project-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* --- Buttons --- */
+.fhsp-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.fhsp-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Contact button */
+.fhsp-contact {
+  background: #0b6b5f;
+  color: #fff;
+}
+
+.fhsp-contact:hover {
+  background: #064d42;
+}
+
+/* Back button */
+.fhsp-back {
+  background: #eaf5f3;
+  color: #0b6b5f;
+  border: 1px solid #0b6b5f;
+}
+
+.fhsp-back:hover {
+  background: #d2ebe6;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .fhsp-title {
+    font-size: 1.8rem;
+  }
+
+  .fhsp-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .fhsp-project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .fhsp-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,134 @@
+.fbf-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.fbf-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.fbf-section {
+  margin-bottom: 40px;
+}
+
+.fbf-section h2 {
+  font-size: 1.6rem;
+  color: #0b6b5f;
+  margin-bottom: 15px;
+}
+
+.fbf-section p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.fbf-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fbf-section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* --- Featured Projects --- */
+.fbf-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.fbf-project-card {
+  background: #f4fbf9;
+  border: 1px solid #cce3dd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.fbf-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  background: #eaf8f3;
+}
+
+.fbf-project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #064d42;
+}
+
+.fbf-project-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* --- Buttons --- */
+.fbf-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.fbf-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Contact button */
+.fbf-contact {
+  background: #0b6b5f;
+  color: #fff;
+}
+
+.fbf-contact:hover {
+  background: #064d42;
+}
+
+/* Back button */
+.fbf-back {
+  background: #eaf5f3;
+  color: #0b6b5f;
+  border: 1px solid #0b6b5f;
+}
+
+.fbf-back:hover {
+  background: #d2ebe6;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .fbf-title {
+    font-size: 1.9rem;
+  }
+
+  .fbf-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .fbf-project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .fbf-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}

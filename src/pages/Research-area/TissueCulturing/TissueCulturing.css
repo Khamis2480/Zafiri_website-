@@ -1,0 +1,134 @@
+.tissue-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
+}
+
+.tissue-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: #064d42;
+}
+
+.tissue-section {
+  margin-bottom: 40px;
+}
+
+.tissue-section h2 {
+  font-size: 1.6rem;
+  color: #0b6b5f;
+  margin-bottom: 15px;
+}
+
+.tissue-section p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.tissue-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tissue-section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* --- Featured Projects --- */
+.tissue-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.tissue-project-card {
+  background: #f4fbf9;
+  border: 1px solid #cce3dd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.tissue-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background: #eaf8f3;
+}
+
+.tissue-project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #064d42;
+}
+
+.tissue-project-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* --- Buttons --- */
+.tissue-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.tissue-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Contact button */
+.tissue-contact {
+  background: #0b6b5f;
+  color: #fff;
+}
+
+.tissue-contact:hover {
+  background: #064d42;
+}
+
+/* Back button */
+.tissue-back {
+  background: #eaf5f3;
+  color: #0b6b5f;
+  border: 1px solid #0b6b5f;
+}
+
+.tissue-back:hover {
+  background: #d2ebe6;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .tissue-title {
+    font-size: 1.8rem;
+  }
+
+  .tissue-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .tissue-project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .tissue-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}

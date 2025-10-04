@@ -72,42 +72,42 @@ const ResearchAreas = () => {
       title: "Bioinformatics",
       description: "Applying computational tools to analyze biological data for genomics, proteomics, and other molecular studies in aquatic species.",
       icon: "💻",
-      path: "/research-areas/bioinformatics"
+      path: "/Bioinformatics"
     },
     {
       id: 11,
       title: "Fish Farming and Processing Technologies",
       description: "Developing innovative technologies for efficient fish farming, harvesting, and processing to improve yield and quality.",
       icon: "🏭",
-      path: "/research-areas/fish-farming"
+      path: "/FishFarmingProcessing"
     },
     {
       id: 12,
       title: "Aquatic Ecosystems and Biodiversity",
       description: "Research on the diversity of aquatic life, ecosystem functions, and conservation strategies for preserving biodiversity.",
       icon: "🐠",
-      path: "/research-areas/aquatic-biodiversity"
+      path: "/AquaticEcosystems"
     },
     {
       id: 13,
       title: "Fish Breeding and Feeding",
       description: "Studies on selective breeding, nutrition, feed formulation, and feeding strategies to optimize growth and health in aquaculture.",
       icon: "🍽️",
-      path: "/research-areas/fish-breeding"
+      path: "/FishBreedingFeeding"
     },
     {
       id: 14,
       title: "Fish Handling, Storage, Processing, Marketing and Distribution Facilities",
       description: "Research on post-harvest technologies, value addition, cold chain management, and market access for fishery products.",
       icon: "🚚",
-      path: "/research-areas/fish-handling"
+      path: "/FishHandlingProcessing"
     },
     {
       id: 15,
       title: "Tissue Culturing of Seaweed and Other Marine Cultured Species",
       description: "Developing tissue culture techniques for seaweed and other marine species to support sustainable mariculture and biotechnology applications.",
       icon: "🌿",
-      path: "/research-areas/seaweed-culture"
+      path: "/TissueCulturing"
     }
   ];
 
