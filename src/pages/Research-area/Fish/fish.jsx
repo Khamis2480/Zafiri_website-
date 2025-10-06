@@ -74,8 +74,8 @@ export default function FishStock() {
 
       {/* Call to Action */}
       <div className="fishstock-buttons">
-        <a href="/publication" className="fishstock-explore-btn">Explore Publications →</a>
-        <a href="/contact" className="fishstock-contact-btn">Contact Our Experts →</a>
+        <a href="/contact" className="fishstock-explore-btn">Contact Our Experts </a>
+        <a href="/area" className="fishstock-contact-btn">Back to Research Areas </a>
       </div>
     </main>
   );

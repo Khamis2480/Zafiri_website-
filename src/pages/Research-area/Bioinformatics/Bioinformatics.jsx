@@ -83,10 +83,10 @@ export default function Bioinformatics() {
       {/* Call to Action */}
       <div className="bio-buttons">
         <Link to="/contact" className="bio-btn bio-contact">
-          Contact Our Experts →
+          Contact Our Experts 
         </Link>
         <Link to="/area" className="bio-btn bio-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

@@ -148,7 +148,7 @@
 }
 
 .infra-card {
-  background-color: #d6efe4;
+  background-color: #acecf6;
   border-radius: 8px;
   overflow: hidden;
   text-align: left;
@@ -189,7 +189,7 @@
 }
 
 .infra-content  a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* ================= Responsive ================= */

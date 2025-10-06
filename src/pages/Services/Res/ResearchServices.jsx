@@ -3,21 +3,24 @@ import "./ResearchServices.css";
 
 export default function ResearchServices() {
   return (
-    <main className="research-wrapper">
+    <main className="research-services-wrapper">
       {/* Title */}
-      <h1 className="research-title">Research Services</h1>
+      <h1 className="research-services-title">Research Services</h1>
 
-      <section className="research-section">
+      {/* What is Our Research Service */}
+      <section className="research-services-section">
         <h2>What is Our Research Service</h2>
         <p>
-          ZAFIRI is committed to advancing <strong>fisheries, aquaculture, and marine science research</strong> 
-          to support sustainable resource management in Zanzibar and beyond. Our research services 
-          provide evidence-based solutions for government, communities, and international stakeholders.
+          ZAFIRI is committed to advancing{" "}
+          <strong>fisheries, aquaculture, and marine science research</strong> 
+          to support sustainable resource management in Zanzibar and beyond. 
+          Our research services provide evidence-based solutions for government, 
+          communities, and international stakeholders.
         </p>
       </section>
 
       {/* What We Offer */}
-      <section className="research-section">
+      <section className="research-services-section">
         <h2>What We Offer</h2>
         <ul>
           <li>🌊 Fisheries & Aquaculture Research – enhancing food security and livelihoods.</li>
@@ -29,7 +32,7 @@ export default function ResearchServices() {
       </section>
 
       {/* Why Choose Our Research */}
-      <section className="research-section">
+      <section className="research-services-section">
         <h2>Why Choose Our Research?</h2>
         <ul>
           <li>✅ Cutting-edge research facilities and modern research vessel.</li>
@@ -40,22 +43,22 @@ export default function ResearchServices() {
       </section>
 
       {/* Featured Projects */}
-      <section className="research-section">
+      <section className="research-services-section">
         <h2>Featured Research Projects</h2>
-        <div className="projects-grid">
-          <div className="project-card">
+        <div className="research-services-projects-grid">
+          <div className="research-services-project-card">
             <h3>Coral Reef Restoration</h3>
             <p>
               A community-driven project restoring degraded coral reefs in Zanzibar’s coastal waters.
             </p>
           </div>
-          <div className="project-card">
+          <div className="research-services-project-card">
             <h3>Climate & Fisheries Study</h3>
             <p>
               Researching the impact of climate change on fisheries production and food security.
             </p>
           </div>
-          <div className="project-card">
+          <div className="research-services-project-card">
             <h3>Blue Economy & Livelihoods</h3>
             <p>
               Supporting coastal communities through sustainable aquaculture and eco-tourism research.
@@ -65,9 +68,13 @@ export default function ResearchServices() {
       </section>
 
       {/* Buttons */}
-      <div className="research-buttons">
-        <a href="/area" className="explore-btn">Explore Research Areas →</a>
-        <a href="/contact" className="contact-btn">Contact Research Team →</a>
+      <div className="research-services-buttons">
+        <a href="/area" className="research-services-explore-btn">
+          Explore Research Areas →
+        </a>
+        <a href="/contact" className="research-services-contact-btn">
+          Contact Research Team →
+        </a>
       </div>
     </main>
   );

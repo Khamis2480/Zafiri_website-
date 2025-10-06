@@ -85,10 +85,10 @@ export default function FishFarmingProcessing() {
       {/* Call to Action */}
       <div className="ffp-buttons">
         <Link to="/contact" className="ffp-btn ffp-contact">
-          Contact Our Experts →
+          Contact Our Experts 
         </Link>
         <Link to="/area" className="ffp-btn ffp-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

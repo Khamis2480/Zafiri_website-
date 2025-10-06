@@ -82,10 +82,10 @@ export default function Aquaculture() {
       {/* Call to Action */}
       <div className="aqua-buttons">
         <a href="/contact" className="aqua-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="aqua-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>

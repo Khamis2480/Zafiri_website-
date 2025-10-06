@@ -83,10 +83,10 @@ export default function CoastalPollution() {
       {/* Call to Action */}
       <div className="pollution-buttons">
         <a href="/contact" className="pollution-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="pollution-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>

@@ -80,10 +80,10 @@ export default function FishBreedingFeeding() {
       {/* Call to Action */}
       <div className="fbf-buttons">
         <Link to="/contact" className="fbf-btn fbf-contact">
-          Contact Our Experts →
+          Contact Our Experts 
         </Link>
         <Link to="/area" className="fbf-btn fbf-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

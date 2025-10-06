@@ -83,10 +83,10 @@ export default function Oceanography() {
       {/* Call to Action */}
       <div className="ocean-buttons">
         <a href="/contact" className="ocean-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="ocean-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>

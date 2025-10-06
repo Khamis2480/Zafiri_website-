@@ -79,10 +79,10 @@ export default function AquaticEcosystems() {
       {/* Call to Action */}
       <div className="aeb-buttons">
         <Link to="/publication" className="aeb-btn aeb-publications">
-          Explore Publications →
+          Explore Publications 
         </Link>
         <Link to="/area" className="aeb-btn aeb-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

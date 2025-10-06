@@ -80,10 +80,10 @@ export default function FishHandlingProcessing() {
       {/* Buttons */}
       <div className="fhsp-buttons">
         <Link to="/contact" className="fhsp-btn fhsp-contact">
-          Contact Our Experts →
+          Contact Our Experts 
         </Link>
         <Link to="/area" className="fhsp-btn fhsp-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

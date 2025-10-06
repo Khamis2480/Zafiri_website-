@@ -1,84 +1,85 @@
-.research-wrapper {
+
+.research-services-wrapper {
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
-  color: #2c3e50;
   line-height: 1.7;
 }
 
-.research-title {
+.research-services-title {
   font-size: 2.4rem;
   text-align: center;
   margin-bottom: 35px;
   font-weight: bold;
-  color: #064d42;
+  color: #071896;
 }
 
-.research-section {
+/* --- Section Styles --- */
+.research-services-section {
   margin-bottom: 40px;
 }
 
-.research-section h2 {
+.research-services-section h2 {
   font-size: 1.6rem;
-  color: #0b6b5f;
+  color: #071896;
   margin-bottom: 15px;
   padding-left: 10px;
 }
 
-.research-section p {
+.research-services-section p {
   font-size: 1rem;
-  color: #34495e;
+  color: #333;
 }
 
-/* 🚀 Ondoa bullets za ul */
-.research-section ul {
+/* Remove bullets from lists */
+.research-services-section ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.research-section ul li {
+.research-services-section ul li {
   margin: 10px 0;
   font-size: 1rem;
-  color: #2c3e50;
+  color: #333;
   line-height: 1.6;
 }
 
-/* --- Featured Projects --- */
-.projects-grid {
+/* --- Featured Projects Grid --- */
+.research-services-projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
 }
 
-.project-card {
-  background: #f4fbf9;
-  border: 1px solid #cce3dd;
+.research-services-project-card {
+  background: #acecf6;
+  border: 1px solid #071896;
   border-radius: 10px;
   padding: 20px;
   transition: all 0.3s ease;
   text-align: left;
 }
 
-.project-card h3 {
+.research-services-project-card h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #064d42;
+  color: #071896;
 }
 
-.project-card p {
+.research-services-project-card p {
   font-size: 0.95rem;
-  color: #555;
+  color: #333;
 }
 
-.project-card:hover {
+.research-services-project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  background: #eaf8f3;
+  background: #46e2fa;
 }
 
 /* --- Buttons --- */
-.research-buttons {
+.research-services-buttons {
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -86,8 +87,8 @@
   flex-wrap: wrap;
 }
 
-.explore-btn,
-.contact-btn {
+.research-services-explore-btn,
+.research-services-contact-btn {
   padding: 12px 28px;
   border-radius: 6px;
   font-weight: 600;
@@ -97,42 +98,42 @@
 }
 
 /* Explore Research Areas button */
-.explore-btn {
-  background: #0b6b5f;
+.research-services-explore-btn {
+  background: #140894;
   color: #fff;
 }
 
-.explore-btn:hover {
-  background: #064d42;
+.research-services-explore-btn:hover {
+  background: #090071;
 }
 
 /* Contact Research Team button */
-.contact-btn {
-  background: #eaf5f3;
-  color: #0b6b5f;
-  border: 1px solid #0b6b5f;
+.research-services-contact-btn {
+  background: #acecf6;
+  color: #333;
+  border: 1px solid #071896;
 }
 
-.contact-btn:hover {
-  background: #d2ebe6;
+.research-services-contact-btn:hover {
+  background: #46e2fa;
 }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  .research-title {
+  .research-services-title {
     font-size: 1.8rem;
   }
 
-  .research-section h2 {
+  .research-services-section h2 {
     font-size: 1.3rem;
   }
 
-  .project-card h3 {
+  .research-services-project-card h3 {
     font-size: 1.1rem;
   }
 
-  .explore-btn,
-  .contact-btn {
+  .research-services-explore-btn,
+  .research-services-contact-btn {
     font-size: 0.95rem;
     padding: 10px 20px;
   }

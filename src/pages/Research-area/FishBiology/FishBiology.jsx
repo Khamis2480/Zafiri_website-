@@ -82,10 +82,10 @@ export default function FishBiology() {
       {/* Call to Action */}
       <div className="bio-buttons">
         <a href="/contact" className="bio-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="bio-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>

@@ -2,8 +2,6 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 40px 20px;
-  font-family: "Segoe UI", sans-serif;
-  color: #2c3e50;
   line-height: 1.7;
 }
 
@@ -12,7 +10,7 @@
   text-align: center;
   margin-bottom: 30px;
   font-weight: bold;
-  color: #064d42;
+  color: #071896;
 }
 
 .outreach-section {
@@ -21,14 +19,14 @@
 
 .outreach-section h2 {
   font-size: 1.5rem;
-  color: #0b6b5f;
+  color: #071896;
   margin-bottom: 10px;
 }
 
 .outreach-section p,
 .outreach-section ul {
   font-size: 1rem;
-  color: #34495e;
+  color: #333;
 }
 
 .outreach-section ul {
@@ -45,8 +43,8 @@
 .contact-btn {
   display: inline-block;
   padding: 12px 25px;
-  background: #0b6b5f;
-  color: #fff;
+  background: #acecf6;
+  color: #333;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
@@ -55,5 +53,5 @@
 }
 
 .contact-btn:hover {
-  background: #064d42;
+  background: #46e2fa;
 }

@@ -2,7 +2,6 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
-  color: #2c3e50;
   line-height: 1.7;
 }
 
@@ -11,7 +10,7 @@
   text-align: center;
   margin-bottom: 35px;
   font-weight: bold;
-  color: #064d42;
+  color: #071896;
 }
 
 .fishstock-section {
@@ -20,13 +19,13 @@
 
 .fishstock-section h2 {
   font-size: 1.6rem;
-  color: #0b6b5f;
+  color: #071896;
   margin-bottom: 15px;
 }
 
 .fishstock-section p {
   font-size: 1rem;
-  color: #34495e;
+  color: #333;
 }
 
 .fishstock-key-themes {
@@ -46,8 +45,8 @@
 }
 
 .fishstock-project-card {
-  background: #f4fbf9;
-  border: 1px solid #cce3dd;
+  background: #acecf6;
+  border: 1px solid #071896;
   border-radius: 10px;
   padding: 20px;
   transition: all 0.3s ease;
@@ -56,12 +55,12 @@
 .fishstock-project-card h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #064d42;
+  color: #071896;
 }
 
 .fishstock-project-card:hover {
   transform: translateY(-5px);
-  background: #eaf8f3;
+  background: #46e2fa;
 }
 
 .fishstock-buttons {
@@ -83,20 +82,20 @@
 }
 
 .fishstock-explore-btn {
-  background: #0b6b5f;
+  background: #140894;
   color: #fff;
 }
 
 .fishstock-explore-btn:hover {
-  background: #064d42;
+  background: #090071;
 }
 
 .fishstock-contact-btn {
-  background: #eaf5f3;
-  color: #0b6b5f;
-  border: 1px solid #0b6b5f;
+  background: #acecf6;
+  color: #333;
+  border: 1px solid #071896;
 }
 
 .fishstock-contact-btn:hover {
-  background: #d2ebe6;
+  background: #46e2fa;
 }

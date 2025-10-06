@@ -44,7 +44,7 @@ export default function Outreach() {
       {/* Button */}
       <div className="outreach-buttons">
         <a href="/contact" className="contact-btn">
-          Contact Our Team →
+          Contact Our Team 
         </a>
       </div>
     </main>

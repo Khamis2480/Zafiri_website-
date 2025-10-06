@@ -82,10 +82,10 @@ export default function FishDisease() {
       {/* Call to Action */}
       <div className="disease-buttons">
         <a href="/contact" className="disease-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="disease-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>

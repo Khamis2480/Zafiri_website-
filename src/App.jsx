@@ -43,6 +43,7 @@ import AquaticEcosystems from "./pages/Research-area/AquaticEcosystems/AquaticEc
 import FishBreedingFeeding from "./pages/Research-area/FishBreedingFeeding/FishBreedingFeeding";
 import FishHandlingProcessing from "./pages/Research-area/FishHandlingProcessing/FishHandlingProcessing";
 import TissueCulturing from "./pages/Research-area/TissueCulturing/TissueCulturing";
+import OngoingProjects from "./pages/Project/On-going/ongoingProjects";
 
 
 
@@ -94,6 +95,7 @@ function App() {
           <Route path="/FishBreedingFeeding" element={<FishBreedingFeeding  />} />
           <Route path="/FishHandlingProcessing" element={<FishHandlingProcessing  />} />
           <Route path="/TissueCulturing" element={<TissueCulturing  />} />
+          <Route path="/ongoingProjects" element={<OngoingProjects  />} />
 
           
 

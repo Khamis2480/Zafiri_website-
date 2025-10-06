@@ -76,10 +76,10 @@ export default function SocioEconomics() {
       {/* Call to Action */}
       <div className="socio-buttons">
         <Link to="/contact" className="socio-btn socio-contact">
-          Contact Our Experts →
+          Contact Our Experts 
         </Link>
         <Link to="/area" className="socio-btn socio-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

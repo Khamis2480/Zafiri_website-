@@ -80,10 +80,10 @@ export default function TissueCulturing() {
       {/* Buttons */}
       <div className="tissue-buttons">
         <Link to="/contact" className="tissue-btn tissue-contact">
-          Contact Our Experts →
+          Contact Our Experts 
         </Link>
         <Link to="/area" className="tissue-btn tissue-back">
-          ← Back to Research Areas
+           Back to Research Areas
         </Link>
       </div>
     </main>

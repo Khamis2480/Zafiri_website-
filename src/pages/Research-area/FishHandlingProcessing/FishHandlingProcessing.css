@@ -2,8 +2,6 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
-  font-family: "Segoe UI", sans-serif;
-  color: #2c3e50;
   line-height: 1.7;
 }
 
@@ -12,7 +10,7 @@
   text-align: center;
   margin-bottom: 35px;
   font-weight: bold;
-  color: #064d42;
+  color: #071896;
 }
 
 .fhsp-section {
@@ -21,13 +19,13 @@
 
 .fhsp-section h2 {
   font-size: 1.6rem;
-  color: #0b6b5f;
+  color: #071896;
   margin-bottom: 15px;
 }
 
 .fhsp-section p {
   font-size: 1rem;
-  color: #34495e;
+  color: #333;
 }
 
 .fhsp-section ul {
@@ -49,8 +47,8 @@
 }
 
 .fhsp-project-card {
-  background: #f4fbf9;
-  border: 1px solid #cce3dd;
+  background: #acecf6;
+  border: 1px solid #071896;
   border-radius: 10px;
   padding: 20px;
   transition: all 0.3s ease;
@@ -60,13 +58,13 @@
 .fhsp-project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-  background: #eaf8f3;
+  background: #46e2fa;
 }
 
 .fhsp-project-card h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #064d42;
+  color: #071896;
 }
 
 .fhsp-project-card p {
@@ -94,23 +92,23 @@
 
 /* Contact button */
 .fhsp-contact {
-  background: #0b6b5f;
+  background: #140894;
   color: #fff;
 }
 
 .fhsp-contact:hover {
-  background: #064d42;
+  background: #090071;
 }
 
 /* Back button */
 .fhsp-back {
-  background: #eaf5f3;
+  background: #acecf6;
   color: #0b6b5f;
-  border: 1px solid #0b6b5f;
+  border: 1px solid #071896;
 }
 
 .fhsp-back:hover {
-  background: #d2ebe6;
+  background: #46e2fa;
 }
 
 /* --- Responsive --- */

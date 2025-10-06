@@ -75,10 +75,10 @@ export default function CaptureFishery() {
       {/* Call to Action */}
       <div className="capturefish-buttons">
         <a href="/contact" className="capturefish-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="capturefish-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>

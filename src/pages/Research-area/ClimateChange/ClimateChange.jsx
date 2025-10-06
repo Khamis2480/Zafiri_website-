@@ -83,10 +83,10 @@ export default function ClimateChange() {
       {/* Call to Action */}
       <div className="climate-buttons">
         <a href="/contact" className="climate-contact-btn">
-          Contact Our Experts →
+          Contact Our Experts 
         </a>
         <a href="/area" className="climate-back-btn">
-          Back to Research Areas →
+          Back to Research Areas 
         </a>
       </div>
     </main>
