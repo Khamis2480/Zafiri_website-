@@ -56,7 +56,7 @@ function ResearchProjects() {
         {
             title: "Division of fisheries Research and aquaculture",
             description:
-                "This project focuses on applying advanced digital technologies such as AI, data analytics, and IoT to support national development goals in education, health, and fisheries management.",
+                "The Division of Fisheries Research is dedicated to conducting research and innovations on the fisheries value chain, including value chain studies, innovative fishing methods, and the dissemination of research findings.",
             link: "#",
         },
         {
@@ -105,7 +105,7 @@ function ResearchInfo() {
                 <p> We collaborate with universities, government ministries, and global partners to conduct impactful research projects.
                      Our goal is to strengthen research capacity, drive innovation, and ensure the long-term sustainability of marine and coastal resources. 
                      </p>
-                <a href="#" className="research-btn-dept">
+                <a href="/publication" className="research-btn-dept">
                     Learn More →
                 </a>
             </div>
@@ -123,7 +123,7 @@ function ResearchRecommendations() {
                   In our department, we generate evidence-based insights, reports, and briefs.
                    Explore key findings and publications crafted to support policy-making, innovation, and scientific advancement.
                 </p>
-                <a href="" className="research-button-dept">
+                <a href="/publication" className="research-button-dept">
                     Access Research Projects
                 </a>
             </div>

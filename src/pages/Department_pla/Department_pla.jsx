@@ -53,19 +53,19 @@ function HRAPDescription() {
 function HRAPProjects() {
   const projects = [
     {
-      title: "Capacity Building and Training Program",
+      title: "Division of Human Resourse and Administration",
       description:
-        "Strengthening staff skills and competencies through continuous professional development and training opportunities.",
+        "The Division of Human Resources and Administration is responsible for managing staff welfare, discipline, and workplace safety, while also overseeing institutional administration.",
     },
     {
-      title: "Strategic Planning and Policy Development",
+      title: "Division of Planning and Statistic",
       description:
-        "Designing and implementing long-term strategic plans that align with institutional and national priorities.",
+        "The Division of Planning and Statistics coordinates institutional planning, budgeting, statistical activities, and the evaluation and monitoring of institutional performance.",
     },
     {
-      title: "Employee Welfare and Support Services",
+      title: "Division of Records Managment",
       description:
-        "Promoting employee well-being, workplace safety, and support programs for improved productivity and job satisfaction.",
+        "The division of Records Management is responsible for preserving and managing all institutional records, maintaining archives, and handling record requests from staff and government institutions.",
     },
   ];
 

@@ -1,6 +1,6 @@
-.hero {
+.projects-hero {
   position: relative;
-  width: 100%;
+  width: 100%; /* make it full width */
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -12,46 +12,34 @@
   margin-bottom: 40px;
 }
 
-/* Dark overlay */
-.hero .overlay {
+.projects-hero .projects-overlay,
+.projects-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; /* also full width */
   height: 100%;
   background: rgba(10, 20, 40, 0.6);
 }
 
-/* Text content */
-.hero-content {
+
+.projects-hero-content,
+.projects-hero-content h1 {
   position: relative;
   color: white;
   z-index: 1;
-  text-align: center;
 }
 
-.hero-content h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-/* Breadcrumb */
-.breadcrumb {
+.projects-breadcrumb {
   font-size: 0.9rem;
   color: #ddd;
 }
 
-.breadcrumb a {
+.projects-breadcrumb a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
 }
-
-.breadcrumb span {
-  margin: 0 5px;
-}
-
-
 
 /* Projects Grid */
 .projects-container {

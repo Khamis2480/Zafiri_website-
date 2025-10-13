@@ -1,54 +1,55 @@
-/* Structure.css */
-.orgchart-wrapper {
-  width: 100%;
-  height: 100vh;
-  background: #f9f9f9;
-  font-family: Arial, sans-serif;
-  overflow: hidden;
+.org-structure-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-.tree-container {
-  width: 100%;
-  height: 100%;
+.org-header h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #004aad;
 }
 
-/* Custom link styles */
-.custom-link {
-  stroke: #2a4d9b;
-  stroke-width: 2;
-  fill: none;
+.org-header p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto 30px;
 }
 
-/* Node text styles */
-.rd3t-label__title {
-  fill: #2c3e50 !important;
-  font-weight: 500;
+.org-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-/* Custom scrollbar for the tree */
-.tree-container svg {
-  background: transparent;
+.org-btn {
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  font-size: 1rem;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .orgchart-wrapper {
-    height: 120vh;
-  }
-  
-  .tree-container {
-    transform: scale(0.8);
-    transform-origin: top left;
-  }
+.view-btn {
+  background-color: #004aad;
+  color: #fff;
 }
 
-@media (max-width: 480px) {
-  .orgchart-wrapper {
-    height: 150vh;
-  }
-  
-  .tree-container {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
+.view-btn:hover {
+  background-color: #003580;
+}
+
+.download-btn {
+  background-color: #f4f4f4;
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+.download-btn:hover {
+  background-color: #e6e6e6;
 }

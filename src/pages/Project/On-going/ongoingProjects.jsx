@@ -32,18 +32,19 @@ const ongoingProjects = [
 const OngoingProjects = () => {
     return (
         <div className="projects-container">
-            {/* ✅ Hero Section */}
-            <div className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
-                <div className="overlay"></div>
-                <div className="hero-content">
+            {/* Projects Hero */}
+            <div className="projects-hero" style={{ backgroundImage: `url(${heroImage})` }}>
+                <div className="projects-overlay"></div>
+                <div className="projects-hero-content">
                     <h1>MESSAGE FROM THE DIRECTOR</h1>
-                    <div className="breadcrumb">
+                    <div className="projects-breadcrumb">
                         <a href="../../../Home page/home/home.html">HOME</a>
                         <span>&gt;</span>
                         <span>MESSAGE</span>
                     </div>
                 </div>
             </div>
+
 
             {/* ✅ Projects Grid */}
             <div className="projects-grid">

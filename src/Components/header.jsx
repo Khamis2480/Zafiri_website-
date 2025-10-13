@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";  // ✅ Added Link
 import "./Header.css";
+
 // Import images
 import logoZanzibar from "../assets/logo/logo-zanzibar.png";
 import logoZafiri from "../assets/logo/zafiri.png";
@@ -20,7 +22,7 @@ const Header = () => {
 
   const backgrounds = [back1, back2, back3, back4, back5];
 
-  // Clock
+  // 🕒 Clock
   useEffect(() => {
     const updateClock = () => {
       const now = new Date(
@@ -33,7 +35,7 @@ const Header = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Day
+  // 📅 Day
   useEffect(() => {
     const updateDay = () => {
       const daysEN = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -56,7 +58,7 @@ const Header = () => {
     updateDay();
   }, [i18n.language, t]);
 
-  // Background slideshow
+  // 🖼️ Background slideshow
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentBgIndex((prev) => (prev + 1) % backgrounds.length);
@@ -131,7 +133,7 @@ const Header = () => {
         <ul className={`nav-links ${isNavOpen ? "active" : ""}`}>
           {/* Home */}
           <li>
-            <a href="/">{t("navHome")}</a>
+            <Link to="/">{t("navHome")}</Link>
           </li>
 
           {/* About */}
@@ -139,13 +141,13 @@ const Header = () => {
             className={`dropdown ${activeDropdown === "about" ? "active" : ""}`}
             onClick={() => toggleDropdown("about")}
           >
-            <a href="#">{t("navAbout")}</a>
+            <Link to="#">{t("navAbout")}</Link>
             <ul className="dropdown-menu">
-              <li><a href="/history">{t("aboutHistory")}</a></li>
-              <li><a href="/mission">{t("aboutMission")}</a></li>
-              <li><a href="/message">{t("aboutMessage")}</a></li>
-              <li><a href="/organizationStructure">{t("aboutStructure")}</a></li>
-              <li><a href="/organizationStaff">{t("aboutStaff")}</a></li>
+              <li><Link to="/history">{t("aboutHistory")}</Link></li>
+              <li><Link to="/mission">{t("aboutMission")}</Link></li>
+              <li><Link to="/message">{t("aboutMessage")}</Link></li>
+              <li><Link to="/organizationStructure">{t("aboutStructure")}</Link></li>
+              <li><Link to="/organizationStaff">{t("aboutStaff")}</Link></li>
             </ul>
           </li>
 
@@ -154,23 +156,23 @@ const Header = () => {
             className={`dropdown ${activeDropdown === "research" ? "active" : ""}`}
             onClick={() => toggleDropdown("research")}
           >
-            <a href="#">{t("navResearch")}</a>
+            <Link to="#">{t("navResearch")}</Link>
             <ul className="dropdown-menu">
               <li className="dropdown-sub">
-                <a href="#">{t("researchMain")}</a>
+                <Link to="#">{t("researchMain")}</Link>
                 <ul className="dropdown-submenu">
-                  <li><a href="/">{t("researchOngoing")}</a></li>
-                  <li><a href="/">{t("researchComplete")}</a></li>
+                  <li><Link to="/">{t("researchOngoing")}</Link></li>
+                  <li><Link to="/">{t("researchComplete")}</Link></li>
                 </ul>
               </li>
               <li className="dropdown-sub">
-                <a href="#">{t("projectMain")}</a>
+                <Link to="#">{t("projectMain")}</Link>
                 <ul className="dropdown-submenu">
-                  <li><a href="/ongoingProjects">{t("projectOngoing")}</a></li>
-                  <li><a href="/">{t("projectComplete")}</a></li>
+                  <li><Link to="/ongoingProjects">{t("projectOngoing")}</Link></li>
+                  <li><Link to="/">{t("projectComplete")}</Link></li>
                 </ul>
               </li>
-              <li><a href="/area">{t("researchArea")}</a></li>
+              <li><Link to="/area">{t("researchArea")}</Link></li>
             </ul>
           </li>
 
@@ -179,20 +181,20 @@ const Header = () => {
             className={`dropdown ${activeDropdown === "department" ? "active" : ""}`}
             onClick={() => toggleDropdown("department")}
           >
-            <a href="#">{t("navDepartment")}</a>
+            <Link to="#">{t("navDepartment")}</Link>
             <ul className="dropdown-menu">
               <li className="dropdown-sub">
-                <a href="#">{t("depMain")}</a>
+                <Link to="#">{t("depMain")}</Link>
                 <ul className="dropdown-submenu">
-                  <li><a href="/department-lab">{t("depLab")}</a></li>
-                  <li><a href="/department-res">{t("depRes")}</a></li>
-                  <li><a href="/department-pla">{t("depAdmin")}</a></li>
+                  <li><Link to="/department-lab">{t("depLab")}</Link></li>
+                  <li><Link to="/department-res">{t("depRes")}</Link></li>
+                  <li><Link to="/department-pla">{t("depAdmin")}</Link></li>
                 </ul>
               </li>
               <li className="dropdown-sub">
-                <a href="#">{t("centerMain")}</a>
+                <Link to="#">{t("centerMain")}</Link>
                 <ul className="dropdown-submenu">
-                  <li><a href="/center">{t("centerPemba")}</a></li>
+                  <li><Link to="/center">{t("centerPemba")}</Link></li>
                 </ul>
               </li>
             </ul>
@@ -203,27 +205,27 @@ const Header = () => {
             className={`dropdown ${activeDropdown === "media" ? "active" : ""}`}
             onClick={() => toggleDropdown("media")}
           >
-            <a href="#">{t("navCenter")}</a>
+            <Link to="#">{t("navCenter")}</Link>
             <ul className="dropdown-menu">
-              <li><a href="/gallery">{t("mediaGallery")}</a></li>
-              <li><a href="/news">{t("mediaNews")}</a></li>
-              <li><a href="/events">{t("mediaEvents")}</a></li>
+              <li><Link to="/gallery">{t("mediaGallery")}</Link></li>
+              <li><Link to="/news">{t("mediaNews")}</Link></li>
+              <li><Link to="/events">{t("mediaEvents")}</Link></li>
             </ul>
           </li>
 
           {/* Publications */}
           <li>
-            <a href="/publication">{t("navPublication")}</a>
+            <Link to="/publication">{t("navPublication")}</Link>
           </li>
 
           {/* Services */}
           <li>
-            <a href="/services">{t("navService")}</a>
+            <Link to="/services">{t("navService")}</Link>
           </li>
 
           {/* Contact */}
           <li>
-            <a href="/contact">{t("navContact")}</a>
+            <Link to="/contact">{t("navContact")}</Link>
           </li>
         </ul>
       </nav>

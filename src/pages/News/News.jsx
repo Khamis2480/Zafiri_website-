@@ -90,7 +90,7 @@ const NewsEvents = () => {
         <div className="hero-content">
           <h1>NEWS & EVENTS</h1>
           <div className="breadcrumb">
-            <a href="../Home page/home/home.html">HOME</a> <span>&gt;</span>
+            <a href="/Home">HOME</a> <span>&gt;</span>
             <span>Both Upcoming and Latest </span>
           </div>
         </div>
@@ -119,7 +119,7 @@ const NewsEvents = () => {
                     toggleCard(news.id);
                   }}
                 >
-                  {expandedCards[news.id] ? 'Show Less ↑' : 'More Details →'}
+                  {expandedCards[news.id] ? 'Show Less ' : 'More Details '}
                 </a>
               </div>
             </div>

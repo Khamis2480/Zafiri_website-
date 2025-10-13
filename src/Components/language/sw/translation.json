@@ -51,6 +51,9 @@
     "slide6": "Picha ya Pamoja Wakurugenzi na Kamati za Uvuvi katika Kikao cha kuleta mrejesho juu ya utumiaji wa vifaa vinavyoonyesha taarifa za Shughuli za Uvuvi Baharini",
     "slide7": "Naibu Katibu mkuu Ndg.Zahour Kassim Alkharous na Wkurugenzi wa Wizara ya Uchumi wa buluu wakifatiwa na Wadau wa shirika la Ethical Seafood Research"
   },
+  "common": {
+  "paused": "Imesitishwa"
+},
  "viceChancellor": {
     "name": "Dkt. Zakaria Ali Khamis",
     "title": "MKURUGENZI MKUU",
@@ -168,5 +171,27 @@
   "partners": {
     "title": "Washirika na Wadau Wetu",
     "visitWebsite": "Tembelea Tovuti"
+  },
+
+
+  "history": {
+    "hero": {
+      "title": "HISTORIA YETU YA FAHARI"
+    },
+    "breadcrumb": {
+      "home": "NYUMBANI",
+      "history": "HISTORIA YETU WENYEWE"
+    },
+    "section": {
+      "title": "Historia ya Taasisi ya Utafiti wa Uvuvi na Rasilimali za Bahari Zanzibar (ZAFIRI)"
+    },
+    "image": {
+      "alt": "Jengo la Taasisi ya Uvuvi"
+    },
+    "paragraphs": {
+      "paragraph1": "Taasisi ya Utafiti wa Uvuvi na Rasilimali za Bahari Zanzibar (ZAFIRI), ni taasisi ya utafiti ya umma chini ya Wizara ya Uchumi wa Bluu na Uvuvi Zanzibar. ZAFIRI ilianzishwa Aprili 2019 kwa lengo la kufanya na kukuza utafiti wa uvuvi, utafiti wa ufugaji wa samaki na utafiti mwingine wa rasilimali za bahari na sayansi ya bahari ili kuhakikisha matumizi endelevu ya bahari zake na rasilimali asilia, huku ikiilinda mazingira ya bahari na ikolojia yake. Taasisi hiyo ilipata majukumu yake kamili baada ya kutiwa saini Sheria yake Nambari 11 ya 2023 na Rais Mstaafu wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Dk. Hussein Ali Mwinyi.",
+      "paragraph2": "ZAFIRI imepewa jukumu la kufanya utafiti wa msingi na utumishi na kukuza mbinu bora, mbinu, teknolojia na ubunifu wa uvuvi, ufugaji wa samaki na usindikaji wa bidhaa za samaki; kuanzisha udhibiti wa ubora wa samaki, uhifadhi wa baada ya mavuno na teknolojia na ubunifu wa kuongeza thamani; kuwasiliana na kusambaza matokeo ya utafiti; na kushauri serikali kuhusu sera na maamuzi kulingana na utafiti unaoongozwa na ushahidi.",
+      "paragraph3": "ZAFIRI iko katika barabara ya Maruhubi katika Wilaya ya Mjini ya Zanzibar. Taasisi inaongozwa na Mkurugenzi Mkuu, ambaye ndiye msimamizi wa shughuli za kila siku. Taasisi inaundwa kiutawala na idara tatu, ambazo ni Idara ya Utafiti, Ubunifu na Uenezi, Idara ya Maabara na Idara ya Rasilimali za Watu, Utawala na Mipango. Taasisi ina vivanda vya kutosha vya utafiti wa kazi, ikiwa ni pamoja na maabara zinazohusisha maabara ya mikrobiolojia na kemia; vifaa vya utafiti vinavyohusisha kompyuta, kamera za chini ya maji na drone na paya vidonge vya ukusanyaji wa data."
+    }
   }
 }

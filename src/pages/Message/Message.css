@@ -79,26 +79,29 @@
 
 .message-meta {
   font-size: 20px;
-  color: #002a7d;
-  /* gray */
+  color: #333;
   margin-bottom: 12px;
 }
 
 .message-meta .name {
   font-weight: 500;
-  color: #1f2937;
+  color: #333;
 }
 .message-position{ 
-  font-weight: 500;
-  color: #1f2937;
+  font-weight: bold;
+  color: #333;
   margin-bottom: 5px;
 }
 
 .message-text {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 1rem;
   color: #000000;
-  text-align: left;
+}
+
+.message-text p {
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1rem;
 }
 
 /* Responsive Design */
