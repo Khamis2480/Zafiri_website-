@@ -18,6 +18,7 @@ import event3 from '../assets/event/IMG_0908.JPG';
 import event4 from '../assets/event/IMG_0089.JPG';
 import event5 from '../assets/event/IMG_8707.JPG';
 import eventi1 from '../assets/event/IMG_2871.JPG';
+import event from '../assets/event/IMG_9808.JPG';
 
 // Slideshow component (unchanged)
 const Slideshow = () => {
@@ -245,7 +246,7 @@ const Projects = () => {
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={image5} alt={t('projects.marineConservation.title')} />
+              <img src={event} alt={t('projects.marineConservation.title')} />
               <h3>{t('projects.marineConservation.title')}</h3>
             </div>
             <div className="flip-card-back">

@@ -69,14 +69,14 @@ const Team = () => {
       name: "Omar Hussein Ngushi",
       position: "Statistic officer",
       gender: "Male",
-      bio: " is a skilled Data analysit professional with a background in official statistics. I specializes in data management, statistical analysis, and research and Questionnare design, with strong expertise in analytical tools such as STATA, R, SPSS, and Excel. His work focuses on producing evidence-based insights to guide policy development, project evaluation, and sustainable marine resource management.",
+      bio: " He is skilled Data analysit professional with a background in official statistics. I specializes in data management, statistical analysis, and research and Questionnare design, with strong expertise in analytical tools such as STATA, R, SPSS, and Excel. His work focuses on producing evidence-based insights to guide policy development, project evaluation, and sustainable marine resource management.",
       image: lornaSladeImage
     },
     {
       name: "Abuu Bakar Thabit Noman",
       position: "Aquaculture Research Officer",
       gender: "Male",
-      bio: "s an Aquaculture Researcher specializing in sustainable marine aquaculture and resource management, promoting food security and economic growth. He advances innovative practices, engages communities, and supports the Blue Economy while safeguarding marine resources.",
+      bio: "He is an Aquaculture Researcher specializing in sustainable marine aquaculture and resource management, promoting food security and economic growth. He advances innovative practices, engages communities, and supports the Blue Economy while safeguarding marine resources.",
       image: sakhileTsotsobeImage
     },
     {
@@ -104,21 +104,21 @@ const Team = () => {
       name: "Salwa Haji Abdulla ",
       position: "Geo-Informatics Officer",
       gender: "Female",
-      bio: "is a Geoinformatics officer specializing in marine research using GIS, spatial analysis and Remote sensing technology.I am passionate on using spatial technology  to support  decision  making.conservtion plans  for sustainable development of marine resources.",
+      bio: "She is a Geoinformatics officer specializing in marine research using GIS, spatial analysis and Remote sensing technology.I am passionate on using spatial technology  to support  decision  making.conservtion plans  for sustainable development of marine resources.",
       image: d
     },
     {
       name: "Khalid Rashid Suleiman",
       position: "Office Supervisor",
       gender: "Male",
-      bio: "Is a Office supervisor at ZAFIRI in my Biology to ensuring the building is clean and tidy and also ensuring all work servics are abvailable such as water and electricity, Transportation and also ensure the safety of the building and all work work assets are safe",
+      bio: "He is a Office supervisor at ZAFIRI in my Biology to ensuring the building is clean and tidy and also ensuring all work servics are abvailable such as water and electricity, Transportation and also ensure the safety of the building and all work work assets are safe",
       image: e
     },
     {
       name: "Maitham Tahir Bakar",
       position: "Fisheries Research Officer",
       gender: "Female",
-      bio: "is an aquaculture specialist dedicated to sustainable practices, conducting research and collaborating with stakeholders to enhance food security and biodiversity. She is committed to supporting communities and preserving Zanzibar’s marine heritage.",
+      bio: "She is an aquaculture specialist dedicated to sustainable practices, conducting research and collaborating with stakeholders to enhance food security and biodiversity. She is committed to supporting communities and preserving Zanzibar’s marine heritage.",
       image: f
     },
     {
@@ -139,7 +139,7 @@ const Team = () => {
       name: "Sukhayla Khamis Juma",
       position: "Aqualculture Research Officer",
       gender: "Female",
-      bio: "is a specialist in sustainable aquaculture and marine resource management. She improves aquaculture productivity and livelihoods through research, community collaboration, and sustainable fish and seaweed farming. Committed to outreach and empowering farmers for sustainable economy.",
+      bio: "She is specialist in sustainable aquaculture and marine resource management. She improves aquaculture productivity and livelihoods through research, community collaboration, and sustainable fish and seaweed farming. Committed to outreach and empowering farmers for sustainable economy.",
       image: i
     },
     {
@@ -153,7 +153,7 @@ const Team = () => {
       name: "Yussuf Abdulla Mohamed",
       position: "Laboratory Assistance(Chemistry)",
       gender: "Male",
-      bio: "Is a skilled Laboratory Technician with experience in conducting sample collection and sample tests, maintaining laboratory Equipment (handling) and maintaining laboratory safety and accuracy in scientific analysis. ",
+      bio: "He is skilled Laboratory Technician with experience in conducting sample collection and sample tests, maintaining laboratory Equipment (handling) and maintaining laboratory safety and accuracy in scientific analysis. ",
       image: k
     },
     {
@@ -188,14 +188,14 @@ const Team = () => {
       name: "Shadia Ahmada Hamad ",
       position: "Geoinformatics Officer",
       gender: "Female",
-      bio: "is a geospatial scientist focused on marine and environmental conservation. She applies GIS, remote sensing, and spatial data analysis to map and monitor coastal ecosystems. Her work supports sustainable management, climate change reporting, and conservation planning.",
+      bio: "He is geospatial scientist focused on marine and environmental conservation. She applies GIS, remote sensing, and spatial data analysis to map and monitor coastal ecosystems. Her work supports sustainable management, climate change reporting, and conservation planning.",
       image: p
     },
     {
       name: "Nyange Hassan Mwadini",
       position: "Laboratory technician",
       gender: "Male",
-      bio: "Is a laboratory technician he hold a Bachelor of Science in Biology which provide him with a solid foundation in biological sciences. In his role as a lab technician   he utilize his experties to coduct analysis of sample and contribut to scientific research and health care development ",
+      bio: "He is laboratory technician he hold a Bachelor of Science in Biology which provide him with a solid foundation in biological sciences. In his role as a lab technician   he utilize his experties to coduct analysis of sample and contribut to scientific research and health care development ",
       image: q
     },
     {
@@ -209,7 +209,7 @@ const Team = () => {
       name: "Mansur Suleiman Juma",
       position: "Lab Chemists",
       gender: "Male",
-      bio: "Is a chemist focuses on test and studies materials to undestand their chemical properties. He use laboratory equipmentto analyze marine resource and product.he give support in research quality control and environmrntal protection",
+      bio: "He is chemist focuses on test and studies materials to undestand their chemical properties. He use laboratory equipmentto analyze marine resource and product.he give support in research quality control and environmrntal protection",
       image: s
     },
     {
@@ -223,21 +223,21 @@ const Team = () => {
       name: "Yussuf Salim Bakar",
       position: "Aquaculture Research Officer",
       gender: "Male",
-      bio: "Is a Researcher at ZAFIRI His work is mainly focus on coral reef and reef fisheries management marine culture and fish stock assesment",
+      bio: "He is Researcher at ZAFIRI His work is mainly focus on coral reef and reef fisheries management marine culture and fish stock assesment",
       image: u
     },
     {
       name: "Jamila Haji Ali",
       position: "Marine Conservation Research Officer",
       gender: "Female",
-      bio: "she is a bachelor degree holder in Geography and Environmental studies. Her main functions in ZAFIRl are to conduct all marine related Researches basically in Marine Conservation, dissemination of findings. Moreover, she is also working with GIS in marine and coastal researches, with focus on mapping, monitoring and interpretation to support marine conservation, climate adaptation and sustainable resources management",
+      bio: "She is a bachelor degree holder in Geography and Environmental studies. Her main functions in ZAFIRl are to conduct all marine related Researches basically in Marine Conservation, dissemination of findings. Moreover, she is also working with GIS in marine and coastal researches, with focus on mapping, monitoring and interpretation to support marine conservation, climate adaptation and sustainable resources management",
       image: v
     },
     {
       name: "Hashim Kombo Hassan",
       position: "Marine Conservation Research Officer",
       gender: "Male",
-      bio: "is a marine conservation researcher whose work examines coastal ecosystem management, marine litter dynamics, aquatic ecosystems, the ocean observation system, and the impacts of climate change on marine resources in Zanzibar. ",
+      bio: "He is marine conservation researcher whose work examines coastal ecosystem management, marine litter dynamics, aquatic ecosystems, the ocean observation system, and the impacts of climate change on marine resources in Zanzibar. ",
       image: ab
     },
     {
